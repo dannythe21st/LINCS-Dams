@@ -1,0 +1,31 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.3, pytest-8.4.0, pluggy-1.6.0 -- C:\Python312\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.12.3', 'Platform': 'Windows-10-10.0.19045-SP0', 'Packages': {'pytest': '8.4.0', 'pluggy': '1.6.0'}, 'Plugins': {'html': '4.1.1', 'metadata': '3.1.1', 'mock': '3.14.1'}, 'JAVA_HOME': 'D:\\jdk-21.0.2'}
+rootdir: C:\Users\dany5\Desktop\FCT\10ºSemestre (Tese)\thesis_code\Scripts
+plugins: html-4.1.1, metadata-3.1.1, mock-3.14.1
+collecting ... collected 8 items
+
+tester.py::test_initial_state PASSED                                     [ 12%]
+tester.py::test_tilt_reading_transition_to_stability PASSED              [ 25%]
+tester.py::test_distance_transition_to_full PASSED                       [ 37%]
+tester.py::test_distance_transition_to_flood PASSED                      [ 50%]
+tester.py::test_distance_transition_to_full_first_reading PASSED         [ 62%]
+tester.py::test_water_level_change_rate_full_to_flood PASSED             [ 75%]
+tester.py::test_tilt_ls_stability_ls PASSED                              [ 87%]
+tester.py::test_distance_ls_full_flood PASSED                            [100%]
+
+============================== warnings summary ===============================
+tester.py::test_initial_state
+tester.py::test_tilt_reading_transition_to_stability
+tester.py::test_distance_transition_to_full
+tester.py::test_distance_transition_to_flood
+tester.py::test_distance_transition_to_full_first_reading
+tester.py::test_water_level_change_rate_full_to_flood
+tester.py::test_tilt_ls_stability_ls
+tester.py::test_distance_ls_full_flood
+  C:\Users\dany5\Desktop\FCT\10ºSemestre (Tese)\thesis_code\Scripts\autoFrequencyChange_v2.py:97: DeprecationWarning: Callback API version 1 is deprecated, update to latest version
+    self.client = mqtt.Client(protocol=mqtt.MQTTv5)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================= 8 passed, 8 warnings in 40.24s ========================

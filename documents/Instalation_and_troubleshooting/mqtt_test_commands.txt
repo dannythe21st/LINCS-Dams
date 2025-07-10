@@ -1,0 +1,20 @@
+
+Publicar leitura manualmente - formato simplificado p/ efeitos teste
+mosquitto_pub -h 192.168.1.96 -d -t readings/inc_data -m '{"value":"1.03"}' -u USERNAME -P mosquitto
+
+Entrar/sair modo baixa frequência
+mosquitto_pub -d -t IPI/lowpower -m '{"toggle":"true"}' -u USERNAME-P PASSWORD
+mosquitto_pub -d -t IPI/lowpower -m '{"toggle":"False"}' -u USERNAME -P PASSWORD
+mosquitto_pub -t frequency_update -m 5000 -u USERNAME -P PASSWORD
+
+Subscrever topico
+mosquitto_sub -d -t sensors/frequency -u USERNAME -P PASSWORD
+mosquitto_sub -d -t "warnings/waterlevel" -u USERNAME -P PASSWORD
+mosquitto_sub -h 192.168.1.96 -t "readings/inc_data" -u "USERNAME" -P "PASSWORD"
+mosquitto_sub -h 192.168.1.96 -t "lidar_data/" -u "USERNAME" -P "PASSWORD"
+mosquitto_sub -h 192.168.1.96 -t "accel_data/" -u "USERNAME" -P "PASSWORD"
+mosquitto_sub -h 172.20.10.4 -t "warnings/waterlevel" -u "USERNAME" -P "PASSWORD"
+
+
+Publicar leitura manualmente - formato correto
+mosquitto_pub -h 192.168.1.96 -t "readings/inc_data" -m "{\"inc_number\":1,\"inc_code\":\"I1\",\"inc_description\":\"Test inclinometer n. 1\",\"sensors\":[{\"n\":1,\"aX\":18.19878,\"aY\":-62.85292,\"aZ\":-19.18011}]}" -u "USERNAME" -P "PASSWORD"

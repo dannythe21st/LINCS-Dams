@@ -1,0 +1,2893 @@
+
+
+########## [BEHAVIORAL MODULE SETUP] ##########
+
+-> Booting up the script...
+-> Connected successfully to the MQTT broker running on 172.20.10.4:1883.
+-> State Machine setup finished.
+-> Script setup finished.
+-> Subscribed to topic: inc_data/I1
+
+-> Subscribed to topic: IPI/lowpower
+
+-> Subscribed to topic: lidar_data/
+-> Subscribed to topic: readings/accel_data
+
+########## [BEHAVIORAL MODULE SETUP COMPLETE] ##########
+
+
+#################################
+
+
+Current time: 09:48:31
+New distance reading - 10 cm.
+ > Distance change rate 9.958333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+Current time: 9:48:32
+Current time: 09:48:32
+[UPDATE - New INC Reading]
+[[4.025499, -6.935091, 90.00035]]
+Old readings: [[3.980704, -6.863061, 90.00035]]
+
+New Readings: [[4.025499, -6.935091, 90.00035]]
+
+Largest vectorial change: 0.08482283256883129
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:48:34
+New distance reading - 10 cm.
+ > Distance change rate 9.944444444444445 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:48:35
+[UPDATE - New INC Reading]
+[[3.926948, -6.872072, 90.00035]]
+Old readings: [[4.025499, -6.935091, 90.00035]]
+
+New Readings: [[3.926948, -6.872072, 90.00035]]
+
+Largest vectorial change: 0.11697732242618641
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:48:37
+New distance reading - 10 cm.
+ > Distance change rate 9.944444444444445 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:48:38
+[UPDATE - New INC Reading]
+[[3.944863, -6.845061, 90.00035]]
+Old readings: [[3.926948, -6.872072, 90.00035]]
+
+New Readings: [[3.944863, -6.845061, 90.00035]]
+
+Largest vectorial change: 0.03241205556579204
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:48:40
+New distance reading - 10 cm.
+ > Distance change rate 9.944444444444445 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:48:41
+[UPDATE - New INC Reading]
+[[4.007582, -6.836051, 90.00035]]
+Old readings: [[3.944863, -6.845061, 90.00035]]
+
+New Readings: [[4.007582, -6.836051, 90.00035]]
+
+Largest vectorial change: 0.06336286815635836
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:48:43
+New distance reading - 10 cm.
+ > Distance change rate 9.944444444444445 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:48:44
+[UPDATE - New INC Reading]
+[[3.99862, -6.881069, 90.00035]]
+Old readings: [[4.007582, -6.836051, 90.00035]]
+
+New Readings: [[3.99862, -6.881069, 90.00035]]
+
+Largest vectorial change: 0.045901391787177726
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:48:46
+New distance reading - 10 cm.
+ > Distance change rate 9.944444444444445 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:48:47
+[UPDATE - New INC Reading]
+[[4.034461, -6.899074, 90.00035]]
+Old readings: [[3.99862, -6.881069, 90.00035]]
+
+New Readings: [[4.034461, -6.899074, 90.00035]]
+
+Largest vectorial change: 0.04010931694756242
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:48:49
+New distance reading - 10 cm.
+ > Distance change rate 9.944444444444445 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:48:50
+[UPDATE - New INC Reading]
+[[3.989664, -6.881069, 90.00035]]
+Old readings: [[4.034461, -6.899074, 90.00035]]
+
+New Readings: [[3.989664, -6.881069, 90.00035]]
+
+Largest vectorial change: 0.0482799257870186
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:48:52
+New distance reading - 10 cm.
+ > Distance change rate 9.944444444444445 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:48:53
+[UPDATE - New INC Reading]
+[[3.917996, -6.854072, 90.00035]]
+Old readings: [[3.989664, -6.881069, 90.00035]]
+
+New Readings: [[3.917996, -6.854072, 90.00035]]
+
+Largest vectorial change: 0.07658420354746769
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:48:55
+New distance reading - 10 cm.
+ > Distance change rate 9.944444444444445 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:48:56
+[UPDATE - New INC Reading]
+[[3.99865, -6.81808, 90.00035]]
+Old readings: [[3.917996, -6.854072, 90.00035]]
+
+New Readings: [[3.99865, -6.81808, 90.00035]]
+
+Largest vectorial change: 0.08832039277539484
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:48:58
+New distance reading - 10 cm.
+ > Distance change rate 9.944444444444445 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:48:59
+[UPDATE - New INC Reading]
+[[3.980712, -6.764059, 90.00035]]
+Old readings: [[3.99865, -6.81808, 90.00035]]
+
+New Readings: [[3.980712, -6.764059, 90.00035]]
+
+Largest vectorial change: 0.05692135174958566
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:49:01
+New distance reading - 10 cm.
+ > Distance change rate 9.944444444444445 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:49:02
+[UPDATE - New INC Reading]
+[[3.909048, -6.755078, 90.00035]]
+Old readings: [[3.980712, -6.764059, 90.00035]]
+
+New Readings: [[3.909048, -6.755078, 90.00035]]
+
+Largest vectorial change: 0.07222456131400187
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:49:04
+New distance reading - 10 cm.
+ > Distance change rate 9.944444444444445 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:49:05
+[UPDATE - New INC Reading]
+[[3.837361, -6.710046, 90.00035]]
+Old readings: [[3.909048, -6.755078, 90.00035]]
+
+New Readings: [[3.837361, -6.710046, 90.00035]]
+
+Largest vectorial change: 0.08465758674212237
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:49:07
+New distance reading - 10 cm.
+ > Distance change rate 9.944444444444445 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:49:08
+[UPDATE - New INC Reading]
+[[3.828395, -6.629051, 90.00035]]
+Old readings: [[3.837361, -6.710046, 90.00035]]
+
+New Readings: [[3.828395, -6.629051, 90.00035]]
+
+Largest vectorial change: 0.08148974893199817
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:49:10
+New distance reading - 10 cm.
+ > Distance change rate 9.944444444444445 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:49:11
+[UPDATE - New INC Reading]
+[[3.81945, -6.539109, 90.00035]]
+Old readings: [[3.828395, -6.629051, 90.00035]]
+
+New Readings: [[3.81945, -6.539109, 90.00035]]
+
+Largest vectorial change: 0.09038570898654255
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:49:13
+New distance reading - 10 cm.
+ > Distance change rate 9.944444444444445 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:49:14
+[UPDATE - New INC Reading]
+[[3.747791, -6.521091, 90.00035]]
+Old readings: [[3.81945, -6.539109, 90.00035]]
+
+New Readings: [[3.747791, -6.521091, 90.00035]]
+
+Largest vectorial change: 0.07388951620493922
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:49:16
+New distance reading - 10 cm.
+ > Distance change rate 9.944444444444445 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:49:17
+[UPDATE - New INC Reading]
+[[3.64926, -6.44913, 90.00035]]
+Old readings: [[3.747791, -6.521091, 90.00035]]
+
+New Readings: [[3.64926, -6.44913, 90.00035]]
+
+Largest vectorial change: 0.12201124326061094
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:49:19
+New distance reading - 10 cm.
+ > Distance change rate 9.944444444444445 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:49:20
+[UPDATE - New INC Reading]
+[[3.631341, -6.377169, 90.00035]]
+Old readings: [[3.64926, -6.44913, 90.00035]]
+
+New Readings: [[3.631341, -6.377169, 90.00035]]
+
+Largest vectorial change: 0.07415845253239844
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:49:22
+New distance reading - 10 cm.
+ > Distance change rate 9.944444444444445 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:49:23
+[UPDATE - New INC Reading]
+[[3.470165, -6.233305, 90.00035]]
+Old readings: [[3.631341, -6.377169, 90.00035]]
+
+New Readings: [[3.470165, -6.233305, 90.00035]]
+
+Largest vectorial change: 0.21604294358298332
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:49:25
+New distance reading - 10 cm.
+ > Distance change rate 9.944444444444445 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:49:26
+[UPDATE - New INC Reading]
+[[3.380621, -6.125428, 90.00035]]
+Old readings: [[3.470165, -6.233305, 90.00035]]
+
+New Readings: [[3.380621, -6.125428, 90.00035]]
+
+Largest vectorial change: 0.14019834187678493
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:49:28
+New distance reading - 10 cm.
+ > Distance change rate 9.944444444444445 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:49:29
+[UPDATE - New INC Reading]
+[[3.380617, -6.089522, 90.00035]]
+Old readings: [[3.380621, -6.125428, 90.00035]]
+
+New Readings: [[3.380617, -6.089522, 90.00035]]
+
+Largest vectorial change: 0.03590600022280464
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:49:31
+New distance reading - 10 cm.
+ > Distance change rate 9.944444444444445 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:49:32
+[UPDATE - New INC Reading]
+[[3.470177, -6.089523, 90.00035]]
+Old readings: [[3.380617, -6.089522, 90.00035]]
+
+New Readings: [[3.470177, -6.089523, 90.00035]]
+
+Largest vectorial change: 0.08956000000558294
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:49:34
+New distance reading - 10 cm.
+ > Distance change rate 9.944444444444445 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:49:35
+[UPDATE - New INC Reading]
+[[3.389594, -5.963686, 90.00035]]
+Old readings: [[3.470177, -6.089523, 90.00035]]
+
+New Readings: [[3.389594, -5.963686, 90.00035]]
+
+Largest vectorial change: 0.14942747557929204
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:49:37
+New distance reading - 10 cm.
+ > Distance change rate 9.944444444444445 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:49:38
+[UPDATE - New INC Reading]
+[[3.228431, -5.927754, 90.00035]]
+Old readings: [[3.389594, -5.963686, 90.00035]]
+
+New Readings: [[3.228431, -5.927754, 90.00035]]
+
+Largest vectorial change: 0.16512002056988742
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:49:40
+New distance reading - 11 cm.
+ > Distance change rate 10.944444444444445 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:49:41
+[UPDATE - New INC Reading]
+[[3.210542, -5.748075, 90.00035]]
+Old readings: [[3.228431, -5.927754, 90.00035]]
+
+New Readings: [[3.210542, -5.748075, 90.00035]]
+
+Largest vectorial change: 0.1805673263965551
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:49:43
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:49:44
+[UPDATE - New INC Reading]
+[[3.094159, -5.63127, 90.00035]]
+Old readings: [[3.210542, -5.748075, 90.00035]]
+
+New Readings: [[3.094159, -5.63127, 90.00035]]
+
+Largest vectorial change: 0.1648890860972916
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:49:46
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:49:47
+[UPDATE - New INC Reading]
+[[3.147882, -5.766085, 90.00035]]
+Old readings: [[3.094159, -5.63127, 90.00035]]
+
+New Readings: [[3.147882, -5.766085, 90.00035]]
+
+Largest vectorial change: 0.14512492878206754
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:49:49
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:49:50
+[UPDATE - New INC Reading]
+[[3.040441, -5.604286, 90.00035]]
+Old readings: [[3.147882, -5.766085, 90.00035]]
+
+New Readings: [[3.040441, -5.604286, 90.00035]]
+
+Largest vectorial change: 0.19422277127566712
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:49:52
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:49:53
+[UPDATE - New INC Reading]
+[[3.022537, -5.631263, 90.00035]]
+Old readings: [[3.040441, -5.604286, 90.00035]]
+
+New Readings: [[3.022537, -5.631263, 90.00035]]
+
+Largest vectorial change: 0.0323776426720659
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:49:55
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:49:56
+[UPDATE - New INC Reading]
+[[3.031488, -5.622284, 90.00035]]
+Old readings: [[3.022537, -5.631263, 90.00035]]
+
+New Readings: [[3.031488, -5.622284, 90.00035]]
+
+Largest vectorial change: 0.012678440045999509
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:49:58
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:49:59
+[UPDATE - New INC Reading]
+[[2.915124, -5.388804, 90.00035]]
+Old readings: [[3.031488, -5.622284, 90.00035]]
+
+New Readings: [[2.915124, -5.388804, 90.00035]]
+
+Largest vectorial change: 0.2608706401571469
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:50:01
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:50:02
+[UPDATE - New INC Reading]
+[[2.94199, -5.39781, 90.00035]]
+Old readings: [[2.915124, -5.388804, 90.00035]]
+
+New Readings: [[2.94199, -5.39781, 90.00035]]
+
+Largest vectorial change: 0.028335313515117356
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:50:04
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:50:05
+[UPDATE - New INC Reading]
+[[2.888282, -5.361841, 90.00035]]
+Old readings: [[2.94199, -5.39781, 90.00035]]
+
+New Readings: [[2.888282, -5.361841, 90.00035]]
+
+Largest vectorial change: 0.06463991201262585
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:50:07
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:50:08
+[UPDATE - New INC Reading]
+[[2.807732, -5.272067, 90.00035]]
+Old readings: [[2.888282, -5.361841, 90.00035]]
+
+New Readings: [[2.807732, -5.272067, 90.00035]]
+
+Largest vectorial change: 0.12061373709490968
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:50:10
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:50:11
+[UPDATE - New INC Reading]
+[[2.771929, -5.200247, 90.00035]]
+Old readings: [[2.807732, -5.272067, 90.00035]]
+
+New Readings: [[2.771929, -5.200247, 90.00035]]
+
+Largest vectorial change: 0.08024940628440792
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:50:13
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:50:14
+[UPDATE - New INC Reading]
+[[2.736149, -5.119509, 90.00035]]
+Old readings: [[2.771929, -5.200247, 90.00035]]
+
+New Readings: [[2.736149, -5.119509, 90.00035]]
+
+Largest vectorial change: 0.08831100182876439
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:50:16
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:50:17
+[UPDATE - New INC Reading]
+[[2.610865, -4.993865, 90.00035]]
+Old readings: [[2.736149, -5.119509, 90.00035]]
+
+New Readings: [[2.610865, -4.993865, 90.00035]]
+
+Largest vectorial change: 0.17743307299373445
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:50:19
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:50:20
+[UPDATE - New INC Reading]
+[[2.664551, -5.128475, 90.00035]]
+Old readings: [[2.610865, -4.993865, 90.00035]]
+
+New Readings: [[2.664551, -5.128475, 90.00035]]
+
+Largest vectorial change: 0.14492080146065933
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:50:22
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:50:23
+[UPDATE - New INC Reading]
+[[2.566121, -4.91311, 90.00035]]
+Old readings: [[2.664551, -5.128475, 90.00035]]
+
+New Readings: [[2.566121, -4.91311, 90.00035]]
+
+Largest vectorial change: 0.2367922045275142
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:50:25
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:50:26
+[UPDATE - New INC Reading]
+[[2.458765, -4.796493, 90.00035]]
+Old readings: [[2.566121, -4.91311, 90.00035]]
+
+New Readings: [[2.458765, -4.796493, 90.00035]]
+
+Largest vectorial change: 0.15850815570499802
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:50:28
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:50:29
+[UPDATE - New INC Reading]
+[[2.342519, -4.751744, 90.00035]]
+Old readings: [[2.458765, -4.796493, 90.00035]]
+
+New Readings: [[2.342519, -4.751744, 90.00035]]
+
+Largest vectorial change: 0.12456165347730425
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:50:31
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:50:32
+[UPDATE - New INC Reading]
+[[2.351419, -4.679925, 90.00035]]
+Old readings: [[2.342519, -4.751744, 90.00035]]
+
+New Readings: [[2.351419, -4.679925, 90.00035]]
+
+Largest vectorial change: 0.072368354693195
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:50:34
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:50:35
+[UPDATE - New INC Reading]
+[[2.199353, -4.464725, 90.00035]]
+Old readings: [[2.351419, -4.679925, 90.00035]]
+
+New Readings: [[2.199353, -4.464725, 90.00035]]
+
+Largest vectorial change: 0.26350542376960695
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:50:37
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:50:38
+[UPDATE - New INC Reading]
+[[2.100954, -4.366086, 90.00035]]
+Old readings: [[2.199353, -4.464725, 90.00035]]
+
+New Readings: [[2.100954, -4.366086, 90.00035]]
+
+Largest vectorial change: 0.139327009305446
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:50:40
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:50:41
+[UPDATE - New INC Reading]
+[[1.948921, -4.133069, 90.00035]]
+Old readings: [[2.100954, -4.366086, 90.00035]]
+
+New Readings: [[1.948921, -4.133069, 90.00035]]
+
+Largest vectorial change: 0.27822824331472934
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:50:43
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:50:44
+[UPDATE - New INC Reading]
+[[1.779001, -3.927006, 90.00035]]
+Old readings: [[1.948921, -4.133069, 90.00035]]
+
+New Readings: [[1.779001, -3.927006, 90.00035]]
+
+Largest vectorial change: 0.26708569106000396
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:50:46
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:50:47
+[UPDATE - New INC Reading]
+[[1.618034, -3.720938, 90.00035]]
+Old readings: [[1.779001, -3.927006, 90.00035]]
+
+New Readings: [[1.618034, -3.720938, 90.00035]]
+
+Largest vectorial change: 0.2614849818115757
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:50:49
+New distance reading - 12 cm.
+ > Distance change rate 11.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:50:50
+[UPDATE - New INC Reading]
+[[1.457086, -3.550757, 90.00035]]
+Old readings: [[1.618034, -3.720938, 90.00035]]
+
+New Readings: [[1.457086, -3.550757, 90.00035]]
+
+Largest vectorial change: 0.2342345650517872
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:50:52
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:50:53
+[UPDATE - New INC Reading]
+[[1.483913, -3.39853, 90.00035]]
+Old readings: [[1.457086, -3.550757, 90.00035]]
+
+New Readings: [[1.483913, -3.39853, 90.00035]]
+
+Largest vectorial change: 0.15457279016049352
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:50:55
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:50:56
+[UPDATE - New INC Reading]
+[[1.269335, -3.255284, 90.00035]]
+Old readings: [[1.483913, -3.39853, 90.00035]]
+
+New Readings: [[1.269335, -3.255284, 90.00035]]
+
+Largest vectorial change: 0.25799832286276586
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:50:58
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:50:59
+[UPDATE - New INC Reading]
+[[1.287215, -3.165774, 90.00035]]
+Old readings: [[1.269335, -3.255284, 90.00035]]
+
+New Readings: [[1.287215, -3.165774, 90.00035]]
+
+Largest vectorial change: 0.09127833532662628
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:51:01
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:51:02
+[UPDATE - New INC Reading]
+[[1.108419, -2.915169, 90.00035]]
+Old readings: [[1.287215, -3.165774, 90.00035]]
+
+New Readings: [[1.108419, -2.915169, 90.00035]]
+
+Largest vectorial change: 0.30784878697340984
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:51:04
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:51:05
+[UPDATE - New INC Reading]
+[[0.893859, -2.646683, 90.00035]]
+Old readings: [[1.108419, -2.915169, 90.00035]]
+
+New Readings: [[0.893859, -2.646683, 90.00035]]
+
+Largest vectorial change: 0.343686959013577
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:51:07
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:51:08
+[UPDATE - New INC Reading]
+[[0.902806, -2.601994, 90.00035]]
+Old readings: [[0.893859, -2.646683, 90.00035]]
+
+New Readings: [[0.902806, -2.601994, 90.00035]]
+
+Largest vectorial change: 0.04557582176988144
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:51:10
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:51:11
+[UPDATE - New INC Reading]
+[[0.768716, -2.378309, 90.00035]]
+Old readings: [[0.902806, -2.601994, 90.00035]]
+
+New Readings: [[0.768716, -2.378309, 90.00035]]
+
+Largest vectorial change: 0.26079706157278704
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:51:13
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:51:14
+[UPDATE - New INC Reading]
+[[0.598872, -2.190408, 90.00035]]
+Old readings: [[0.768716, -2.378309, 90.00035]]
+
+New Readings: [[0.598872, -2.190408, 90.00035]]
+
+Largest vectorial change: 0.25328594539966065
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:51:16
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:51:17
+[UPDATE - New INC Reading]
+[[0.554179, -1.993652, 90.00035]]
+Old readings: [[0.598872, -2.190408, 90.00035]]
+
+New Readings: [[0.554179, -1.993652, 90.00035]]
+
+Largest vectorial change: 0.2017681535451025
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:51:19
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:51:20
+[UPDATE - New INC Reading]
+[[0.446915, -1.850544, 90.00035]]
+Old readings: [[0.554179, -1.993652, 90.00035]]
+
+New Readings: [[0.446915, -1.850544, 90.00035]]
+
+Largest vectorial change: 0.1788448080319918
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:51:22
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:51:23
+[UPDATE - New INC Reading]
+[[0.321779, -1.680644, 90.00035]]
+Old readings: [[0.446915, -1.850544, 90.00035]]
+
+New Readings: [[0.321779, -1.680644, 90.00035]]
+
+Largest vectorial change: 0.2110095459831142
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:51:25
+New distance reading - 13 cm.
+ > Distance change rate 12.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:51:26
+[UPDATE - New INC Reading]
+[[0.205579, -1.385571, 90.00035]]
+Old readings: [[0.321779, -1.680644, 90.00035]]
+
+New Readings: [[0.205579, -1.385571, 90.00035]]
+
+Largest vectorial change: 0.31712854701051424
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:51:28
+New distance reading - 13 cm.
+ > Distance change rate 12.927777777777777 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:51:29
+[UPDATE - New INC Reading]
+[[0.125135, -1.251455, 90.00035]]
+Old readings: [[0.205579, -1.385571, 90.00035]]
+
+New Readings: [[0.125135, -1.251455, 90.00035]]
+
+Largest vectorial change: 0.15639161931510281
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:51:31
+New distance reading - 11 cm.
+ > Distance change rate 10.927777777777777 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:51:32
+[UPDATE - New INC Reading]
+[[0.044691, -1.019015, 90.00035]]
+Old readings: [[0.125135, -1.251455, 90.00035]]
+
+New Readings: [[0.044691, -1.019015, 90.00035]]
+
+Largest vectorial change: 0.24596664557618375
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:51:34
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:51:35
+[UPDATE - New INC Reading]
+[[-0.044691, -0.840224, 90.00035]]
+Old readings: [[0.044691, -1.019015, 90.00035]]
+
+New Readings: [[-0.044691, -0.840224, 90.00035]]
+
+Largest vectorial change: 0.19988837786374677
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:51:37
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:51:38
+[UPDATE - New INC Reading]
+[[-0.125135, -0.715079, 90.00035]]
+Old readings: [[-0.044691, -0.840224, 90.00035]]
+
+New Readings: [[-0.125135, -0.715079, 90.00035]]
+
+Largest vectorial change: 0.14876998407272882
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:51:40
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:51:41
+[UPDATE - New INC Reading]
+[[-0.160888, -0.545239, 90.00035]]
+Old readings: [[-0.125135, -0.715079, 90.00035]]
+
+New Readings: [[-0.160888, -0.545239, 90.00035]]
+
+Largest vectorial change: 0.17356238823258913
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:51:43
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:51:44
+[UPDATE - New INC Reading]
+[[-0.232394, -0.339653, 90.00035]]
+Old readings: [[-0.160888, -0.545239, 90.00035]]
+
+New Readings: [[-0.232394, -0.339653, 90.00035]]
+
+Largest vectorial change: 0.2176665142643673
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:51:46
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:51:47
+[UPDATE - New INC Reading]
+[[-0.473735, -0.223456, 90.00035]]
+Old readings: [[-0.232394, -0.339653, 90.00035]]
+
+New Readings: [[-0.473735, -0.223456, 90.00035]]
+
+Largest vectorial change: 0.2678567174629003
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:51:49
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:51:50
+[UPDATE - New INC Reading]
+[[-0.455853, -0.080444, 90.00035]]
+Old readings: [[-0.473735, -0.223456, 90.00035]]
+
+New Readings: [[-0.455853, -0.080444, 90.00035]]
+
+Largest vectorial change: 0.1441256329318279
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:51:52
+New distance reading - 12 cm.
+ > Distance change rate 11.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:51:53
+[UPDATE - New INC Reading]
+[[-0.607813, -0.044691, 90.00035]]
+Old readings: [[-0.455853, -0.080444, 90.00035]]
+
+New Readings: [[-0.607813, -0.044691, 90.00035]]
+
+Largest vectorial change: 0.15610931621463214
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:51:55
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:51:56
+[UPDATE - New INC Reading]
+[[-0.768711, 0.089382, 90.00035]]
+Old readings: [[-0.607813, -0.044691, 90.00035]]
+
+New Readings: [[-0.768711, 0.089382, 90.00035]]
+
+Largest vectorial change: 0.2094367105667008
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:51:58
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:51:59
+[UPDATE - New INC Reading]
+[[-0.840222, 0.169826, 90.00035]]
+Old readings: [[-0.768711, 0.089382, 90.00035]]
+
+New Readings: [[-0.840222, 0.169826, 90.00035]]
+
+Largest vectorial change: 0.1076339177815246
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:52:01
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:52:02
+[UPDATE - New INC Reading]
+[[-1.019011, 0.312838, 90.00035]]
+Old readings: [[-0.840222, 0.169826, 90.00035]]
+
+New Readings: [[-1.019011, 0.312838, 90.00035]]
+
+Largest vectorial change: 0.2289496422032582
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:52:04
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:52:05
+[UPDATE - New INC Reading]
+[[-1.17099, 0.446915, 90.00035]]
+Old readings: [[-1.019011, 0.312838, 90.00035]]
+
+New Readings: [[-1.17099, 0.446915, 90.00035]]
+
+Largest vectorial change: 0.20266785233479934
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:52:07
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:52:08
+[UPDATE - New INC Reading]
+[[-1.349797, 0.589933, 90.00035]]
+Old readings: [[-1.17099, 0.446915, 90.00035]]
+
+New Readings: [[-1.349797, 0.589933, 90.00035]]
+
+Largest vectorial change: 0.22896744653552825
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:52:10
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:52:11
+[UPDATE - New INC Reading]
+[[-1.46603, 0.732952, 90.00035]]
+Old readings: [[-1.349797, 0.589933, 90.00035]]
+
+New Readings: [[-1.46603, 0.732952, 90.00035]]
+
+Largest vectorial change: 0.18429472225215787
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:52:13
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:52:14
+[UPDATE - New INC Reading]
+[[-1.528617, 0.822344, 90.00035]]
+Old readings: [[-1.46603, 0.732952, 90.00035]]
+
+New Readings: [[-1.528617, 0.822344, 90.00035]]
+
+Largest vectorial change: 0.10912406807391291
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:52:16
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:52:17
+[UPDATE - New INC Reading]
+[[-1.734282, 1.01901, 90.00035]]
+Old readings: [[-1.528617, 0.822344, 90.00035]]
+
+New Readings: [[-1.734282, 1.01901, 90.00035]]
+
+Largest vectorial change: 0.28456213342783343
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:52:19
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:52:20
+[UPDATE - New INC Reading]
+[[-1.922081, 1.20675, 90.00035]]
+Old readings: [[-1.734282, 1.01901, 90.00035]]
+
+New Readings: [[-1.922081, 1.20675, 90.00035]]
+
+Largest vectorial change: 0.2655461767772226
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:52:22
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:52:23
+[UPDATE - New INC Reading]
+[[-1.939966, 1.314037, 90.00035]]
+Old readings: [[-1.922081, 1.20675, 90.00035]]
+
+New Readings: [[-1.939966, 1.314037, 90.00035]]
+
+Largest vectorial change: 0.10876752085985956
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:52:25
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:52:26
+[UPDATE - New INC Reading]
+[[-2.145675, 1.519674, 90.00035]]
+Old readings: [[-1.939966, 1.314037, 90.00035]]
+
+New Readings: [[-2.145675, 1.519674, 90.00035]]
+
+Largest vectorial change: 0.29086555046962864
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:52:28
+New distance reading - 11 cm.
+ > Distance change rate 10.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:52:29
+[UPDATE - New INC Reading]
+[[-2.261969, 1.63592, 90.00035]]
+Old readings: [[-2.145675, 1.519674, 90.00035]]
+
+New Readings: [[-2.261969, 1.63592, 90.00035]]
+
+Largest vectorial change: 0.16443061440011708
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:52:31
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:52:32
+[UPDATE - New INC Reading]
+[[-2.369302, 1.752164, 90.00035]]
+Old readings: [[-2.261969, 1.63592, 90.00035]]
+
+New Readings: [[-2.369302, 1.752164, 90.00035]]
+
+Largest vectorial change: 0.15821833150744555
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:52:34
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:52:35
+[UPDATE - New INC Reading]
+[[-2.45876, 1.895247, 90.00035]]
+Old readings: [[-2.369302, 1.752164, 90.00035]]
+
+New Readings: [[-2.45876, 1.895247, 90.00035]]
+
+Largest vectorial change: 0.1687467885709235
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:52:37
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:52:38
+[UPDATE - New INC Reading]
+[[-2.440864, 2.029396, 90.00035]]
+Old readings: [[-2.45876, 1.895247, 90.00035]]
+
+New Readings: [[-2.440864, 2.029396, 90.00035]]
+
+Largest vectorial change: 0.1353374339087308
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:52:40
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:52:41
+[UPDATE - New INC Reading]
+[[-2.601911, 2.118836, 90.00035]]
+Old readings: [[-2.440864, 2.029396, 90.00035]]
+
+New Readings: [[-2.601911, 2.118836, 90.00035]]
+
+Largest vectorial change: 0.18421631254859036
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:52:43
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:52:44
+[UPDATE - New INC Reading]
+[[-2.673491, 2.190392, 90.00035]]
+Old readings: [[-2.601911, 2.118836, 90.00035]]
+
+New Readings: [[-2.673491, 2.190392, 90.00035]]
+
+Largest vectorial change: 0.10121243765466782
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:52:46
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:52:47
+[UPDATE - New INC Reading]
+[[-2.700341, 2.270903, 90.00035]]
+Old readings: [[-2.673491, 2.190392, 90.00035]]
+
+New Readings: [[-2.700341, 2.270903, 90.00035]]
+
+Largest vectorial change: 0.08487015742297173
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:52:49
+New distance reading - 11 cm.
+ > Distance change rate 10.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:52:50
+[UPDATE - New INC Reading]
+[[-2.789822, 2.369303, 90.00035]]
+Old readings: [[-2.700341, 2.270903, 90.00035]]
+
+New Readings: [[-2.789822, 2.369303, 90.00035]]
+
+Largest vectorial change: 0.13300153894222425
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:52:52
+New distance reading - 12 cm.
+ > Distance change rate 11.938888888888888 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:52:53
+[UPDATE - New INC Reading]
+[[-2.843515, 2.431916, 90.00035]]
+Old readings: [[-2.789822, 2.369303, 90.00035]]
+
+New Readings: [[-2.843515, 2.431916, 90.00035]]
+
+Largest vectorial change: 0.08248227699330342
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:52:55
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:52:56
+[UPDATE - New INC Reading]
+[[-2.977763, 2.58402, 90.00035]]
+Old readings: [[-2.843515, 2.431916, 90.00035]]
+
+New Readings: [[-2.977763, 2.58402, 90.00035]]
+
+Largest vectorial change: 0.20287472075150217
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:52:58
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:52:59
+[UPDATE - New INC Reading]
+[[-2.95091, 2.610862, 90.00035]]
+Old readings: [[-2.977763, 2.58402, 90.00035]]
+
+New Readings: [[-2.95091, 2.610862, 90.00035]]
+
+Largest vectorial change: 0.03796809941253303
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:53:01
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:53:02
+[UPDATE - New INC Reading]
+[[-3.076222, 2.762979, 90.00035]]
+Old readings: [[-2.95091, 2.610862, 90.00035]]
+
+New Readings: [[-3.076222, 2.762979, 90.00035]]
+
+Largest vectorial change: 0.19708546124207144
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:53:04
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:53:05
+[UPDATE - New INC Reading]
+[[-3.19259, 2.861417, 90.00035]]
+Old readings: [[-3.076222, 2.762979, 90.00035]]
+
+New Readings: [[-3.19259, 2.861417, 90.00035]]
+
+Largest vectorial change: 0.15241899903883363
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:53:07
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:53:08
+[UPDATE - New INC Reading]
+[[-3.228395, 2.924065, 90.00035]]
+Old readings: [[-3.19259, 2.861417, 90.00035]]
+
+New Readings: [[-3.228395, 2.924065, 90.00035]]
+
+Largest vectorial change: 0.07215795125279004
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:53:10
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:53:11
+[UPDATE - New INC Reading]
+[[-3.291077, 3.013561, 90.00035]]
+Old readings: [[-3.228395, 2.924065, 90.00035]]
+
+New Readings: [[-3.291077, 3.013561, 90.00035]]
+
+Largest vectorial change: 0.1092637503474964
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:53:13
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:53:14
+[UPDATE - New INC Reading]
+[[-3.344786, 3.156783, 90.00035]]
+Old readings: [[-3.291077, 3.013561, 90.00035]]
+
+New Readings: [[-3.344786, 3.156783, 90.00035]]
+
+Largest vectorial change: 0.1529614263956764
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:53:16
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:53:17
+[UPDATE - New INC Reading]
+[[-3.416416, 3.255259, 90.00035]]
+Old readings: [[-3.344786, 3.156783, 90.00035]]
+
+New Readings: [[-3.416416, 3.255259, 90.00035]]
+
+Largest vectorial change: 0.121771833672652
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:53:19
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:53:20
+[UPDATE - New INC Reading]
+[[-3.523871, 3.353746, 90.00035]]
+Old readings: [[-3.416416, 3.255259, 90.00035]]
+
+New Readings: [[-3.523871, 3.353746, 90.00035]]
+
+Largest vectorial change: 0.14576098995959128
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:53:22
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:53:23
+[UPDATE - New INC Reading]
+[[-3.568648, 3.434325, 90.00035]]
+Old readings: [[-3.523871, 3.353746, 90.00035]]
+
+New Readings: [[-3.568648, 3.434325, 90.00035]]
+
+Largest vectorial change: 0.09218435317340977
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+Current time: 09:53:25
+New distance reading - 12 cm.
+ > Distance change rate 11.933333333333334 cm/min.
+
+ > Current state is EMERGENCY_FREQUENCY due to a concerningly fast water level change.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 09:53:26
+[UPDATE - New INC Reading]
+[[-3.667166, 3.550739, 90.00035]]
+Old readings: [[-3.568648, 3.434325, 90.00035]]
+
+New Readings: [[-3.667166, 3.550739, 90.00035]]
+
+Largest vectorial change: 0.15250578913601945
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 1.6666666666666667 hours.
+
+#################################
+
+
+->[BEHAVIORAL MODULE]: Shutting down...

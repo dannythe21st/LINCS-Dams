@@ -1,0 +1,156 @@
+
+
+########## [BEHAVIORAL MODULE SETUP] ##########
+
+-> Booting up the script...
+-> Connected successfully to the MQTT broker running on 172.20.10.4:1883.
+-> State Machine setup finished.
+-> Script setup finished.
+
+-> Subscribed to topic: inc_data/I1
+-> Subscribed to topic: IPI/lowpower
+
+-> Subscribed to topic: lidar_data/
+-> Subscribed to topic: readings/accel_data
+
+########## [BEHAVIORAL MODULE SETUP COMPLETE] ##########
+
+
+Current time: 14:27:04 || Started 0.1s ago.
+
+Initial IPI reading received!
+
+#################################
+
+
+Current time: 14:27:04 || Started 0.1s ago.
+
+New water level reading - -12 cm.
+Last water level reading - None cm.
+Initial water level received!
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 14:27:14 || Started 10.0s ago.
+
+[[-0.223455, -2.369296, 90.00035], [-0.822751, -3.950831, 90.00035], [-3.35373, 0.223455, 90.00035], [-4.02549, 3.440789, 59.97442]]
+Largest change was 0.4182750000000004 degrees on node 3
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 14:27:24 || Started 20.0s ago.
+
+[[-0.223455, -2.326601, 90.00035], [-0.670379, -3.879905, 90.00035], [-3.247153, 0.223455, 90.00035], [-3.931184, 3.409696, 59.97442]]
+Largest change was 0.15237200000000006 degrees on node 1
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 14:27:34 || Started 30.1s ago.
+
+[[-0.223455, -2.346932, 90.00035], [-0.768149, -3.933863, 90.00035], [-3.129918, 0.223455, 90.00035], [-3.961497, 3.35373, 59.97442]]
+Largest change was 0.11723499999999998 degrees on node 2
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 14:27:59 || Started 55.1s ago.
+
+[[7.904772, -0.102417, 90.00035], [2.682433, -4.249527, 90.00035], [-2.102979, 0, 90.00035], [5.273202, 5.146369, 59.53082]]
+Largest change was 9.234699 degrees on node 3
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 14:28:24 || Started 80.3s ago.
+
+Node 1 exceeded safety bounds!!
+[[12.24903, 1.354831, 90.00035], [6.494071, -4.115105, 90.00035], [0, -0.223455, 90.00035], [9.800982, 6.825035, 58.23365]]
+Largest change was 4.527779999999999 degrees on node 3
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 14:28:31 || Started 87.5s ago.
+
+Node 1 exceeded safety bounds!!
+[[12.67243, 1.206754, 90.00035], [6.572317, -4.100169, 90.00035], [0.223455, -0.223455, 90.00035], [10.41066, 6.524879, 58.21664]]
+Largest change was 0.6096780000000006 degrees on node 3
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 14:28:35 || Started 91.5s ago.
+
+Node 1 exceeded safety bounds!!
+[[12.8672, 1.129111, 90.00035], [6.637222, -4.132174, 90.00035], [0.223455, -0.223455, 90.00035], [10.33485, 6.719022, 58.00861]]
+Largest change was 0.20803000000000083 degrees on node 3
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 14:28:39 || Started 95.5s ago.
+
+Node 1 exceeded safety bounds!!
+[[12.72421, 1.179431, 90.00035], [6.631542, -4.155196, 90.00035], [0.223455, -0.223455, 90.00035], [10.33491, 6.944074, 58.10524]]
+Largest change was 0.2250519999999998 degrees on node 3
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 14:28:55 || Started 111.4s ago.
+
+[[2.011503, -1.787926, 90.00035], [0.310895, -4.249527, 90.00035], [-2.235111, 0.223455, 90.00035], [-0.670379, 3.801513, 60.42403]]
+Largest change was 11.005289000000001 degrees on node 3
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+->[BEHAVIORAL MODULE]: Shutting down...
+
+-> Frequency log saved to ipi_frequency_log.csv
+
+-> IPI measurements saved to ipi_readings_log.csv
+

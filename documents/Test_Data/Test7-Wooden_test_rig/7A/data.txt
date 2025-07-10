@@ -1,0 +1,409 @@
+
+
+########## [BEHAVIORAL MODULE SETUP] ##########
+
+-> Booting up the script...
+-> Connected successfully to the MQTT broker running on 172.20.10.4:1883.
+-> State Machine setup finished.
+-> Script setup finished.
+
+-> Subscribed to topic: inc_data/I1
+-> Subscribed to topic: IPI/lowpower
+
+-> Subscribed to topic: lidar_data/
+-> Subscribed to topic: readings/accel_data
+
+########## [BEHAVIORAL MODULE SETUP COMPLETE] ##########
+
+
+Current time: 11:48:11 || Started 0.1s ago.
+
+Initial IPI reading received!
+
+#################################
+
+
+Current time: 11:48:11 || Started 0.1s ago.
+
+New water level reading - -12 cm.
+Last water level reading - None cm.
+Initial water level received!
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 11:48:14 || Started 3.3s ago.
+
+[[3.35373, -1.787926, 90.00035], [0.223455, -4.02549, 90.00035], [-2.78943, -0.223455, 90.00035], [0.223455, 2.545739, 59.97442]]
+Exceeded safe rate!!
+Largest change was 0.10699699999999979 degrees on node 2
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 11:48:19 || Started 7.5s ago.
+
+[[3.35373, -1.787926, 90.00035], [0.446913, -4.02549, 90.00035], [-2.778313, -0.223455, 90.00035], [0.223455, 2.550258, 59.97442]]
+Exceeded safe rate!!
+Largest change was 0.22345800000000002 degrees on node 1
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 11:48:22 || Started 11.3s ago.
+
+[[3.35373, -1.787926, 90.00035], [0.446913, -4.02549, 90.00035], [-2.682432, -0.223455, 90.00035], [0.223455, 2.556005, 59.97442]]
+Largest change was 0.09588099999999988 degrees on node 2
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 11:48:32 || Started 21.4s ago.
+
+[[3.35373, -1.787926, 90.00035], [0.223455, -4.02549, 90.00035], [-2.794293, -0.223455, 90.00035], [0.223455, 2.597221, 59.97442]]
+Largest change was 0.22345800000000002 degrees on node 1
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 11:48:42 || Started 31.4s ago.
+
+[[3.35373, -1.787926, 90.00035], [0.223455, -4.02549, 90.00035], [-2.682433, -0.319223, 90.00035], [0.223455, 2.556005, 60.14927]]
+Largest change was 0.17484999999999928 degrees on node 3
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 11:48:52 || Started 41.5s ago.
+
+[[3.35373, -1.713409, 90.00035], [0.223455, -4.02549, 90.00035], [-2.845139, -0.223455, 90.00035], [0.223455, 2.682433, 59.97442]]
+Largest change was 0.17484999999999928 degrees on node 3
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 11:49:03 || Started 51.6s ago.
+
+[[3.35373, -1.787926, 90.00035], [0.446913, -4.02549, 90.00035], [-2.906153, -0.223455, 90.00035], [0.223455, 2.682433, 59.97442]]
+Largest change was 0.22345800000000002 degrees on node 1
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 11:49:28 || Started 76.7s ago.
+
+Exceeded safety bounds!!
+Exceeded safety bounds!!
+[[-6.869058, -4.367477, 90.00035], [-5.239868, -5.472803, 90.00035], [-6.944075, 0, 90.00035], [-10.90994, 2.682432, 57.81171]]
+Exceeded safe rate!!
+Exceeded safe rate!!
+Exceeded safe rate!!
+Exceeded safe rate!!
+Largest change was 11.133395 degrees on node 3
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 11:49:53 || Started 101.5s ago.
+
+Exceeded safety bounds!!
+Exceeded safety bounds!!
+[[-6.944075, -4.383991, 90.00035], [-5.234177, -5.488352, 90.00035], [-6.822172, 0, 90.00035], [-11.01703, 2.616644, 57.81171]]
+Largest change was 0.12190299999999965 degrees on node 2
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 11:50:18 || Started 126.6s ago.
+
+Exceeded safety bounds!!
+Exceeded safety bounds!!
+[[-7.253712, -4.473632, 90.00035], [-5.258568, -5.370767, 90.00035], [-6.944075, 0, 90.00035], [-11.47269, 2.458753, 57.56148]]
+Largest change was 0.45565999999999995 degrees on node 3
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 11:50:37 || Started 146.2s ago.
+
+[[1.266389, -2.490715, 90.00035], [-0.086899, -4.347574, 90.00035], [-2.357097, -0.223455, 90.00035], [-2.339755, 2.469953, 60.21245]]
+Exceeded safe rate!!
+Exceeded safe rate!!
+Exceeded safe rate!!
+Exceeded safe rate!!
+Largest change was 9.132935 degrees on node 3
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 11:50:41 || Started 150.2s ago.
+
+[[3.614942, -1.86685, 90.00035], [0.851955, -3.906036, 90.00035], [-2.235111, -0.223455, 90.00035], [0.091415, 2.654509, 59.97442]]
+Exceeded safe rate!!
+Exceeded safe rate!!
+Exceeded safe rate!!
+Exceeded safe rate!!
+Largest change was 2.43117 degrees on node 3
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 11:50:45 || Started 154.2s ago.
+
+[[3.748199, -1.787926, 90.00035], [0.670379, -3.801513, 90.00035], [-2.235111, -0.223455, 90.00035], [0.223455, 2.682433, 59.97442]]
+Exceeded safe rate!!
+Exceeded safe rate!!
+Exceeded safe rate!!
+Largest change was 0.18157600000000007 degrees on node 1
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 11:50:49 || Started 158.3s ago.
+
+[[3.699732, -1.787926, 90.00035], [0.766154, -4.02549, 90.00035], [-2.235111, -0.223455, 90.00035], [0.223455, 2.682433, 59.97442]]
+Exceeded safe rate!!
+Largest change was 0.22397699999999965 degrees on node 1
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 11:50:53 || Started 162.4s ago.
+
+[[3.577595, -1.787925, 90.00035], [0.777258, -3.913502, 90.00035], [-2.235111, -0.223455, 90.00035], [0.223455, 2.799157, 59.97442]]
+Exceeded safe rate!!
+Largest change was 0.12213699999999994 degrees on node 0
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 11:50:57 || Started 166.4s ago.
+
+[[3.801513, -1.787926, 90.00035], [0.893854, -3.961497, 90.00035], [-2.235111, -0.223455, 90.00035], [0.223455, 2.682433, 59.97442]]
+Exceeded safe rate!!
+Exceeded safe rate!!
+Exceeded safe rate!!
+Largest change was 0.22391799999999984 degrees on node 0
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 11:51:02 || Started 170.6s ago.
+
+[[3.655479, -1.787926, 90.00035], [0.893854, -4.02549, 90.00035], [-2.235111, -0.223455, 90.00035], [0.223455, 2.682433, 59.97441]]
+Exceeded safe rate!!
+Largest change was 0.14603399999999978 degrees on node 0
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 11:51:06 || Started 174.7s ago.
+
+[[3.801513, -1.787926, 90.00035], [0.782116, -3.801513, 90.00035], [-2.235111, -0.223455, 90.00035], [0.223455, 2.682432, 59.97442]]
+Exceeded safe rate!!
+Exceeded safe rate!!
+Largest change was 0.22397699999999965 degrees on node 1
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 11:51:10 || Started 178.7s ago.
+
+[[3.801513, -1.787926, 90.00035], [0.670379, -3.88296, 90.00035], [-2.235111, -0.223455, 90.00035], [0.223455, 2.682433, 60.19922]]
+Exceeded safe rate!!
+Largest change was 0.22479999999999478 degrees on node 3
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 11:51:14 || Started 182.7s ago.
+
+[[3.801513, -1.787925, 90.00035], [0.782116, -3.918371, 90.00035], [-2.235111, -0.223455, 90.00035], [0.223455, 2.682433, 59.97442]]
+Exceeded safe rate!!
+Largest change was 0.22479999999999478 degrees on node 3
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 11:51:18 || Started 186.8s ago.
+
+[[3.577595, -1.787926, 90.00035], [0.670379, -3.801513, 90.00035], [-2.235111, -0.223455, 90.00035], [0.223455, 2.682433, 59.97442]]
+Exceeded safe rate!!
+Largest change was 0.22391799999999984 degrees on node 0
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 11:51:22 || Started 190.9s ago.
+
+[[3.684222, -1.787926, 90.00035], [0.893854, -3.801513, 90.00035], [-2.235111, -0.223455, 90.00035], [0.223455, 2.682433, 60.1671]]
+Exceeded safe rate!!
+Exceeded safe rate!!
+Largest change was 0.2234750000000001 degrees on node 1
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 11:51:26 || Started 195.0s ago.
+
+[[3.801513, -1.687328, 90.00035], [0.757825, -3.898895, 90.00035], [-2.235111, -0.223455, 90.00035], [0.223455, 2.682432, 59.97442]]
+Exceeded safe rate!!
+Exceeded safe rate!!
+Exceeded safe rate!!
+Largest change was 0.19267999999999574 degrees on node 3
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 11:51:30 || Started 199.0s ago.
+
+[[3.801513, -1.787926, 90.00035], [0.771958, -3.801513, 90.00035], [-2.34207, -0.223455, 90.00035], [0.223455, 2.682433, 59.97442]]
+Largest change was 0.10695900000000025 degrees on node 2
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 11:51:40 || Started 209.2s ago.
+
+[[3.801513, -1.787926, 90.00035], [0.777258, -4.02549, 90.00035], [-2.235111, -0.223455, 90.00035], [0.223455, 2.79962, 59.97442]]
+Largest change was 0.22397699999999965 degrees on node 1
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 11:51:50 || Started 219.2s ago.
+
+[[3.801513, -1.787926, 90.00035], [0.711011, -3.89314, 90.00035], [-2.235111, -0.223455, 90.00035], [0.223455, 2.682433, 60.12429]]
+Largest change was 0.14986999999999995 degrees on node 3
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 11:52:00 || Started 229.3s ago.
+
+[[3.801513, -1.787926, 90.00035], [0.772805, -3.918371, 90.00035], [-2.235111, -0.223455, 90.00035], [0.223455, 2.824801, 59.97442]]
+Largest change was 0.14986999999999995 degrees on node 3
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+->[BEHAVIORAL MODULE]: Shutting down...
+
+-> Frequency log saved to ipi_frequency_log.csv
+
+-> Water level measurements saved to water_level_log.csv
+
+-> IPI measurements saved to ipi_readings_log.csv
+

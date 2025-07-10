@@ -1,0 +1,2522 @@
+
+
+########## [BEHAVIORAL MODULE SETUP] ##########
+
+-> Booting up the script...
+-> Script Settings
+
+[Water Level Thresholds]: Min = 6 | Mid = 10 | Max = 12 | Max_rate = 100 | Offset = 3 
+
+[IPI Thresholds]: Min_x = -9 | Max_x = 8 | Min_y = -1 | Max_y = 10 | Max_rate = 1500 
+
+
+-> Connected successfully to the MQTT broker running on 172.20.10.4:1883.
+-> State Machine setup finished.
+-> Script setup finished.
+
+-> Subscribed to topic: inc_data/I1
+-> Subscribed to topic: IPI/lowpower
+
+-> Subscribed to topic: lidar_data/
+-> Subscribed to topic: readings/accel_data
+
+########## [BEHAVIORAL MODULE SETUP COMPLETE] ##########
+
+
+Current time: 09:32:58 || Started 0.2s ago.
+
+Node 4 exceeded safety bounds!!
+Initial IPI reading received!
+
+#################################
+
+
+Current time: 09:32:58 || Started 0.2s ago.
+
+New water level reading - 6 cm.
+Last water level reading - None cm.
+Initial water level received!
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:33:02 || Started 4.6s ago.
+
+Node 4 exceeded safety bounds!!
+[[4.473632, -0.446913, 90.00035], [-0.585249, -5.595248, 90.00035], [-1.564375, -0.670379, 90.00035], [0.223455, 3.213848, 60.64114]]
+Time since last reading: 4.43 seconds / 0.07 minutes.
+
+Biggest change was 0.12 degrees on node 4
+Biggest change rate was 1.62 degrees/min on node 4
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:33:04 || Started 6.4s ago.
+
+New water level reading - 6 cm.
+Last water level reading - 6 cm.
+Time diff: 0.10 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:33:12 || Started 14.5s ago.
+
+Node 4 exceeded safety bounds!!
+[[4.57982, -0.521402, 90.00035], [-0.670379, -5.595248, 90.00035], [-1.655828, -0.670379, 90.00035], [0.223455, 3.235934, 60.87995]]
+Time since last reading: 9.93 seconds / 0.17 minutes.
+
+Biggest change was 0.24 degrees on node 4
+Biggest change rate was 1.44 degrees/min on node 4
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:33:14 || Started 16.4s ago.
+
+New water level reading - 7 cm.
+Last water level reading - 6 cm.
+Time diff: 0.27 minutes
+ > Distance change rate 3.71 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:33:22 || Started 24.6s ago.
+
+Node 4 exceeded safety bounds!!
+[[4.697804, -0.552765, 90.00035], [-0.759769, -5.595249, 90.00035], [-1.660183, -0.592166, 90.00035], [0.223455, 3.177044, 60.87995]]
+Time since last reading: 10.04 seconds / 0.17 minutes.
+
+Biggest change was 0.12 degrees on node 1
+Biggest change rate was 0.35 degrees/min on node 1
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:33:24 || Started 26.4s ago.
+
+New water level reading - 7 cm.
+Last water level reading - 7 cm.
+Time diff: 0.17 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:33:32 || Started 34.6s ago.
+
+Node 4 exceeded safety bounds!!
+[[4.503541, -0.399871, 90.00035], [-0.635101, -5.665442, 90.00035], [-1.564375, -0.547473, 90.00035], [0.186213, 3.103601, 60.87995]]
+Time since last reading: 10.04 seconds / 0.17 minutes.
+
+Biggest change was 0.19 degrees on node 1
+Biggest change rate was 0.44 degrees/min on node 1
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:33:34 || Started 36.4s ago.
+
+New water level reading - 8 cm.
+Last water level reading - 7 cm.
+Time diff: 0.33 minutes
+ > Distance change rate 2.99 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:33:43 || Started 45.9s ago.
+
+New water level reading - 9 cm.
+Last water level reading - 8 cm.
+Time diff: 0.16 minutes
+ > Distance change rate 6.30 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:33:52 || Started 54.6s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[0.906281, -2.105736, 90.00035], [-1.399688, -5.991636, 90.00035], [-1.574543, -0.603344, 90.00035], [-3.726916, 3.025519, 60.66276]]
+Time since last reading: 19.97 seconds / 0.33 minutes.
+
+Biggest change was 3.91 degrees on node 4
+Biggest change rate was 11.76 degrees/min on node 4
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:33:53 || Started 56.0s ago.
+
+New water level reading - 9 cm.
+Last water level reading - 9 cm.
+Time diff: 0.17 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:34:02 || Started 64.6s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[0.352826, -2.33575, 90.00035], [-1.846766, -6.139106, 90.00035], [-1.69478, -0.544072, 90.00035], [-4.341806, 2.698424, 60.69759]]
+Time since last reading: 10.04 seconds / 0.17 minutes.
+
+Biggest change was 0.61 degrees on node 4
+Biggest change rate was 3.68 degrees/min on node 4
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:34:03 || Started 66.0s ago.
+
+New water level reading - 10 cm.
+Last water level reading - 9 cm.
+[+66.0s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.33 minutes
+ > Distance change rate 2.99 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:34:12 || Started 74.6s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[0.102417, -2.458753, 90.00035], [-2.089766, -6.269226, 90.00035], [-1.676151, -0.548488, 90.00035], [-4.829713, 2.485077, 60.61055]]
+Time since last reading: 9.93 seconds / 0.17 minutes.
+
+Biggest change was 0.49 degrees on node 4
+Biggest change rate was 2.95 degrees/min on node 4
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:34:13 || Started 76.0s ago.
+
+New water level reading - 10 cm.
+Last water level reading - 10 cm.
+[+76.0s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.17 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:34:24 || Started 86.1s ago.
+
+New water level reading - 10 cm.
+Last water level reading - 10 cm.
+[+86.1s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.34 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 5.0 seconds. 
+
+#################################
+
+
+Current time: 09:34:28 || Started 91.0s ago.
+
+New water level reading - 10 cm.
+Last water level reading - 10 cm.
+[+91.0s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.42 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 5.0 seconds. 
+
+#################################
+
+
+Current time: 09:34:32 || Started 94.6s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-0.274243, -2.906167, 90.00035], [-2.335759, -6.437881, 90.00035], [-1.564375, -0.541004, 90.00035], [-5.687906, 2.371795, 60.31163]]
+Time since last reading: 20.07 seconds / 0.33 minutes.
+
+Biggest change was 0.86 degrees on node 4
+Biggest change rate was 2.57 degrees/min on node 4
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 09:34:33 || Started 96.0s ago.
+
+New water level reading - 10 cm.
+Last water level reading - 10 cm.
+[+96.1s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.50 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 5.0 seconds. 
+
+#################################
+
+
+Current time: 09:34:37 || Started 99.5s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-0.28226, -2.906153, 90.00035], [-2.550856, -6.606547, 90.00035], [-1.696473, -0.569819, 90.00035], [-5.932145, 2.235122, 60.42403]]
+Time since last reading: 4.92 seconds / 0.08 minutes.
+
+Biggest change was 0.24 degrees on node 4
+Biggest change rate was 2.98 degrees/min on node 4
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 09:34:38 || Started 101.1s ago.
+
+New water level reading - 11 cm.
+Last water level reading - 10 cm.
+[+101.1s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.58 minutes
+ > Distance change rate 1.71 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 5.0 seconds. 
+
+#################################
+
+
+Current time: 09:34:42 || Started 104.6s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-0.574608, -3.129918, 90.00035], [-2.781864, -6.619046, 90.00035], [-1.666836, -0.558646, 90.00035], [-6.126203, 2.309658, 60.42403]]
+Time since last reading: 5.02 seconds / 0.08 minutes.
+
+Biggest change was 0.29 degrees on node 1
+Biggest change rate was 2.32 degrees/min on node 1
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 09:34:43 || Started 106.1s ago.
+
+New water level reading - 12 cm.
+Last water level reading - 11 cm.
+[+106.1s][ALARM] Water levels are critically HIGH.
+ > Current state is FLOOD
+
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 2.0 seconds. 
+
+#################################
+
+
+Current time: 09:34:45 || Started 107.5s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-0.893859, -3.4582, 90.00035], [-2.893737, -6.751173, 90.00035], [-1.787926, -0.670379, 90.00035], [-6.632543, 2.205306, 60.21106]]
+Time since last reading: 2.99 seconds / 0.05 minutes.
+
+Biggest change was 0.51 degrees on node 4
+Biggest change rate was 10.17 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:34:46 || Started 108.6s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-0.977662, -3.35373, 90.00035], [-3.018036, -6.81169, 90.00035], [-1.564375, -0.670379, 90.00035], [-6.656582, 2.246303, 60.23134]]
+Time since last reading: 1.00 seconds / 0.02 minutes.
+
+Biggest change was 0.22 degrees on node 3
+Biggest change rate was 2.45 degrees/min on node 3
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:34:46 || Started 108.6s ago.
+
+New water level reading - 2 cm.
+Last water level reading - 12 cm.
+ > Current state is FLOOD
+
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 2.0 seconds. 
+
+#################################
+
+
+Current time: 09:34:47 || Started 109.6s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-1.005598, -3.35373, 90.00035], [-3.002053, -6.82619, 90.00035], [-1.564375, -0.670379, 90.00035], [-6.674053, 2.360909, 59.97442]]
+Time since last reading: 1.00 seconds / 0.02 minutes.
+
+Biggest change was 0.26 degrees on node 4
+Biggest change rate was 15.43 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:34:48 || Started 110.5s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-1.235669, -3.35373, 90.00035], [-3.005605, -6.819046, 90.00035], [-1.671291, -0.585249, 90.00035], [-6.508259, 2.26707, 60.18739]]
+Time since last reading: 1.00 seconds / 0.02 minutes.
+
+Biggest change was 0.23 degrees on node 1
+Biggest change rate was 12.78 degrees/min on node 1
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:34:48 || Started 111.1s ago.
+
+New water level reading - 11 cm.
+Last water level reading - 2 cm.
+[+111.1s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.17 minutes
+ > Distance change rate 53.88 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 5.0 seconds. 
+
+#################################
+
+
+Current time: 09:34:49 || Started 111.5s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-1.117349, -3.485415, 90.00035], [-2.980742, -6.82132, 90.00035], [-1.787926, -0.574608, 90.00035], [-6.59405, 2.148165, 60.2217]]
+Time since last reading: 1.00 seconds / 0.02 minutes.
+
+Biggest change was 0.13 degrees on node 1
+Biggest change rate was 7.13 degrees/min on node 1
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 09:34:51 || Started 113.6s ago.
+
+New water level reading - 11 cm.
+Last water level reading - 11 cm.
+[+113.6s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.04 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 5.0 seconds. 
+
+#################################
+
+
+Current time: 09:34:54 || Started 116.5s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-1.117347, -3.498584, 90.00035], [-3.03778, -6.831549, 90.00035], [-1.787926, -0.670379, 90.00035], [-6.71912, 2.490776, 60.18739]]
+Time since last reading: 4.99 seconds / 0.08 minutes.
+
+Biggest change was 0.34 degrees on node 4
+Biggest change rate was 4.12 degrees/min on node 4
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 09:34:55 || Started 118.1s ago.
+
+New water level reading - 12 cm.
+Last water level reading - 11 cm.
+[+118.1s][ALARM] Water levels are critically HIGH.
+ > Current state is FLOOD
+
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 2.0 seconds. 
+
+#################################
+
+
+Current time: 09:34:56 || Started 118.9s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-1.243065, -3.577595, 90.00035], [-3.160449, -6.82619, 90.00035], [-1.564375, -0.670379, 90.00035], [-6.809092, 2.15128, 60.19922]]
+Time since last reading: 2.35 seconds / 0.04 minutes.
+
+Biggest change was 0.34 degrees on node 4
+Biggest change rate was 8.66 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:34:57 || Started 119.8s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-1.310378, -3.475838, 90.00035], [-2.998292, -6.944075, 90.00035], [-1.658502, -0.670379, 90.00035], [-6.944107, 2.148152, 60.18945]]
+Time since last reading: 0.88 seconds / 0.01 minutes.
+
+Biggest change was 0.16 degrees on node 2
+Biggest change rate was 9.20 degrees/min on node 2
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:34:58 || Started 120.6s ago.
+
+New water level reading - 12 cm.
+Last water level reading - 12 cm.
+[+120.6s][ALARM] Water levels are critically HIGH.
+ > Current state is FLOOD
+
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 2.0 seconds. 
+
+#################################
+
+
+Current time: 09:34:58 || Started 120.8s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-1.362143, -3.459771, 90.00035], [-3.032021, -6.944075, 90.00035], [-1.787926, -0.553325, 90.00035], [-6.917617, 2.075409, 60.15835]]
+Time since last reading: 1.01 seconds / 0.02 minutes.
+
+Biggest change was 0.13 degrees on node 3
+Biggest change rate was 4.30 degrees/min on node 3
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:34:59 || Started 121.8s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-1.257034, -3.545624, 90.00035], [-3.219443, -6.849316, 90.00035], [-1.787926, -0.533817, 90.00035], [-7.006655, 2.130812, 60.13178]]
+Time since last reading: 1.02 seconds / 0.02 minutes.
+
+Biggest change was 0.19 degrees on node 2
+Biggest change rate was 5.26 degrees/min on node 2
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:00 || Started 122.8s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-1.46503, -3.556287, 90.00035], [-3.109587, -6.854053, 90.00035], [-1.687328, -0.670379, 90.00035], [-7.06416, 2.081381, 59.97442]]
+Time since last reading: 1.01 seconds / 0.02 minutes.
+
+Biggest change was 0.21 degrees on node 1
+Biggest change rate was 9.31 degrees/min on node 1
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:01 || Started 123.1s ago.
+
+New water level reading - 12 cm.
+Last water level reading - 12 cm.
+[+123.1s][ALARM] Water levels are critically HIGH.
+ > Current state is FLOOD
+
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 2.0 seconds. 
+
+#################################
+
+
+Current time: 09:35:01 || Started 123.9s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-1.436646, -3.502973, 90.00035], [-3.253015, -6.944075, 90.00035], [-1.661571, -0.670379, 90.00035], [-6.914237, 1.985205, 59.97442]]
+Time since last reading: 1.04 seconds / 0.02 minutes.
+
+Biggest change was 0.15 degrees on node 4
+Biggest change rate was 8.63 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:02 || Started 124.8s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-1.466582, -3.577595, 90.00035], [-3.059261, -6.944075, 90.00035], [-1.67615, -0.580993, 90.00035], [-6.869075, 2.123307, 60.1457]]
+Time since last reading: 0.99 seconds / 0.02 minutes.
+
+Biggest change was 0.19 degrees on node 2
+Biggest change rate was 10.41 degrees/min on node 2
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:03 || Started 125.6s ago.
+
+New water level reading - 12 cm.
+Last water level reading - 12 cm.
+[+125.6s][ALARM] Water levels are critically HIGH.
+ > Current state is FLOOD
+
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 2.0 seconds. 
+
+#################################
+
+
+Current time: 09:35:03 || Started 126.0s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-1.564385, -3.652234, 90.00035], [-3.087974, -6.979649, 90.00035], [-1.713409, -0.558646, 90.00035], [-7.094182, 2.100946, 59.97442]]
+Time since last reading: 1.13 seconds / 0.02 minutes.
+
+Biggest change was 0.23 degrees on node 4
+Biggest change rate was 11.93 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:04 || Started 126.9s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-1.737124, -3.587349, 90.00035], [-3.247714, -7.034139, 90.00035], [-1.713409, -0.571061, 90.00035], [-7.32536, 2.23512, 60.10666]]
+Time since last reading: 0.93 seconds / 0.02 minutes.
+
+Biggest change was 0.23 degrees on node 4
+Biggest change rate was 14.91 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:05 || Started 127.9s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-1.754403, -3.719018, 90.00035], [-3.283052, -7.056653, 90.00035], [-1.710169, -0.670379, 90.00035], [-7.275372, 2.137282, 59.79697]]
+Time since last reading: 0.99 seconds / 0.02 minutes.
+
+Biggest change was 0.31 degrees on node 4
+Biggest change rate was 18.82 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:06 || Started 128.1s ago.
+
+New water level reading - 12 cm.
+Last water level reading - 12 cm.
+[+128.1s][ALARM] Water levels are critically HIGH.
+ > Current state is FLOOD
+
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 2.0 seconds. 
+
+#################################
+
+
+Current time: 09:35:06 || Started 128.9s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-1.787926, -3.67356, 90.00035], [-3.353731, -6.944074, 90.00035], [-1.709683, -0.670379, 90.00035], [-7.417085, 1.941639, 60.17424]]
+Time since last reading: 1.01 seconds / 0.02 minutes.
+
+Biggest change was 0.38 degrees on node 4
+Biggest change rate was 22.40 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:07 || Started 129.9s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-1.857794, -3.709312, 90.00035], [-3.4582, -7.038878, 90.00035], [-1.787926, -0.670379, 90.00035], [-7.256853, 2.190398, 59.97441]]
+Time since last reading: 1.02 seconds / 0.02 minutes.
+
+Biggest change was 0.25 degrees on node 4
+Biggest change rate was 14.70 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:08 || Started 130.6s ago.
+
+New water level reading - 12 cm.
+Last water level reading - 12 cm.
+[+130.6s][ALARM] Water levels are critically HIGH.
+ > Current state is FLOOD
+
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 2.0 seconds. 
+
+#################################
+
+
+Current time: 09:35:08 || Started 130.9s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-1.913688, -3.689554, 90.00035], [-3.490536, -7.050032, 90.00035], [-1.787926, -0.670379, 90.00035], [-7.587696, 2.139279, 59.97442]]
+Time since last reading: 1.02 seconds / 0.02 minutes.
+
+Biggest change was 0.33 degrees on node 4
+Biggest change rate was 19.52 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:09 || Started 132.0s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-2.123321, -3.80153, 90.00035], [-3.577611, -7.158004, 90.00035], [-1.787926, -0.670379, 90.00035], [-7.261993, 2.145668, 59.97442]]
+Time since last reading: 1.01 seconds / 0.02 minutes.
+
+Biggest change was 0.33 degrees on node 4
+Biggest change rate was 19.29 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:10 || Started 133.0s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-2.050969, -3.726874, 90.00035], [-3.689554, -7.301747, 90.00035], [-1.787926, -0.670379, 90.00035], [-7.169235, 2.351794, 59.97442]]
+Time since last reading: 1.02 seconds / 0.02 minutes.
+
+Biggest change was 0.21 degrees on node 4
+Biggest change rate was 12.17 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:11 || Started 133.1s ago.
+
+New water level reading - 12 cm.
+Last water level reading - 12 cm.
+[+133.1s][ALARM] Water levels are critically HIGH.
+ > Current state is FLOOD
+
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 2.0 seconds. 
+
+#################################
+
+
+Current time: 09:35:11 || Started 134.0s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-2.078604, -3.773535, 90.00035], [-3.697018, -7.31003, 90.00035], [-1.653795, -0.670379, 90.00035], [-6.861161, 2.458753, 60.16989]]
+Time since last reading: 1.01 seconds / 0.02 minutes.
+
+Biggest change was 0.31 degrees on node 4
+Biggest change rate was 18.23 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:12 || Started 135.0s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-2.03509, -3.906036, 90.00035], [-3.77519, -7.529739, 90.00035], [-1.787926, -0.670379, 90.00035], [-6.719022, 2.597221, 60.19923]]
+Time since last reading: 1.02 seconds / 0.02 minutes.
+
+Biggest change was 0.22 degrees on node 2
+Biggest change rate was 8.40 degrees/min on node 2
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:13 || Started 135.6s ago.
+
+New water level reading - 12 cm.
+Last water level reading - 12 cm.
+[+135.6s][ALARM] Water levels are critically HIGH.
+ > Current state is FLOOD
+
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 2.0 seconds. 
+
+#################################
+
+
+Current time: 09:35:13 || Started 136.0s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-2.277731, -4.000618, 90.00035], [-3.945499, -7.584324, 90.00035], [-1.787926, -0.670379, 90.00035], [-6.375036, 2.611797, 60.42403]]
+Time since last reading: 1.02 seconds / 0.02 minutes.
+
+Biggest change was 0.34 degrees on node 4
+Biggest change rate was 20.31 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:14 || Started 137.0s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-2.24912, -3.876177, 90.00035], [-3.933296, -7.586114, 90.00035], [-1.787925, -0.580993, 90.00035], [-6.269226, 2.768479, 60.15835]]
+Time since last reading: 1.02 seconds / 0.02 minutes.
+
+Biggest change was 0.27 degrees on node 4
+Biggest change rate was 15.68 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:15 || Started 138.0s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-2.207273, -3.880673, 90.00035], [-4.040462, -7.606746, 90.00035], [-1.787926, -0.670379, 90.00035], [-6.044474, 2.794293, 60.2481]]
+Time since last reading: 1.02 seconds / 0.02 minutes.
+
+Biggest change was 0.22 degrees on node 4
+Biggest change rate was 13.25 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:16 || Started 138.1s ago.
+
+New water level reading - 12 cm.
+Last water level reading - 12 cm.
+[+138.1s][ALARM] Water levels are critically HIGH.
+ > Current state is FLOOD
+
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 2.0 seconds. 
+
+#################################
+
+
+Current time: 09:35:16 || Started 139.1s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-2.957213, -4.0265, 90.00035], [-4.179622, -7.296447, 90.00035], [-1.713409, -0.558646, 90.00035], [-6.100686, 2.49321, 60.19922]]
+Time since last reading: 1.01 seconds / 0.02 minutes.
+
+Biggest change was 0.75 degrees on node 1
+Biggest change rate was 17.93 degrees/min on node 1
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:17 || Started 140.1s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-2.669379, -3.16193, 90.00035], [-4.536001, -6.756567, 90.00035], [-1.72086, -0.670379, 90.00035], [-6.22958, 1.750676, 60.42403]]
+Time since last reading: 1.01 seconds / 0.02 minutes.
+
+Biggest change was 0.86 degrees on node 1
+Biggest change rate was 43.91 degrees/min on node 1
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:18 || Started 140.6s ago.
+
+New water level reading - 12 cm.
+Last water level reading - 12 cm.
+[+140.6s][ALARM] Water levels are critically HIGH.
+ > Current state is FLOOD
+
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 2.0 seconds. 
+
+#################################
+
+
+Current time: 09:35:18 || Started 141.1s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-3.543634, -3.453633, 90.00035], [-4.722764, -6.97071, 90.00035], [-1.787926, -0.558646, 90.00035], [-7.98485, 3.821949, 59.06564]]
+Time since last reading: 1.03 seconds / 0.02 minutes.
+
+Biggest change was 2.07 degrees on node 4
+Biggest change rate was 121.04 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:19 || Started 142.1s ago.
+
+Node 2 exceeded safety bounds!!
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-4.318513, -3.68958, 90.00035], [-4.847311, -7.262121, 90.00035], [-1.705565, -0.558646, 90.00035], [-9.589761, 3.247909, 59.09298]]
+Time since last reading: 1.00 seconds / 0.02 minutes.
+
+Biggest change was 1.60 degrees on node 4
+Biggest change rate was 95.82 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:21 || Started 143.2s ago.
+
+New water level reading - 12 cm.
+Last water level reading - 12 cm.
+[+143.2s][ALARM] Water levels are critically HIGH.
+ > Current state is FLOOD
+
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 2.0 seconds. 
+
+#################################
+
+
+Current time: 09:35:22 || Started 144.6s ago.
+
+Node 2 exceeded safety bounds!!
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-4.212207, -3.816461, 90.00035], [-4.856104, -7.527087, 90.00035], [-1.787926, -0.574608, 90.00035], [-9.439532, 3.259493, 59.09298]]
+Time since last reading: 2.46 seconds / 0.04 minutes.
+
+Biggest change was 0.26 degrees on node 2
+Biggest change rate was 3.67 degrees/min on node 2
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:23 || Started 145.6s ago.
+
+Node 2 exceeded safety bounds!!
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-4.132174, -3.924739, 90.00035], [-5.082278, -7.5072, 90.00035], [-1.787926, -0.670379, 90.00035], [-9.760858, 3.235241, 59.09297]]
+Time since last reading: 1.00 seconds / 0.02 minutes.
+
+Biggest change was 0.32 degrees on node 4
+Biggest change rate was 19.29 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:23 || Started 145.7s ago.
+
+New water level reading - 12 cm.
+Last water level reading - 12 cm.
+[+145.7s][ALARM] Water levels are critically HIGH.
+ > Current state is FLOOD
+
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 2.0 seconds. 
+
+#################################
+
+
+Current time: 09:35:24 || Started 146.6s ago.
+
+Node 2 exceeded safety bounds!!
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-4.237096, -3.913502, 90.00035], [-5.040807, -7.5072, 90.00035], [-1.787925, -0.670379, 90.00035], [-9.654156, 3.353731, 59.09298]]
+Time since last reading: 1.00 seconds / 0.02 minutes.
+
+Biggest change was 0.12 degrees on node 4
+Biggest change rate was 7.08 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:25 || Started 147.6s ago.
+
+Node 2 exceeded safety bounds!!
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-4.34913, -3.941499, 90.00035], [-5.146369, -7.544764, 90.00035], [-1.787926, -0.670379, 90.00035], [-9.654157, 3.35373, 59.09298]]
+Time since last reading: 1.00 seconds / 0.02 minutes.
+
+Biggest change was 0.11 degrees on node 1
+Biggest change rate was 0.00 degrees/min on node 1
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:26 || Started 148.2s ago.
+
+New water level reading - 12 cm.
+Last water level reading - 12 cm.
+[+148.2s][ALARM] Water levels are critically HIGH.
+ > Current state is FLOOD
+
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 2.0 seconds. 
+
+#################################
+
+
+Current time: 09:35:26 || Started 148.6s ago.
+
+Node 2 exceeded safety bounds!!
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-4.354997, -4.09551, 90.00035], [-5.170007, -7.60667, 90.00035], [-1.787926, -0.569819, 90.00035], [-9.729746, 3.478099, 59.09297]]
+Time since last reading: 1.00 seconds / 0.02 minutes.
+
+Biggest change was 0.15 degrees on node 1
+Biggest change rate was 7.48 degrees/min on node 1
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:27 || Started 149.6s ago.
+
+Node 2 exceeded safety bounds!!
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-4.417607, -4.037989, 90.00035], [-5.193627, -7.65, 90.00035], [-1.787926, -0.670379, 90.00035], [-9.767527, 3.428352, 59.09297]]
+Time since last reading: 1.00 seconds / 0.02 minutes.
+
+Biggest change was 0.10 degrees on node 3
+Biggest change rate was 2.99 degrees/min on node 3
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:28 || Started 150.6s ago.
+
+Node 2 exceeded safety bounds!!
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-4.533564, -4.078445, 90.00035], [-4.988217, -7.64823, 90.00035], [-1.787926, -0.670379, 90.00035], [-9.787532, 3.507687, 58.93086]]
+Time since last reading: 1.00 seconds / 0.02 minutes.
+
+Biggest change was 0.21 degrees on node 2
+Biggest change rate was 9.68 degrees/min on node 2
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:28 || Started 150.7s ago.
+
+New water level reading - 12 cm.
+Last water level reading - 12 cm.
+[+150.7s][ALARM] Water levels are critically HIGH.
+ > Current state is FLOOD
+
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 2.0 seconds. 
+
+#################################
+
+
+Current time: 09:35:29 || Started 151.6s ago.
+
+Node 2 exceeded safety bounds!!
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-4.42889, -4.263287, 90.00035], [-5.133986, -7.63735, 90.00035], [-1.899714, -0.670379, 90.00035], [-9.759968, 3.178046, 58.92487]]
+Time since last reading: 1.00 seconds / 0.02 minutes.
+
+Biggest change was 0.33 degrees on node 4
+Biggest change rate was 19.78 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:30 || Started 152.6s ago.
+
+Node 2 exceeded safety bounds!!
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-4.56805, -4.117774, 90.00035], [-5.185987, -7.591743, 90.00035], [-1.787925, -0.670379, 90.00035], [-9.654158, 3.677148, 59.09298]]
+Time since last reading: 1.00 seconds / 0.02 minutes.
+
+Biggest change was 0.50 degrees on node 4
+Biggest change rate was 29.86 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:31 || Started 153.2s ago.
+
+New water level reading - 12 cm.
+Last water level reading - 12 cm.
+[+153.2s][ALARM] Water levels are critically HIGH.
+ > Current state is FLOOD
+
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 2.0 seconds. 
+
+#################################
+
+
+Current time: 09:35:31 || Started 153.6s ago.
+
+Node 2 exceeded safety bounds!!
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-4.445632, -4.0504, 90.00035], [-5.288119, -7.619936, 90.00035], [-1.787926, -0.670379, 90.00035], [-9.792772, 3.587787, 59.09297]]
+Time since last reading: 1.00 seconds / 0.02 minutes.
+
+Biggest change was 0.14 degrees on node 4
+Biggest change rate was 8.32 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:32 || Started 154.6s ago.
+
+Node 2 exceeded safety bounds!!
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-4.571743, -4.149955, 90.00035], [-5.248369, -7.652125, 90.00035], [-1.787926, -0.670379, 90.00035], [-9.976431, 3.577595, 58.92383]]
+Time since last reading: 1.01 seconds / 0.02 minutes.
+
+Biggest change was 0.18 degrees on node 4
+Biggest change rate was 10.87 degrees/min on node 4
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:33 || Started 155.6s ago.
+
+Node 2 exceeded safety bounds!!
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-4.592352, -3.99918, 90.00035], [-5.1582, -7.563633, 90.00035], [-1.787925, -0.553325, 90.00035], [-10.02433, 3.490542, 58.81788]]
+Time since last reading: 1.01 seconds / 0.02 minutes.
+
+Biggest change was 0.15 degrees on node 1
+Biggest change rate was 6.31 degrees/min on node 1
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 09:35:33 || Started 155.7s ago.
+
+New water level reading - 11 cm.
+Last water level reading - 12 cm.
+[+155.7s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.74 minutes
+ > Distance change rate -1.35 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 5.0 seconds. 
+
+#################################
+
+
+Current time: 09:35:36 || Started 158.2s ago.
+
+New water level reading - 11 cm.
+Last water level reading - 11 cm.
+[+158.2s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.04 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 5.0 seconds. 
+
+#################################
+
+
+Current time: 09:35:38 || Started 160.7s ago.
+
+Node 2 exceeded safety bounds!!
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-4.473706, -4.07721, 90.00035], [-4.866035, -7.256917, 90.00035], [-1.787926, -0.670379, 90.00035], [-10.00037, 3.515428, 59.09298]]
+Time since last reading: 5.09 seconds / 0.08 minutes.
+
+Biggest change was 0.31 degrees on node 2
+Biggest change rate was 3.24 degrees/min on node 2
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 09:35:40 || Started 162.7s ago.
+
+New water level reading - 11 cm.
+Last water level reading - 11 cm.
+[+162.7s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.12 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 5.0 seconds. 
+
+#################################
+
+
+Current time: 09:35:43 || Started 165.7s ago.
+
+Node 2 exceeded safety bounds!!
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-4.038723, -3.715395, 90.00035], [-4.832352, -7.244325, 90.00035], [-1.787925, -0.670379, 90.00035], [-9.467598, 3.380083, 59.24622]]
+Time since last reading: 5.02 seconds / 0.08 minutes.
+
+Biggest change was 0.53 degrees on node 4
+Biggest change rate was 6.37 degrees/min on node 4
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 09:35:45 || Started 167.7s ago.
+
+New water level reading - 11 cm.
+Last water level reading - 11 cm.
+[+167.7s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.20 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 5.0 seconds. 
+
+#################################
+
+
+Current time: 09:35:48 || Started 170.7s ago.
+
+Node 2 exceeded safety bounds!!
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-3.848679, -3.854224, 90.00035], [-4.657063, -7.169233, 90.00035], [-1.787925, -0.670379, 90.00035], [-9.347655, 3.219443, 59.32141]]
+Time since last reading: 5.02 seconds / 0.08 minutes.
+
+Biggest change was 0.19 degrees on node 1
+Biggest change rate was 1.92 degrees/min on node 1
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 09:35:50 || Started 172.2s ago.
+
+New water level reading - 11 cm.
+Last water level reading - 11 cm.
+[+172.2s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.28 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 5.0 seconds. 
+
+#################################
+
+
+Current time: 09:35:53 || Started 175.7s ago.
+
+Node 2 exceeded safety bounds!!
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-3.773538, -3.697018, 90.00035], [-4.66419, -7.281871, 90.00035], [-1.787926, -0.585249, 90.00035], [-9.25445, 3.129918, 59.292]]
+Time since last reading: 4.96 seconds / 0.08 minutes.
+
+Biggest change was 0.16 degrees on node 1
+Biggest change rate was 1.13 degrees/min on node 1
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 09:35:55 || Started 177.2s ago.
+
+New water level reading - 11 cm.
+Last water level reading - 11 cm.
+[+177.2s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.36 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 5.0 seconds. 
+
+#################################
+
+
+Current time: 09:35:58 || Started 180.7s ago.
+
+Node 2 exceeded safety bounds!!
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-3.742599, -3.734338, 90.00035], [-4.697829, -7.28187, 90.00035], [-1.787926, -0.670379, 90.00035], [-9.201182, 3.129931, 59.26431]]
+Time since last reading: 5.07 seconds / 0.08 minutes.
+
+Biggest change was 0.09 degrees on node 3
+Biggest change rate was 0.63 degrees/min on node 3
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 09:36:00 || Started 182.2s ago.
+
+New water level reading - 11 cm.
+Last water level reading - 11 cm.
+[+182.2s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.44 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 5.0 seconds. 
+
+#################################
+
+
+Current time: 09:36:03 || Started 185.8s ago.
+
+Node 2 exceeded safety bounds!!
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-3.641572, -3.801529, 90.00035], [-4.552093, -7.169235, 90.00035], [-1.787926, -0.670379, 90.00035], [-9.098267, 3.241824, 59.33379]]
+Time since last reading: 5.02 seconds / 0.08 minutes.
+
+Biggest change was 0.15 degrees on node 2
+Biggest change rate was 1.34 degrees/min on node 2
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 09:36:05 || Started 187.3s ago.
+
+New water level reading - 11 cm.
+Last water level reading - 11 cm.
+[+187.3s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.53 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 5.0 seconds. 
+
+#################################
+
+
+Current time: 09:36:08 || Started 190.8s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-3.395708, -3.465662, 90.00035], [-4.087765, -6.831602, 90.00035], [-1.787925, -0.670379, 90.00035], [-8.537173, 2.919324, 59.30037]]
+Time since last reading: 5.02 seconds / 0.08 minutes.
+
+Biggest change was 0.56 degrees on node 4
+Biggest change rate was 6.71 degrees/min on node 4
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 09:36:10 || Started 192.3s ago.
+
+New water level reading - 10 cm.
+Last water level reading - 11 cm.
+[+192.3s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.61 minutes
+ > Distance change rate -1.64 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 5.0 seconds. 
+
+#################################
+
+
+Current time: 09:36:13 || Started 195.9s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-3.192126, -3.545627, 90.00035], [-3.885505, -6.931596, 90.00035], [-1.69073, -0.558646, 90.00035], [-8.52266, 3.018036, 59.53082]]
+Time since last reading: 5.12 seconds / 0.09 minutes.
+
+Biggest change was 0.23 degrees on node 4
+Biggest change rate was 2.70 degrees/min on node 4
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 09:36:15 || Started 197.3s ago.
+
+New water level reading - 10 cm.
+Last water level reading - 10 cm.
+[+197.3s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.08 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 5.0 seconds. 
+
+#################################
+
+
+Current time: 09:36:18 || Started 200.8s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-2.657635, -2.993227, 90.00035], [-3.838859, -6.863698, 90.00035], [-1.681473, -0.670379, 90.00035], [-7.988086, 3.323899, 59.74094]]
+Time since last reading: 4.91 seconds / 0.08 minutes.
+
+Biggest change was 0.55 degrees on node 1
+Biggest change rate was 6.53 degrees/min on node 1
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 09:36:20 || Started 202.3s ago.
+
+New water level reading - 10 cm.
+Last water level reading - 10 cm.
+[+202.3s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.17 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 5.0 seconds. 
+
+#################################
+
+
+Current time: 09:36:23 || Started 205.8s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-2.458788, -3.403493, 90.00035], [-3.340574, -6.636189, 90.00035], [-1.67615, -0.670379, 90.00035], [-7.603286, 2.786836, 59.76317]]
+Time since last reading: 5.02 seconds / 0.08 minutes.
+
+Biggest change was 0.54 degrees on node 4
+Biggest change rate was 6.42 degrees/min on node 4
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 09:36:25 || Started 207.3s ago.
+
+New water level reading - 10 cm.
+Last water level reading - 10 cm.
+[+207.3s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.25 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 5.0 seconds. 
+
+#################################
+
+
+Current time: 09:36:28 || Started 211.0s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-1.811485, -2.8742, 90.00035], [-3.101959, -6.389143, 90.00035], [-1.564375, -0.670379, 90.00035], [-7.249874, 3.051647, 59.97442]]
+Time since last reading: 5.12 seconds / 0.09 minutes.
+
+Biggest change was 0.65 degrees on node 1
+Biggest change rate was 4.14 degrees/min on node 1
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 09:36:30 || Started 212.3s ago.
+
+New water level reading - 10 cm.
+Last water level reading - 10 cm.
+[+212.3s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.33 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 5.0 seconds. 
+
+#################################
+
+
+Current time: 09:36:33 || Started 216.0s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-1.282043, -2.570593, 90.00035], [-2.800888, -6.356726, 90.00035], [-1.564375, -0.670379, 90.00035], [-6.704994, 3.030467, 60.18945]]
+Time since last reading: 5.02 seconds / 0.08 minutes.
+
+Biggest change was 0.54 degrees on node 4
+Biggest change rate was 6.52 degrees/min on node 4
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 09:36:35 || Started 217.3s ago.
+
+New water level reading - 10 cm.
+Last water level reading - 10 cm.
+[+217.3s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.42 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 5.0 seconds. 
+
+#################################
+
+
+Current time: 09:36:38 || Started 220.9s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-0.715078, -2.426849, 90.00035], [-2.708765, -6.359165, 90.00035], [-1.685465, -0.670379, 90.00035], [-6.344186, 3.080211, 60.22855]]
+Time since last reading: 4.92 seconds / 0.08 minutes.
+
+Biggest change was 0.57 degrees on node 1
+Biggest change rate was 4.40 degrees/min on node 1
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 09:36:40 || Started 222.3s ago.
+
+New water level reading - 10 cm.
+Last water level reading - 10 cm.
+[+222.3s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.50 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 5.0 seconds. 
+
+#################################
+
+
+Current time: 09:36:43 || Started 225.9s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-0.62849, -2.721939, 90.00035], [-2.354401, -6.375186, 90.00035], [-1.665989, -0.670379, 90.00035], [-6.115023, 2.835522, 60.42403]]
+Time since last reading: 5.02 seconds / 0.08 minutes.
+
+Biggest change was 0.35 degrees on node 2
+Biggest change rate was 2.93 degrees/min on node 2
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 09:36:45 || Started 227.3s ago.
+
+New water level reading - 9 cm.
+Last water level reading - 10 cm.
+Time diff: 0.58 minutes
+ > Distance change rate -1.71 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:36:53 || Started 236.0s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[-0.152891, -2.524629, 90.00035], [-2.607899, -6.181863, 90.00035], [-1.564375, -0.670379, 90.00035], [-5.382275, 2.742225, 60.42403]]
+Time since last reading: 10.09 seconds / 0.17 minutes.
+
+Biggest change was 0.73 degrees on node 4
+Biggest change rate was 4.36 degrees/min on node 4
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:36:55 || Started 237.4s ago.
+
+New water level reading - 9 cm.
+Last water level reading - 9 cm.
+Time diff: 0.17 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:37:03 || Started 245.9s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[0.111727, -1.93699, 90.00035], [-2.364588, -5.925537, 90.00035], [-1.661571, -0.670379, 90.00035], [-4.847301, 2.847302, 60.67479]]
+Time since last reading: 9.88 seconds / 0.16 minutes.
+
+Biggest change was 0.59 degrees on node 1
+Biggest change rate was 3.25 degrees/min on node 1
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:37:05 || Started 247.4s ago.
+
+New water level reading - 9 cm.
+Last water level reading - 9 cm.
+Time diff: 0.33 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:37:13 || Started 255.9s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[0.352829, -1.436652, 90.00035], [-2.035059, -5.988347, 90.00035], [-1.564375, -0.549335, 90.00035], [-3.884194, 3.199866, 60.73599]]
+Time since last reading: 10.04 seconds / 0.17 minutes.
+
+Biggest change was 0.96 degrees on node 4
+Biggest change rate was 5.76 degrees/min on node 4
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:37:15 || Started 257.4s ago.
+
+New water level reading - 9 cm.
+Last water level reading - 9 cm.
+Time diff: 0.50 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:37:23 || Started 265.9s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[0.319223, -2.458753, 90.00035], [-1.945745, -6.269226, 90.00035], [-1.564375, -0.670379, 90.00035], [-4.610626, 2.151258, 60.87995]]
+Time since last reading: 10.04 seconds / 0.17 minutes.
+
+Biggest change was 1.05 degrees on node 4
+Biggest change rate was 6.27 degrees/min on node 4
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:37:25 || Started 267.4s ago.
+
+New water level reading - 8 cm.
+Last water level reading - 9 cm.
+Time diff: 0.67 minutes
+ > Distance change rate -1.50 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:37:33 || Started 276.0s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[0.388109, -2.554616, 90.00035], [-1.90629, -6.181822, 90.00035], [-1.564375, -0.670379, 90.00035], [-4.725852, 2.13731, 60.87995]]
+Time since last reading: 10.04 seconds / 0.17 minutes.
+
+Biggest change was 0.12 degrees on node 4
+Biggest change rate was 0.69 degrees/min on node 4
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:37:35 || Started 277.4s ago.
+
+New water level reading - 8 cm.
+Last water level reading - 8 cm.
+Time diff: 0.17 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:37:43 || Started 285.9s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[0.446913, -2.514673, 90.00035], [-1.96444, -6.269226, 90.00035], [-1.564375, -0.670379, 90.00035], [-4.676472, 2.143053, 60.87995]]
+Time since last reading: 9.93 seconds / 0.17 minutes.
+
+Biggest change was 0.09 degrees on node 2
+Biggest change rate was 0.30 degrees/min on node 2
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:37:45 || Started 287.5s ago.
+
+New water level reading - 8 cm.
+Last water level reading - 8 cm.
+Time diff: 0.33 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:37:53 || Started 296.0s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[0.223455, -2.771938, 90.00035], [-2.036355, -6.206874, 90.00035], [-1.564375, -0.580993, 90.00035], [-5.027612, 1.889662, 60.67479]]
+Time since last reading: 10.03 seconds / 0.17 minutes.
+
+Biggest change was 0.35 degrees on node 4
+Biggest change rate was 2.10 degrees/min on node 4
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:37:55 || Started 297.5s ago.
+
+New water level reading - 8 cm.
+Last water level reading - 8 cm.
+Time diff: 0.50 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:38:03 || Started 305.9s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[0.223455, -2.583019, 90.00035], [-1.918346, -6.170897, 90.00035], [-1.564375, -0.670379, 90.00035], [-5.170048, 2.011539, 60.42403]]
+Time since last reading: 9.97 seconds / 0.17 minutes.
+
+Biggest change was 0.25 degrees on node 4
+Biggest change rate was 1.51 degrees/min on node 4
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:38:05 || Started 307.5s ago.
+
+New water level reading - 7 cm.
+Last water level reading - 8 cm.
+Time diff: 0.67 minutes
+ > Distance change rate -1.50 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:38:13 || Started 316.0s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[1.005598, -1.924568, 90.00035], [-1.670267, -6.15024, 90.00035], [-1.564375, -0.670379, 90.00035], [-3.713893, 2.410841, 60.87995]]
+Time since last reading: 10.10 seconds / 0.17 minutes.
+
+Biggest change was 1.46 degrees on node 4
+Biggest change rate was 8.65 degrees/min on node 4
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:38:15 || Started 317.5s ago.
+
+New water level reading - 7 cm.
+Last water level reading - 7 cm.
+Time diff: 0.17 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:38:23 || Started 326.1s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[1.03221, -1.994312, 90.00035], [-1.370658, -6.145612, 90.00035], [-1.623204, -0.670379, 90.00035], [-3.739326, 2.682445, 60.87995]]
+Time since last reading: 10.04 seconds / 0.17 minutes.
+
+Biggest change was 0.30 degrees on node 2
+Biggest change rate was 1.62 degrees/min on node 2
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:38:25 || Started 327.5s ago.
+
+New water level reading - 7 cm.
+Last water level reading - 7 cm.
+Time diff: 0.33 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:38:33 || Started 336.0s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[1.211451, -2.011503, 90.00035], [-1.221646, -6.127277, 90.00035], [-1.564375, -0.670379, 90.00035], [-3.498584, 2.682433, 60.87995]]
+Time since last reading: 9.93 seconds / 0.17 minutes.
+
+Biggest change was 0.24 degrees on node 4
+Biggest change rate was 1.45 degrees/min on node 4
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:38:35 || Started 337.6s ago.
+
+New water level reading - 7 cm.
+Last water level reading - 7 cm.
+Time diff: 0.50 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:38:43 || Started 346.0s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[1.628248, -1.709707, 90.00035], [-1.41536, -6.079986, 90.00035], [-1.564375, -0.771958, 90.00035], [-3.264205, 2.820246, 60.79857]]
+Time since last reading: 10.04 seconds / 0.17 minutes.
+
+Biggest change was 0.42 degrees on node 1
+Biggest change rate was 1.40 degrees/min on node 1
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:38:45 || Started 347.6s ago.
+
+New water level reading - 7 cm.
+Last water level reading - 7 cm.
+Time diff: 0.67 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:38:53 || Started 356.1s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[1.696473, -1.808258, 90.00035], [-1.235675, -6.044475, 90.00035], [-1.564375, -0.782116, 90.00035], [-3.235934, 2.764856, 60.87995]]
+Time since last reading: 10.04 seconds / 0.17 minutes.
+
+Biggest change was 0.18 degrees on node 2
+Biggest change rate was 0.49 degrees/min on node 2
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:38:55 || Started 357.6s ago.
+
+New water level reading - 6 cm.
+Last water level reading - 7 cm.
+Time diff: 0.83 minutes
+ > Distance change rate -1.20 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:39:03 || Started 366.1s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[2.235111, -1.698505, 90.00035], [-1.216679, -5.932145, 90.00035], [-1.564375, -0.670379, 90.00035], [-2.581777, 2.682432, 60.87995]]
+Time since last reading: 10.04 seconds / 0.17 minutes.
+
+Biggest change was 0.65 degrees on node 4
+Biggest change rate was 3.91 degrees/min on node 4
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:39:05 || Started 367.6s ago.
+
+New water level reading - 6 cm.
+Last water level reading - 6 cm.
+Time diff: 0.17 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:39:14 || Started 376.1s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[2.682433, -1.493788, 90.00035], [-1.005598, -5.926233, 90.00035], [-1.564375, -0.670379, 90.00035], [-2.235111, 2.682433, 61.15747]]
+Time since last reading: 10.03 seconds / 0.17 minutes.
+
+Biggest change was 0.45 degrees on node 1
+Biggest change rate was 2.07 degrees/min on node 1
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:39:15 || Started 377.6s ago.
+
+New water level reading - 6 cm.
+Last water level reading - 6 cm.
+Time diff: 0.33 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:39:23 || Started 386.1s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[2.729541, -1.368796, 90.00035], [-1.162048, -6.044502, 90.00035], [-1.564375, -0.670379, 90.00035], [-1.972057, 2.496059, 61.13225]]
+Time since last reading: 9.93 seconds / 0.17 minutes.
+
+Biggest change was 0.26 degrees on node 4
+Biggest change rate was 1.59 degrees/min on node 4
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:39:25 || Started 387.7s ago.
+
+New water level reading - 6 cm.
+Last water level reading - 6 cm.
+Time diff: 0.50 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:39:33 || Started 396.1s ago.
+
+Node 3 exceeded safety bounds!!
+Node 4 exceeded safety bounds!!
+[[3.129931, -1.151738, 90.00035], [-1.376163, -6.163494, 90.00035], [-1.564375, -0.787437, 90.00035], [-1.60164, 2.616673, 61.34247]]
+Time since last reading: 10.03 seconds / 0.17 minutes.
+
+Biggest change was 0.40 degrees on node 1
+Biggest change rate was 2.21 degrees/min on node 1
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:39:35 || Started 397.7s ago.
+
+New water level reading - 6 cm.
+Last water level reading - 6 cm.
+Time diff: 0.67 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 09:39:44 || Started 406.1s ago.
+
+Node 4 exceeded safety bounds!!
+[[4.559031, -0.775544, 90.00035], [-1.156788, -5.819817, 90.00035], [-1.564375, -0.670379, 90.00035], [0.111727, 2.520886, 60.87995]]
+Time since last reading: 10.04 seconds / 0.17 minutes.
+
+Biggest change was 1.71 degrees on node 4
+Biggest change rate was 10.24 degrees/min on node 4
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Current time: 09:39:45 || Started 407.7s ago.
+
+New water level reading - 6 cm.
+Last water level reading - 6 cm.
+Time diff: 0.83 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is LIVE_STORAGE
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+->[BEHAVIORAL MODULE]: Shutting down...
+
+-> Frequency log saved to ipi_frequency_log.csv
+
+-> IPI measurements saved to ipi_readings_log.csv
+

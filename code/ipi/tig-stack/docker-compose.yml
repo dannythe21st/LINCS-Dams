@@ -1,0 +1,45 @@
+version: "3"
+services:
+  influxdb:
+    container_name: influxdb
+    image: influxdb:2.7.4
+    volumes:
+      - influxdb-storage:/var/lib/influxdb2:rw
+      # - ./script.sh:/docker-entrypoint-initdb.d/script.sh:rwx
+      #- ./influxdb/data_manual_incs:/etc/data_manual_incs
+      #- ./influxdb/flux/disp_results_task.flux:/etc/tasks/disp_results_task.flux
+    env_file:
+      - .env
+    restart: always
+    ports:
+      - ${DOCKER_INFLUXDB_INIT_PORT}:8086
+
+  telegraf:
+    container_name: telegraf
+    image: telegraf:1.27.4
+    volumes:
+      - ${TELEGRAF_CFG_PATH}:/etc/telegraf/telegraf.conf:rw
+      - ${TELEGRAF_METRICS_PATH}:/tmp/metrics.out:rw
+    restart: on-failure:10
+    env_file:
+      - .env
+    depends_on:
+      - influxdb
+      
+  grafana:
+    container_name: grafana
+    image: grafana/grafana-oss:10.1.0
+    volumes:
+      - grafana-storage:/var/lib/grafana:rw
+    depends_on:
+      - influxdb
+    env_file:
+      - .env
+    ports:
+      - ${GRAFANA_PORT}:3000
+    restart: on-failure:10
+
+volumes:
+  grafana-storage:
+  influxdb-storage:
+  hivemq-storage:

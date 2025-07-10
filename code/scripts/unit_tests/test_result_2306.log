@@ -1,0 +1,95 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.3, pytest-8.4.0, pluggy-1.6.0
+rootdir: C:\Users\dany5\Desktop\FCT\10ºSemestre (Tese)\thesis_code\Scripts
+plugins: html-4.1.1, metadata-3.1.1, mock-3.14.1
+collected 15 items
+
+tester.py .............F.                                                [100%]
+
+================================== FAILURES ===================================
+__________________________ test_tilt_ls_stability_ls __________________________
+
+module = <autoFrequencyChange_v2.AdaptiveFrequencyModule object at 0x000001D1340B9DF0>
+
+    def test_tilt_ls_stability_ls(module):
+        module.state = "live_storage"
+        initial_msg = {
+            "sensors": [{"n": 3, "aX": 1.0, "aY": 1.0, "aZ": 90.00}]
+        }
+        module.last_tilt_reading_time = time.time() - 60
+        module.handle_tilt_readings(initial_msg)
+    
+        new_msg = {
+            "sensors": [{"n": 3, "aX": 120.0, "aY": 120.0, "aZ": 120.0}]
+        }
+        module.last_tilt_reading_time = time.time() - 30
+        module.handle_tilt_readings(new_msg)
+        assert module.state == "stability"
+    
+        # same message twice, so variation is 0 = stable situation and go back to ls
+        module.last_tilt_reading_time = time.time() - 10
+        module.handle_tilt_readings(new_msg)
+>       assert module.state == "live_storage"
+E       AssertionError: assert 'stability' == 'live_storage'
+E         
+E         - live_storage
+E         + stability
+
+tester.py:258: AssertionError
+---------------------------- Captured stdout setup ----------------------------
+
+
+########## [BEHAVIORAL MODULE SETUP] ##########
+
+-> Booting up the script...
+-> Script Settings
+
+[Water Level Thresholds]: Min = 0 | Mid = 6 | Max = 17 | Max_rate = 0.9 | Offset = 3 
+
+[IPI Thresholds]: Min_x = -100 | Max_x = 100 | Min_y = -100 | Max_y = 100 | Max_rate = 15 
+
+
+-> Connected successfully to the MQTT broker running on 172.20.10.4:1883.
+-> State Machine setup finished.
+-> Script setup finished.
+
+---------------------------- Captured stdout call -----------------------------
+Initial IPI reading received!
+
+#################################
+
+
+Node 4 exceeded safety bounds!!
+[[0.0, 0.0, 0.0], [120.0, 120.0, 120.0], [0.0, 0.0, 0.0], [0.0, 0.0, 0.0]]
+Node 1 exceeded safe rate!!
+Time since last reading: 30.00 seconds / 0.50 minutes.
+
+Biggest change was 119.00 degrees on node 2
+Biggest change rate was 0.00 degrees/min on node 2
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+Node 4 exceeded safety bounds!!
+[[0.0, 0.0, 0.0], [120.0, 120.0, 120.0], [0.0, 0.0, 0.0], [0.0, 0.0, 0.0]]
+Time since last reading: 10.00 seconds / 0.17 minutes.
+
+No change happened since last reading.
+
+Biggest change was 0.00 degrees on node 1
+Biggest change rate was 0.00 degrees/min on node 1
+
+ > Current state is STABILITY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+=========================== short test summary info ===========================
+FAILED tester.py::test_tilt_ls_stability_ls - AssertionError: assert 'stabili...
+======================== 1 failed, 14 passed in 0.32s =========================

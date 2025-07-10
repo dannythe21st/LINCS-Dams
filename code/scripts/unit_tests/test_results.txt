@@ -1,0 +1,126 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.3, pytest-8.4.0, pluggy-1.6.0 -- C:\Python312\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.12.3', 'Platform': 'Windows-10-10.0.19045-SP0', 'Packages': {'pytest': '8.4.0', 'pluggy': '1.6.0'}, 'Plugins': {'html': '4.1.1', 'metadata': '3.1.1', 'mock': '3.14.1'}, 'JAVA_HOME': 'D:\\jdk-21.0.2'}
+rootdir: C:\Users\dany5\Desktop\FCT\10ºSemestre (Tese)\thesis_code\Scripts
+plugins: html-4.1.1, metadata-3.1.1, mock-3.14.1
+collecting ... collected 9 items
+
+tester.py::test_initial_state PASSED                                     [ 11%]
+tester.py::test_tilt_reading_transition_to_stability PASSED              [ 22%]
+tester.py::test_distance_transition_to_full PASSED                       [ 33%]
+tester.py::test_distance_transition_to_flood PASSED                      [ 44%]
+tester.py::test_distance_transition_to_full_first_reading FAILED         [ 55%]
+tester.py::test_water_level_change_rate_ls_to_stability FAILED           [ 66%]
+tester.py::test_water_level_change_rate_full_to_flood PASSED             [ 77%]
+tester.py::test_tilt_ls_stability_ls PASSED                              [ 88%]
+tester.py::test_distance_ls_full_flood PASSED                            [100%]
+
+================================== FAILURES ===================================
+_______________ test_distance_transition_to_full_first_reading ________________
+
+module = <autoFrequencyChange_v2.AdaptiveFrequencyModule object at 0x0000023DE1BD5340>
+
+    def test_distance_transition_to_full_first_reading(module):
+        module.state = "live_storage"
+        module.last_water_level = None
+        module.last_reading_time = module.start_time
+    
+        new_msg = {
+            "distance": 10
+        }
+        module.handle_distance_readings(new_msg)
+>       assert module.state == "flood"
+E       AssertionError: assert 'full' == 'flood'
+E         
+E         - flood
+E         + full
+
+tester.py:69: AssertionError
+---------------------------- Captured stdout setup ----------------------------
+
+
+########## [BEHAVIORAL MODULE SETUP] ##########
+
+-> Booting up the script...
+-> Failed to connect - timed out
+-> State Machine setup finished.
+-> Script setup finished.
+
+---------------------------- Captured stdout call -----------------------------
+New water level reading - 15 cm.
+Last water level reading - None cm.
+Initial water level received!
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 30.0 seconds. 
+
+#################################
+
+
+________________ test_water_level_change_rate_ls_to_stability _________________
+
+module = <autoFrequencyChange_v2.AdaptiveFrequencyModule object at 0x0000023DE1BFE180>
+
+    def test_water_level_change_rate_ls_to_stability(module):
+        module.state = "live_storage"
+        module.last_water_level = 1
+        module.last_reading_time = module.start_time
+    
+        new_msg = {
+            "distance": 10
+        }
+        module.handle_distance_readings(new_msg)
+>       assert module.state == "stability"
+E       AssertionError: assert 'flood' == 'stability'
+E         
+E         - stability
+E         + flood
+
+tester.py:80: AssertionError
+---------------------------- Captured stdout setup ----------------------------
+
+
+########## [BEHAVIORAL MODULE SETUP] ##########
+
+-> Booting up the script...
+-> Failed to connect - timed out
+-> State Machine setup finished.
+-> Script setup finished.
+
+---------------------------- Captured stdout call -----------------------------
+New water level reading - 15 cm.
+Last water level reading - 1 cm.
+[+30.3s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.50 minutes
+ > Distance change rate 27.73 cm/min.
+
+TH exceeded!
+ > Current state is FLOOD
+
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 15.0 seconds. 
+
+#################################
+
+
+============================== warnings summary ===============================
+tester.py::test_initial_state
+tester.py::test_tilt_reading_transition_to_stability
+tester.py::test_distance_transition_to_full
+tester.py::test_distance_transition_to_flood
+tester.py::test_distance_transition_to_full_first_reading
+tester.py::test_water_level_change_rate_ls_to_stability
+tester.py::test_water_level_change_rate_full_to_flood
+tester.py::test_tilt_ls_stability_ls
+tester.py::test_distance_ls_full_flood
+  C:\Users\dany5\Desktop\FCT\10ºSemestre (Tese)\thesis_code\Scripts\autoFrequencyChange_v2.py:84: DeprecationWarning: Callback API version 1 is deprecated, update to latest version
+    self.client = mqtt.Client(protocol=mqtt.MQTTv5)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tester.py::test_distance_transition_to_full_first_reading - AssertionE...
+FAILED tester.py::test_water_level_change_rate_ls_to_stability - AssertionErr...
+================== 2 failed, 7 passed, 9 warnings in 45.46s ===================

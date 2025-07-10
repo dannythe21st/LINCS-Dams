@@ -1,0 +1,2211 @@
+
+
+########## [BEHAVIORAL MODULE SETUP] ##########
+
+-> Booting up the script...
+-> Connected successfully to the MQTT broker running on 172.20.10.4:1883.
+-> State Machine setup finished.
+-> Script setup finished.
+
+-> Subscribed to topic: inc_data/I1
+-> Subscribed to topic: IPI/lowpower
+
+-> Subscribed to topic: lidar_data/
+-> Subscribed to topic: readings/accel_data
+
+########## [BEHAVIORAL MODULE SETUP COMPLETE] ##########
+
+
+Current time: 15:03:46 || Started 0.1 ago.
+
+[UPDATE - New INC Reading]
+Initial IPI reading received!
+
+#################################
+
+
+Current time: 15:03:46 || Started 0.1 ago.
+
+New water level reading - 8 cm.
+Last water level reading - None cm.
+Initial water level received!
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:03:46 || Started 0.4 ago.
+
+New water level reading - 8 cm.
+Last water level reading - 8 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:03:49 || Started 2.8 ago.
+
+[UPDATE - New INC Reading]
+[[7.205292, -26.85786, 90.00035]]
+Old readings: [[7.223322, -26.86795, 90.00035]]
+
+New Readings: [[7.205292, -26.85786, 90.00035]]
+
+Angular Change (degrees): [0.012297088187932587]
+
+Largest vectorial change: 0.012297088187932587
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:03:50 || Started 4.4 ago.
+
+New water level reading - 8 cm.
+Last water level reading - 8 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:03:53 || Started 7.7 ago.
+
+[UPDATE - New INC Reading]
+[[7.160246, -26.75774, 90.00035]]
+Old readings: [[7.205292, -26.85786, 90.00035]]
+
+New Readings: [[7.160246, -26.75774, 90.00035]]
+
+Angular Change (degrees): [0.06390108399334134]
+
+Largest vectorial change: 0.06390108399334134
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:03:54 || Started 8.4 ago.
+
+New water level reading - 8 cm.
+Last water level reading - 8 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:03:58 || Started 12.4 ago.
+
+New water level reading - 8 cm.
+Last water level reading - 8 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:03:59 || Started 12.8 ago.
+
+[UPDATE - New INC Reading]
+[[7.214297, -26.72777, 90.00035]]
+Old readings: [[7.160246, -26.75774, 90.00035]]
+
+New Readings: [[7.214297, -26.72777, 90.00035]]
+
+Angular Change (degrees): [0.037510751628637186]
+
+Largest vectorial change: 0.037510751628637186
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:04:02 || Started 16.4 ago.
+
+New water level reading - 8 cm.
+Last water level reading - 8 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:04:04 || Started 17.9 ago.
+
+[UPDATE - New INC Reading]
+[[7.196294, -26.76784, 90.00035]]
+Old readings: [[7.214297, -26.72777, 90.00035]]
+
+New Readings: [[7.196294, -26.76784, 90.00035]]
+
+Angular Change (degrees): [0.026025874560257792]
+
+Largest vectorial change: 0.026025874560257792
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:04:06 || Started 20.4 ago.
+
+New water level reading - 8 cm.
+Last water level reading - 8 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:04:09 || Started 22.9 ago.
+
+[UPDATE - New INC Reading]
+[[7.061165, -26.33807, 90.00035]]
+Old readings: [[7.196294, -26.76784, 90.00035]]
+
+New Readings: [[7.061165, -26.33807, 90.00035]]
+
+Angular Change (degrees): [0.2623465436708844]
+
+Largest vectorial change: 0.2623465436708844
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:04:10 || Started 24.4 ago.
+
+New water level reading - 9 cm.
+Last water level reading - 8 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:04:14 || Started 28.0 ago.
+
+[UPDATE - New INC Reading]
+[[7.016135, -25.78092, 90.00035]]
+Old readings: [[7.061165, -26.33807, 90.00035]]
+
+New Readings: [[7.016135, -25.78092, 90.00035]]
+
+Angular Change (degrees): [0.32696559208769604]
+
+Largest vectorial change: 0.32696559208769604
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:04:14 || Started 28.4 ago.
+
+New water level reading - 9 cm.
+Last water level reading - 9 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:04:18 || Started 32.5 ago.
+
+New water level reading - 9 cm.
+Last water level reading - 9 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:04:19 || Started 33.1 ago.
+
+[UPDATE - New INC Reading]
+[[6.836058, -25.04866, 90.00035]]
+Old readings: [[7.016135, -25.78092, 90.00035]]
+
+New Readings: [[6.836058, -25.04866, 90.00035]]
+
+Angular Change (degrees): [0.442189916204957]
+
+Largest vectorial change: 0.442189916204957
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:04:22 || Started 36.5 ago.
+
+New water level reading - 9 cm.
+Last water level reading - 9 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:04:24 || Started 38.2 ago.
+
+[UPDATE - New INC Reading]
+[[6.818067, -24.26188, 90.00035]]
+Old readings: [[6.836058, -25.04866, 90.00035]]
+
+New Readings: [[6.818067, -24.26188, 90.00035]]
+
+Angular Change (degrees): [0.46467182829673115]
+
+Largest vectorial change: 0.46467182829673115
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:04:26 || Started 40.5 ago.
+
+New water level reading - 10 cm.
+Last water level reading - 9 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:04:29 || Started 43.2 ago.
+
+[UPDATE - New INC Reading]
+[[6.602053, -23.51889, 90.00035]]
+Old readings: [[6.818067, -24.26188, 90.00035]]
+
+New Readings: [[6.602053, -23.51889, 90.00035]]
+
+Angular Change (degrees): [0.4577838824213292]
+
+Largest vectorial change: 0.4577838824213292
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:04:30 || Started 44.4 ago.
+
+New water level reading - 9 cm.
+Last water level reading - 10 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:04:34 || Started 48.4 ago.
+
+[UPDATE - New INC Reading]
+[[6.530077, -22.89649, 90.00035]]
+Old readings: [[6.602053, -23.51889, 90.00035]]
+
+New Readings: [[6.530077, -22.89649, 90.00035]]
+
+Angular Change (degrees): [0.37248590360539613]
+
+Largest vectorial change: 0.37248590360539613
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:04:34 || Started 48.4 ago.
+
+New water level reading - 10 cm.
+Last water level reading - 9 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:04:38 || Started 52.5 ago.
+
+New water level reading - 10 cm.
+Last water level reading - 10 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:04:39 || Started 53.4 ago.
+
+[UPDATE - New INC Reading]
+[[6.404143, -22.19004, 90.00035]]
+Old readings: [[6.530077, -22.89649, 90.00035]]
+
+New Readings: [[6.404143, -22.19004, 90.00035]]
+
+Angular Change (degrees): [0.42793227859042443]
+
+Largest vectorial change: 0.42793227859042443
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:04:42 || Started 56.5 ago.
+
+New water level reading - 10 cm.
+Last water level reading - 10 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:04:44 || Started 58.5 ago.
+
+[UPDATE - New INC Reading]
+[[6.34118, -21.5447, 90.00035]]
+Old readings: [[6.404143, -22.19004, 90.00035]]
+
+New Readings: [[6.34118, -21.5447, 90.00035]]
+
+Angular Change (degrees): [0.38836349319281793]
+
+Largest vectorial change: 0.38836349319281793
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:04:46 || Started 60.4 ago.
+
+New water level reading - 10 cm.
+Last water level reading - 10 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:04:49 || Started 63.6 ago.
+
+[UPDATE - New INC Reading]
+[[6.161353, -20.8544, 90.00035]]
+Old readings: [[6.34118, -21.5447, 90.00035]]
+
+New Readings: [[6.161353, -20.8544, 90.00035]]
+
+Angular Change (degrees): [0.42830555727126535]
+
+Largest vectorial change: 0.42830555727126535
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:04:50 || Started 64.4 ago.
+
+New water level reading - 10 cm.
+Last water level reading - 10 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:04:54 || Started 68.5 ago.
+
+New water level reading - 10 cm.
+Last water level reading - 10 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:04:54 || Started 68.6 ago.
+
+[UPDATE - New INC Reading]
+[[5.990568, -20.22448, 90.00035]]
+Old readings: [[6.161353, -20.8544, 90.00035]]
+
+New Readings: [[5.990568, -20.22448, 90.00035]]
+
+Angular Change (degrees): [0.39322789536671754]
+
+Largest vectorial change: 0.39322789536671754
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:04:58 || Started 72.4 ago.
+
+New water level reading - 11 cm.
+Last water level reading - 10 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:04:59 || Started 73.7 ago.
+
+[UPDATE - New INC Reading]
+[[5.882728, -19.54957, 90.00035]]
+Old readings: [[5.990568, -20.22448, 90.00035]]
+
+New Readings: [[5.882728, -19.54957, 90.00035]]
+
+Angular Change (degrees): [0.41332779575390455]
+
+Largest vectorial change: 0.41332779575390455
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:05:02 || Started 76.4 ago.
+
+New water level reading - 11 cm.
+Last water level reading - 11 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:05:05 || Started 78.8 ago.
+
+[UPDATE - New INC Reading]
+[[5.756941, -18.94373, 90.00035]]
+Old readings: [[5.882728, -19.54957, 90.00035]]
+
+New Readings: [[5.756941, -18.94373, 90.00035]]
+
+Angular Change (degrees): [0.3752593444115792]
+
+Largest vectorial change: 0.3752593444115792
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:05:06 || Started 80.4 ago.
+
+New water level reading - 11 cm.
+Last water level reading - 11 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:05:10 || Started 83.9 ago.
+
+[UPDATE - New INC Reading]
+[[5.783904, -18.43413, 90.00035]]
+Old readings: [[5.756941, -18.94373, 90.00035]]
+
+New Readings: [[5.783904, -18.43413, 90.00035]]
+
+Angular Change (degrees): [0.3110924306173639]
+
+Largest vectorial change: 0.3110924306173639
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:05:10 || Started 84.4 ago.
+
+New water level reading - 11 cm.
+Last water level reading - 11 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:05:14 || Started 88.4 ago.
+
+New water level reading - 11 cm.
+Last water level reading - 11 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:05:15 || Started 88.9 ago.
+
+[UPDATE - New INC Reading]
+[[5.613231, -18.02008, 90.00035]]
+Old readings: [[5.783904, -18.43413, 90.00035]]
+
+New Readings: [[5.613231, -18.02008, 90.00035]]
+
+Angular Change (degrees): [0.2728701948868502]
+
+Largest vectorial change: 0.2728701948868502
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:05:18 || Started 92.6 ago.
+
+New water level reading - 11 cm.
+Last water level reading - 11 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:05:20 || Started 94.0 ago.
+
+[UPDATE - New INC Reading]
+[[5.49648, -17.55072, 90.00035]]
+Old readings: [[5.613231, -18.02008, 90.00035]]
+
+New Readings: [[5.49648, -17.55072, 90.00035]]
+
+Angular Change (degrees): [0.2952745671081407]
+
+Largest vectorial change: 0.2952745671081407
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:05:22 || Started 96.5 ago.
+
+New water level reading - 11 cm.
+Last water level reading - 11 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:05:25 || Started 99.1 ago.
+
+[UPDATE - New INC Reading]
+[[5.406693, -16.94236, 90.00035]]
+Old readings: [[5.49648, -17.55072, 90.00035]]
+
+New Readings: [[5.406693, -16.94236, 90.00035]]
+
+Angular Change (degrees): [0.37648021177232266]
+
+Largest vectorial change: 0.37648021177232266
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:05:26 || Started 100.4 ago.
+
+New water level reading - 12 cm.
+Last water level reading - 11 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:05:30 || Started 104.1 ago.
+
+[UPDATE - New INC Reading]
+[[5.343863, -16.41059, 90.00035]]
+Old readings: [[5.406693, -16.94236, 90.00035]]
+
+New Readings: [[5.343863, -16.41059, 90.00035]]
+
+Angular Change (degrees): [0.32867154206016364]
+
+Largest vectorial change: 0.32867154206016364
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:05:30 || Started 104.4 ago.
+
+New water level reading - 12 cm.
+Last water level reading - 12 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:05:34 || Started 108.4 ago.
+
+New water level reading - 12 cm.
+Last water level reading - 12 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:05:35 || Started 109.2 ago.
+
+[UPDATE - New INC Reading]
+[[5.218192, -15.76866, 90.00035]]
+Old readings: [[5.343863, -16.41059, 90.00035]]
+
+New Readings: [[5.218192, -15.76866, 90.00035]]
+
+Angular Change (degrees): [0.402290034477421]
+
+Largest vectorial change: 0.402290034477421
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:05:38 || Started 112.5 ago.
+
+New water level reading - 12 cm.
+Last water level reading - 12 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:05:40 || Started 114.3 ago.
+
+[UPDATE - New INC Reading]
+[[5.110487, -15.23066, 90.00035]]
+Old readings: [[5.218192, -15.76866, 90.00035]]
+
+New Readings: [[5.110487, -15.23066, 90.00035]]
+
+Angular Change (degrees): [0.3382377548260189]
+
+Largest vectorial change: 0.3382377548260189
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:05:42 || Started 116.5 ago.
+
+New water level reading - 12 cm.
+Last water level reading - 12 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:05:45 || Started 119.4 ago.
+
+[UPDATE - New INC Reading]
+[[5.065624, -14.71254, 90.00035]]
+Old readings: [[5.110487, -15.23066, 90.00035]]
+
+New Readings: [[5.065624, -14.71254, 90.00035]]
+
+Angular Change (degrees): [0.3214464733017182]
+
+Largest vectorial change: 0.3214464733017182
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:05:46 || Started 120.4 ago.
+
+New water level reading - 12 cm.
+Last water level reading - 12 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:05:50 || Started 124.5 ago.
+
+New water level reading - 12 cm.
+Last water level reading - 12 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:05:50 || Started 124.5 ago.
+
+[UPDATE - New INC Reading]
+[[4.913092, -14.37087, 90.00035]]
+Old readings: [[5.065624, -14.71254, 90.00035]]
+
+New Readings: [[4.913092, -14.37087, 90.00035]]
+
+Angular Change (degrees): [0.23147714337461406]
+
+Largest vectorial change: 0.23147714337461406
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:05:54 || Started 128.5 ago.
+
+New water level reading - 12 cm.
+Last water level reading - 12 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:05:55 || Started 129.5 ago.
+
+[UPDATE - New INC Reading]
+[[4.832352, -13.93764, 90.00035]]
+Old readings: [[4.913092, -14.37087, 90.00035]]
+
+New Readings: [[4.832352, -13.93764, 90.00035]]
+
+Angular Change (degrees): [0.27307894236243263]
+
+Largest vectorial change: 0.27307894236243263
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:05:58 || Started 132.4 ago.
+
+New water level reading - 12 cm.
+Last water level reading - 12 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:06:00 || Started 134.6 ago.
+
+[UPDATE - New INC Reading]
+[[4.679884, -13.35818, 90.00035]]
+Old readings: [[4.832352, -13.93764, 90.00035]]
+
+New Readings: [[4.679884, -13.35818, 90.00035]]
+
+Angular Change (degrees): [0.3718886356867818]
+
+Largest vectorial change: 0.3718886356867818
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:06:02 || Started 136.4 ago.
+
+New water level reading - 12 cm.
+Last water level reading - 12 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:06:05 || Started 139.7 ago.
+
+[UPDATE - New INC Reading]
+[[4.572274, -12.90844, 90.00035]]
+Old readings: [[4.679884, -13.35818, 90.00035]]
+
+New Readings: [[4.572274, -12.90844, 90.00035]]
+
+Angular Change (degrees): [0.2875484679627758]
+
+Largest vectorial change: 0.2875484679627758
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 15:06:06 || Started 140.4 ago.
+
+New water level reading - 13 cm.
+Last water level reading - 12 cm.
+[+140.4s][WARNING] Water level is close to its maximum safe value.
+Time diff: 1747836366.683806
+ > Distance change rate 9.535598975027946e-09 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:06:10 || Started 144.4 ago.
+
+New water level reading - 13 cm.
+Last water level reading - 13 cm.
+[+144.4s][WARNING] Water level is close to its maximum safe value.
+Time diff: 4.015648365020752
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:06:11 || Started 144.7 ago.
+
+[UPDATE - New INC Reading]
+[[4.473643, -12.3131, 90.00035]]
+Old readings: [[4.572274, -12.90844, 90.00035]]
+
+New Readings: [[4.473643, -12.3131, 90.00035]]
+
+Angular Change (degrees): [0.37597402353551906]
+
+Largest vectorial change: 0.37597402353551906
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:06:14 || Started 148.4 ago.
+
+New water level reading - 13 cm.
+Last water level reading - 13 cm.
+[+148.4s][WARNING] Water level is close to its maximum safe value.
+Time diff: 3.993068218231201
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:06:16 || Started 149.8 ago.
+
+[UPDATE - New INC Reading]
+[[4.383999, -11.78301, 90.00035]]
+Old readings: [[4.473643, -12.3131, 90.00035]]
+
+New Readings: [[4.383999, -11.78301, 90.00035]]
+
+Angular Change (degrees): [0.3355468157182851]
+
+Largest vectorial change: 0.3355468157182851
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:06:18 || Started 152.5 ago.
+
+New water level reading - 13 cm.
+Last water level reading - 13 cm.
+[+152.5s][WARNING] Water level is close to its maximum safe value.
+Time diff: 4.0976972579956055
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:06:21 || Started 155.0 ago.
+
+[UPDATE - New INC Reading]
+[[4.303324, -11.28129, 90.00035]]
+Old readings: [[4.383999, -11.78301, 90.00035]]
+
+New Readings: [[4.303324, -11.28129, 90.00035]]
+
+Angular Change (degrees): [0.31767068212720734]
+
+Largest vectorial change: 0.31767068212720734
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:06:22 || Started 156.4 ago.
+
+New water level reading - 13 cm.
+Last water level reading - 13 cm.
+[+156.4s][WARNING] Water level is close to its maximum safe value.
+Time diff: 3.894352912902832
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:06:26 || Started 160.0 ago.
+
+[UPDATE - New INC Reading]
+[[4.222651, -10.77129, 90.00035]]
+Old readings: [[4.303324, -11.28129, 90.00035]]
+
+New Readings: [[4.222651, -10.77129, 90.00035]]
+
+Angular Change (degrees): [0.3232591541710673]
+
+Largest vectorial change: 0.3232591541710673
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:06:26 || Started 160.4 ago.
+
+New water level reading - 13 cm.
+Last water level reading - 13 cm.
+[+160.4s][WARNING] Water level is close to its maximum safe value.
+Time diff: 3.9991493225097656
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:06:30 || Started 164.5 ago.
+
+New water level reading - 13 cm.
+Last water level reading - 13 cm.
+[+164.5s][WARNING] Water level is close to its maximum safe value.
+Time diff: 4.086558103561401
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:06:31 || Started 165.0 ago.
+
+[UPDATE - New INC Reading]
+[[4.097195, -10.19863, 90.00035]]
+Old readings: [[4.222651, -10.77129, 90.00035]]
+
+New Readings: [[4.097195, -10.19863, 90.00035]]
+
+Angular Change (degrees): [0.36751325604607066]
+
+Largest vectorial change: 0.36751325604607066
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:06:34 || Started 168.5 ago.
+
+New water level reading - 13 cm.
+Last water level reading - 13 cm.
+[+168.5s][WARNING] Water level is close to its maximum safe value.
+Time diff: 3.9943599700927734
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:06:36 || Started 170.1 ago.
+
+[UPDATE - New INC Reading]
+[[4.025499, -9.753951, 90.00035]]
+Old readings: [[4.097195, -10.19863, 90.00035]]
+
+New Readings: [[4.025499, -9.753951, 90.00035]]
+
+Angular Change (degrees): [0.2827988216502264]
+
+Largest vectorial change: 0.2827988216502264
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:06:38 || Started 172.4 ago.
+
+New water level reading - 13 cm.
+Last water level reading - 13 cm.
+[+172.4s][WARNING] Water level is close to its maximum safe value.
+Time diff: 3.9200963973999023
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:06:41 || Started 175.3 ago.
+
+[UPDATE - New INC Reading]
+[[3.855282, -9.183149, 90.00035]]
+Old readings: [[4.025499, -9.753951, 90.00035]]
+
+New Readings: [[3.855282, -9.183149, 90.00035]]
+
+Angular Change (degrees): [0.37436006659408694]
+
+Largest vectorial change: 0.37436006659408694
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:06:42 || Started 176.4 ago.
+
+New water level reading - 13 cm.
+Last water level reading - 13 cm.
+[+176.4s][WARNING] Water level is close to its maximum safe value.
+Time diff: 3.999234914779663
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:06:46 || Started 180.3 ago.
+
+[UPDATE - New INC Reading]
+[[3.783609, -8.703495, 90.00035]]
+Old readings: [[3.855282, -9.183149, 90.00035]]
+
+New Readings: [[3.783609, -8.703495, 90.00035]]
+
+Angular Change (degrees): [0.30529601903502845]
+
+Largest vectorial change: 0.30529601903502845
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:06:46 || Started 180.4 ago.
+
+New water level reading - 14 cm.
+Last water level reading - 13 cm.
+[+180.4s][WARNING] Water level is close to its maximum safe value.
+Time diff: 3.9999027252197266
+ > Distance change rate 4.166767997027007 cm/min.
+
+ > Current state is FULL.
+
+ > Lowering distance readings rate to 10.0 seconds, as the situation is stable. 
+
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:06:51 || Started 185.4 ago.
+
+[UPDATE - New INC Reading]
+[[3.676123, -8.179397, 90.00035]]
+Old readings: [[3.783609, -8.703495, 90.00035]]
+
+New Readings: [[3.676123, -8.179397, 90.00035]]
+
+Angular Change (degrees): [0.3371292001071842]
+
+Largest vectorial change: 0.3371292001071842
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:06:56 || Started 190.4 ago.
+
+[UPDATE - New INC Reading]
+[[3.55073, -7.692068, 90.00035]]
+Old readings: [[3.676123, -8.179397, 90.00035]]
+
+New Readings: [[3.55073, -7.692068, 90.00035]]
+
+Angular Change (degrees): [0.31741309108266175]
+
+Largest vectorial change: 0.31741309108266175
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:06:56 || Started 190.5 ago.
+
+New water level reading - 14 cm.
+Last water level reading - 14 cm.
+[+190.5s][WARNING] Water level is close to its maximum safe value.
+Time diff: 10.041651964187622
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:07:00 || Started 194.4 ago.
+
+New water level reading - 14 cm.
+Last water level reading - 14 cm.
+[+194.4s][WARNING] Water level is close to its maximum safe value.
+Time diff: 3.958423614501953
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:07:01 || Started 195.5 ago.
+
+[UPDATE - New INC Reading]
+[[3.470143, -7.115228, 90.00035]]
+Old readings: [[3.55073, -7.692068, 90.00035]]
+
+New Readings: [[3.470143, -7.115228, 90.00035]]
+
+Angular Change (degrees): [0.36787984431280507]
+
+Largest vectorial change: 0.36787984431280507
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:07:04 || Started 198.5 ago.
+
+New water level reading - 14 cm.
+Last water level reading - 14 cm.
+[+198.5s][WARNING] Water level is close to its maximum safe value.
+Time diff: 4.084194898605347
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:07:06 || Started 200.6 ago.
+
+[UPDATE - New INC Reading]
+[[3.42537, -6.665043, 90.00035]]
+Old readings: [[3.470143, -7.115228, 90.00035]]
+
+New Readings: [[3.42537, -6.665043, 90.00035]]
+
+Angular Change (degrees): [0.2860469036923973]
+
+Largest vectorial change: 0.2860469036923973
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:07:08 || Started 202.4 ago.
+
+New water level reading - 14 cm.
+Last water level reading - 14 cm.
+[+202.4s][WARNING] Water level is close to its maximum safe value.
+Time diff: 3.919790029525757
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:07:11 || Started 205.7 ago.
+
+[UPDATE - New INC Reading]
+[[3.30897, -6.188334, 90.00035]]
+Old readings: [[3.42537, -6.665043, 90.00035]]
+
+New Readings: [[3.30897, -6.188334, 90.00035]]
+
+Angular Change (degrees): [0.3104377704031599]
+
+Largest vectorial change: 0.3104377704031599
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:07:12 || Started 206.4 ago.
+
+New water level reading - 15 cm.
+Last water level reading - 14 cm.
+[+206.4s][WARNING] Water level is close to its maximum safe value.
+Time diff: 3.9971323013305664
+ > Distance change rate 4.16965599590453 cm/min.
+
+ > Current state is FULL.
+
+ > Lowering distance readings rate to 10.0 seconds, as the situation is stable. 
+
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 15:07:17 || Started 210.9 ago.
+
+[UPDATE - New INC Reading]
+[[3.174686, -5.640172, 90.00035]]
+Old readings: [[3.30897, -6.188334, 90.00035]]
+
+New Readings: [[3.174686, -5.640172, 90.00035]]
+
+Angular Change (degrees): [0.3573471999853999]
+
+Largest vectorial change: 0.3573471999853999
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:07:22 || Started 215.8 ago.
+
+[UPDATE - New INC Reading]
+[[3.112027, -5.218179, 90.00035]]
+Old readings: [[3.174686, -5.640172, 90.00035]]
+
+New Readings: [[3.112027, -5.218179, 90.00035]]
+
+Angular Change (degrees): [0.27036880762867543]
+
+Largest vectorial change: 0.27036880762867543
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:07:22 || Started 216.4 ago.
+
+New water level reading - 15 cm.
+Last water level reading - 15 cm.
+[+216.4s][WARNING] Water level is close to its maximum safe value.
+Time diff: 10.003626346588135
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:07:26 || Started 220.5 ago.
+
+New water level reading - 15 cm.
+Last water level reading - 15 cm.
+[+220.5s][WARNING] Water level is close to its maximum safe value.
+Time diff: 4.096769332885742
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:07:27 || Started 220.9 ago.
+
+[UPDATE - New INC Reading]
+[[3.013561, -4.644018, 90.00035]]
+Old readings: [[3.112027, -5.218179, 90.00035]]
+
+New Readings: [[3.013561, -4.644018, 90.00035]]
+
+Angular Change (degrees): [0.3694281816647427]
+
+Largest vectorial change: 0.3694281816647427
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:07:30 || Started 224.5 ago.
+
+New water level reading - 15 cm.
+Last water level reading - 15 cm.
+[+224.5s][WARNING] Water level is close to its maximum safe value.
+Time diff: 3.9940602779388428
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:07:32 || Started 225.9 ago.
+
+[UPDATE - New INC Reading]
+[[2.915111, -4.222657, 90.00035]]
+Old readings: [[3.013561, -4.644018, 90.00035]]
+
+New Readings: [[2.915111, -4.222657, 90.00035]]
+
+Angular Change (degrees): [0.2745656945815661]
+
+Largest vectorial change: 0.2745656945815661
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:07:34 || Started 228.5 ago.
+
+New water level reading - 15 cm.
+Last water level reading - 15 cm.
+[+228.5s][WARNING] Water level is close to its maximum safe value.
+Time diff: 3.99239444732666
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:07:37 || Started 231.1 ago.
+
+[UPDATE - New INC Reading]
+[[2.727182, -3.264208, 90.00035]]
+Old readings: [[2.915111, -4.222657, 90.00035]]
+
+New Readings: [[2.727182, -3.264208, 90.00035]]
+
+Angular Change (degrees): [0.6202562073986809]
+
+Largest vectorial change: 0.6202562073986809
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:07:38 || Started 232.4 ago.
+
+New water level reading - 15 cm.
+Last water level reading - 15 cm.
+[+232.4s][WARNING] Water level is close to its maximum safe value.
+Time diff: 3.911600351333618
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:07:42 || Started 236.2 ago.
+
+[UPDATE - New INC Reading]
+[[2.628751, -2.915116, 90.00035]]
+Old readings: [[2.727182, -3.264208, 90.00035]]
+
+New Readings: [[2.628751, -2.915116, 90.00035]]
+
+Angular Change (degrees): [0.23047049874474076]
+
+Largest vectorial change: 0.23047049874474076
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:07:42 || Started 236.4 ago.
+
+New water level reading - 15 cm.
+Last water level reading - 15 cm.
+[+236.4s][WARNING] Water level is close to its maximum safe value.
+Time diff: 4.000551462173462
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:07:46 || Started 240.5 ago.
+
+New water level reading - 16 cm.
+Last water level reading - 15 cm.
+[+240.5s][ALARM] Water levels are critically HIGH.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 15:07:47 || Started 241.1 ago.
+
+[UPDATE - New INC Reading]
+[[2.557177, -2.530334, 90.00035]]
+Old readings: [[2.628751, -2.915116, 90.00035]]
+
+New Readings: [[2.557177, -2.530334, 90.00035]]
+
+Angular Change (degrees): [0.24879079275235824]
+
+Largest vectorial change: 0.24879079275235824
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 15:07:48 || Started 242.4 ago.
+
+[UPDATE - New INC Reading]
+[[2.548229, -2.449815, 90.00035]]
+Old readings: [[2.557177, -2.530334, 90.00035]]
+
+New Readings: [[2.548229, -2.449815, 90.00035]]
+
+Angular Change (degrees): [0.05151075208937078]
+
+Largest vectorial change: 0.05151075208937078
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 15:07:49 || Started 243.4 ago.
+
+New water level reading - 15 cm.
+Last water level reading - 16 cm.
+[+243.4s][WARNING] Water level is close to its maximum safe value.
+Time diff: 6.999760866165161
+ > Distance change rate -2.381033721770205 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:07:49 || Started 243.6 ago.
+
+[UPDATE - New INC Reading]
+[[2.539279, -2.333518, 90.00035]]
+Old readings: [[2.548229, -2.449815, 90.00035]]
+
+New Readings: [[2.539279, -2.333518, 90.00035]]
+
+Angular Change (degrees): [0.07416933245442645]
+
+Largest vectorial change: 0.07416933245442645
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:07:53 || Started 247.5 ago.
+
+New water level reading - 16 cm.
+Last water level reading - 15 cm.
+[+247.5s][ALARM] Water levels are critically HIGH.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 15:07:54 || Started 248.0 ago.
+
+[UPDATE - New INC Reading]
+[[2.539282, -2.208283, 90.00035]]
+Old readings: [[2.539279, -2.333518, 90.00035]]
+
+New Readings: [[2.539282, -2.208283, 90.00035]]
+
+Angular Change (degrees): [0.07964437585733564]
+
+Largest vectorial change: 0.07964437585733564
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 15:07:55 || Started 249.1 ago.
+
+[UPDATE - New INC Reading]
+[[2.449816, -1.850533, 90.00035]]
+Old readings: [[2.539282, -2.208283, 90.00035]]
+
+New Readings: [[2.449816, -1.850533, 90.00035]]
+
+Angular Change (degrees): [0.23451767001243676]
+
+Largest vectorial change: 0.23451767001243676
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 15:07:56 || Started 250.4 ago.
+
+[UPDATE - New INC Reading]
+[[2.414027, -1.778989, 90.00035]]
+Old readings: [[2.449816, -1.850533, 90.00035]]
+
+New Readings: [[2.414027, -1.778989, 90.00035]]
+
+Angular Change (degrees): [0.050874988132058915]
+
+Largest vectorial change: 0.050874988132058915
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 15:07:56 || Started 250.4 ago.
+
+New water level reading - 16 cm.
+Last water level reading - 16 cm.
+[+250.4s][ALARM] Water levels are critically HIGH.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 15:07:57 || Started 251.7 ago.
+
+[UPDATE - New INC Reading]
+[[2.431922, -1.680627, 90.00035]]
+Old readings: [[2.414027, -1.778989, 90.00035]]
+
+New Readings: [[2.431922, -1.680627, 90.00035]]
+
+Angular Change (degrees): [0.06360570468063259]
+
+Largest vectorial change: 0.06360570468063259
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 15:07:59 || Started 252.9 ago.
+
+[UPDATE - New INC Reading]
+[[2.414027, -1.510735, 90.00035]]
+Old readings: [[2.431922, -1.680627, 90.00035]]
+
+New Readings: [[2.414027, -1.510735, 90.00035]]
+
+Angular Change (degrees): [0.10867530746366653]
+
+Largest vectorial change: 0.10867530746366653
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 15:07:59 || Started 253.4 ago.
+
+New water level reading - 15 cm.
+Last water level reading - 16 cm.
+[+253.4s][WARNING] Water level is close to its maximum safe value.
+Time diff: 9.996723413467407
+ > Distance change rate -1.6672129434144023 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:08:03 || Started 257.5 ago.
+
+New water level reading - 15 cm.
+Last water level reading - 15 cm.
+[+257.5s][WARNING] Water level is close to its maximum safe value.
+Time diff: 4.070757627487183
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:08:04 || Started 257.9 ago.
+
+[UPDATE - New INC Reading]
+[[2.387189, -1.331916, 90.00035]]
+Old readings: [[2.414027, -1.510735, 90.00035]]
+
+New Readings: [[2.387189, -1.331916, 90.00035]]
+
+Angular Change (degrees): [0.11503693533611871]
+
+Largest vectorial change: 0.11503693533611871
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:08:07 || Started 261.7 ago.
+
+New water level reading - 15 cm.
+Last water level reading - 15 cm.
+[+261.7s][WARNING] Water level is close to its maximum safe value.
+Time diff: 4.208397626876831
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:08:09 || Started 263.0 ago.
+
+[UPDATE - New INC Reading]
+[[2.288788, -0.777649, 90.00035]]
+Old readings: [[2.387189, -1.331916, 90.00035]]
+
+New Readings: [[2.288788, -0.777649, 90.00035]]
+
+Angular Change (degrees): [0.35818061815508234]
+
+Largest vectorial change: 0.35818061815508234
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:08:11 || Started 265.5 ago.
+
+New water level reading - 15 cm.
+Last water level reading - 15 cm.
+[+265.5s][WARNING] Water level is close to its maximum safe value.
+Time diff: 3.779764175415039
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:08:14 || Started 268.3 ago.
+
+[UPDATE - New INC Reading]
+[[2.172506, -0.312839, 90.00035]]
+Old readings: [[2.288788, -0.777649, 90.00035]]
+
+New Readings: [[2.172506, -0.312839, 90.00035]]
+
+Angular Change (degrees): [0.3049037864564384]
+
+Largest vectorial change: 0.3049037864564384
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:08:15 || Started 269.4 ago.
+
+New water level reading - 16 cm.
+Last water level reading - 15 cm.
+[+269.4s][ALARM] Water levels are critically HIGH.
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 3.0 seconds. 
+
+#################################
+
+
+Current time: 15:08:16 || Started 269.9 ago.
+
+[UPDATE - New INC Reading]
+[[2.118841, -0.071506, 90.00035]]
+Old readings: [[2.172506, -0.312839, 90.00035]]
+
+New Readings: [[2.118841, -0.071506, 90.00035]]
+
+Angular Change (degrees): [0.15734013698552013]
+
+Largest vectorial change: 0.15734013698552013
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 15:08:17 || Started 271.0 ago.
+
+[UPDATE - New INC Reading]
+[[2.127779, -0.035753, 90.00035]]
+Old readings: [[2.118841, -0.071506, 90.00035]]
+
+New Readings: [[2.127779, -0.035753, 90.00035]]
+
+Angular Change (degrees): [0.0234545995958123]
+
+Largest vectorial change: 0.0234545995958123
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 15:08:18 || Started 272.3 ago.
+
+[UPDATE - New INC Reading]
+[[2.190393, -0.116197, 90.00035]]
+Old readings: [[2.127779, -0.035753, 90.00035]]
+
+New Readings: [[2.190393, -0.116197, 90.00035]]
+
+Angular Change (degrees): [0.06487033838171609]
+
+Largest vectorial change: 0.06487033838171609
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 15:08:18 || Started 272.4 ago.
+
+New water level reading - 15 cm.
+Last water level reading - 16 cm.
+[+272.4s][WARNING] Water level is close to its maximum safe value.
+Time diff: 6.9443230628967285
+ > Distance change rate -2.400041950196136 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:08:22 || Started 276.4 ago.
+
+New water level reading - 15 cm.
+Last water level reading - 15 cm.
+[+276.4s][WARNING] Water level is close to its maximum safe value.
+Time diff: 4.012194871902466
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:08:23 || Started 277.3 ago.
+
+[UPDATE - New INC Reading]
+[[2.100949, -0.017876, 90.00035]]
+Old readings: [[2.190393, -0.116197, 90.00035]]
+
+New Readings: [[2.100949, -0.017876, 90.00035]]
+
+Angular Change (degrees): [0.0845823086685249]
+
+Largest vectorial change: 0.0845823086685249
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:08:26 || Started 280.4 ago.
+
+New water level reading - 15 cm.
+Last water level reading - 15 cm.
+[+280.4s][WARNING] Water level is close to its maximum safe value.
+Time diff: 3.993598222732544
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+Current time: 15:08:28 || Started 282.4 ago.
+
+[UPDATE - New INC Reading]
+[[2.083062, -0.017876, 90.00035]]
+Old readings: [[2.100949, -0.017876, 90.00035]]
+
+New Readings: [[2.083062, -0.017876, 90.00035]]
+
+Angular Change (degrees): [0.011381024138607013]
+
+Largest vectorial change: 0.011381024138607013
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 15:08:30 || Started 284.4 ago.
+
+New water level reading - 15 cm.
+Last water level reading - 15 cm.
+[+284.4s][WARNING] Water level is close to its maximum safe value.
+Time diff: 3.9948008060455322
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 4.0 seconds. 
+
+#################################
+
+
+->[BEHAVIORAL MODULE]: Shutting down...
+
+-> Frequency log saved to ipi_frequency_log.csv
+

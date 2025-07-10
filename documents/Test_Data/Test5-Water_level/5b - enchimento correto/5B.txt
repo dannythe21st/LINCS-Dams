@@ -1,0 +1,1832 @@
+
+
+########## [BEHAVIORAL MODULE SETUP] ##########
+
+-> Booting up the script...
+-> Connected successfully to the MQTT broker running on 172.20.10.4:1883.
+-> State Machine setup finished.
+-> Script setup finished.
+
+-> Subscribed to topic: inc_data/I1
+-> Subscribed to topic: IPI/lowpower
+
+-> Subscribed to topic: lidar_data/
+-> Subscribed to topic: readings/accel_data
+
+########## [BEHAVIORAL MODULE SETUP COMPLETE] ##########
+
+
+Current time: 10:36:53 || Started 0.1 ago.
+
+[UPDATE - New INC Reading]
+Initial IPI reading received!
+
+#################################
+
+
+Current time: 10:36:53 || Started 0.2 ago.
+
+New water level reading - 5 cm.
+Last water level reading - None cm.
+Initial water level received!
+
+#################################
+
+
+Current time: 10:36:58 || Started 5.2 ago.
+
+New water level reading - 6 cm.
+Last water level reading - 5 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 10:36:59 || Started 5.7 ago.
+
+[UPDATE - New INC Reading]
+[[10.07153, -42.80788, 61.21493]]
+Old readings: [[10.15321, -42.7714, 61.19559]]
+
+New Readings: [[10.07153, -42.80788, 61.21493]]
+
+Angular Change (degrees): [0.06683676826684114]
+
+Largest vectorial change: 0.06683676826684114
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 10:37:09 || Started 15.8 ago.
+
+[UPDATE - New INC Reading]
+[[10.13511, -42.808, 61.17844]]
+Old readings: [[10.07153, -42.80788, 61.21493]]
+
+New Readings: [[10.13511, -42.808, 61.17844]]
+
+Angular Change (degrees): [0.05338803758384972]
+
+Largest vectorial change: 0.05338803758384972
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 10:37:18 || Started 25.1 ago.
+
+New water level reading - 5 cm.
+Last water level reading - 6 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 10:37:19 || Started 25.8 ago.
+
+[UPDATE - New INC Reading]
+[[9.980742, -41.56553, 62.69981]]
+Old readings: [[10.13511, -42.808, 61.17844]]
+
+New Readings: [[9.980742, -41.56553, 62.69981]]
+
+Angular Change (degrees): [1.437385780305995]
+
+Largest vectorial change: 1.437385780305995
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 10:37:28 || Started 35.2 ago.
+
+New water level reading - 6 cm.
+Last water level reading - 5 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 10:37:29 || Started 35.9 ago.
+
+[UPDATE - New INC Reading]
+[[9.56354, -38.85004, 66.31374]]
+Old readings: [[9.980742, -41.56553, 62.69981]]
+
+New Readings: [[9.56354, -38.85004, 66.31374]]
+
+Angular Change (degrees): [3.185668664948195]
+
+Largest vectorial change: 3.185668664948195
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 10:37:38 || Started 45.2 ago.
+
+New water level reading - 7 cm.
+Last water level reading - 6 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 10:37:39 || Started 46.0 ago.
+
+[UPDATE - New INC Reading]
+[[9.201156, -36.63429, 70.14815]]
+Old readings: [[9.56354, -38.85004, 66.31374]]
+
+New Readings: [[9.201156, -36.63429, 70.14815]]
+
+Angular Change (degrees): [2.8067254645785233]
+
+Largest vectorial change: 2.8067254645785233
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 10:37:48 || Started 55.2 ago.
+
+New water level reading - 7 cm.
+Last water level reading - 7 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 10:37:49 || Started 56.1 ago.
+
+[UPDATE - New INC Reading]
+[[8.911526, -34.69789, 73.38279]]
+Old readings: [[9.201156, -36.63429, 70.14815]]
+
+New Readings: [[8.911526, -34.69789, 73.38279]]
+
+Angular Change (degrees): [2.2843226457651613]
+
+Largest vectorial change: 2.2843226457651613
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 10:37:58 || Started 65.2 ago.
+
+New water level reading - 7 cm.
+Last water level reading - 7 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 10:37:59 || Started 66.1 ago.
+
+[UPDATE - New INC Reading]
+[[8.558845, -32.68883, 77.21926]]
+Old readings: [[8.911526, -34.69789, 73.38279]]
+
+New Readings: [[8.558845, -32.68883, 77.21926]]
+
+Angular Change (degrees): [2.389420678157944]
+
+Largest vectorial change: 2.389420678157944
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 10:38:08 || Started 75.2 ago.
+
+New water level reading - 8 cm.
+Last water level reading - 7 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 10:38:09 || Started 76.2 ago.
+
+[UPDATE - New INC Reading]
+[[8.251643, -30.96347, 81.85956]]
+Old readings: [[8.558845, -32.68883, 77.21926]]
+
+New Readings: [[8.251643, -30.96347, 81.85956]]
+
+Angular Change (degrees): [2.257968622332592]
+
+Largest vectorial change: 2.257968622332592
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 10:38:18 || Started 85.2 ago.
+
+New water level reading - 8 cm.
+Last water level reading - 8 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 10:38:19 || Started 86.3 ago.
+
+[UPDATE - New INC Reading]
+[[7.971764, -29.63829, 87.5933]]
+Old readings: [[8.251643, -30.96347, 81.85956]]
+
+New Readings: [[7.971764, -29.63829, 87.5933]]
+
+Angular Change (degrees): [2.068638623883932]
+
+Largest vectorial change: 2.068638623883932
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 10:38:28 || Started 95.2 ago.
+
+New water level reading - 9 cm.
+Last water level reading - 8 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 10:38:29 || Started 96.4 ago.
+
+[UPDATE - New INC Reading]
+[[7.7101, -28.15793, 90.00035]]
+Old readings: [[7.971764, -29.63829, 87.5933]]
+
+New Readings: [[7.7101, -28.15793, 90.00035]]
+
+Angular Change (degrees): [1.3403102560362339]
+
+Largest vectorial change: 1.3403102560362339
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 10:38:38 || Started 105.2 ago.
+
+New water level reading - 9 cm.
+Last water level reading - 9 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 10:38:39 || Started 106.4 ago.
+
+[UPDATE - New INC Reading]
+[[7.412549, -26.52771, 90.00035]]
+Old readings: [[7.7101, -28.15793, 90.00035]]
+
+New Readings: [[7.412549, -26.52771, 90.00035]]
+
+Angular Change (degrees): [0.959988589532033]
+
+Largest vectorial change: 0.959988589532033
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 10:38:48 || Started 115.2 ago.
+
+New water level reading - 9 cm.
+Last water level reading - 9 cm.
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 10:38:50 || Started 116.5 ago.
+
+[UPDATE - New INC Reading]
+[[7.142237, -25.01902, 90.00035]]
+Old readings: [[7.412549, -26.52771, 90.00035]]
+
+New Readings: [[7.142237, -25.01902, 90.00035]]
+
+Angular Change (degrees): [0.8967474026686705]
+
+Largest vectorial change: 0.8967474026686705
+
+
+ > Current state is LIVE_STORAGE.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+Current time: 10:38:58 || Started 125.4 ago.
+
+New water level reading - 10 cm.
+Last water level reading - 9 cm.
+Error processing MQTT message: cannot access local variable 'elapsed' where it is not associated with a value
+
+Current time: 10:38:59 || Started 125.9 ago.
+
+[UPDATE - New INC Reading]
+[[6.98912, -23.68466, 90.00035]]
+Old readings: [[7.142237, -25.01902, 90.00035]]
+
+New Readings: [[6.98912, -23.68466, 90.00035]]
+
+Angular Change (degrees): [0.7930432921282239]
+
+Largest vectorial change: 0.7930432921282239
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:39:04 || Started 131.0 ago.
+
+[UPDATE - New INC Reading]
+[[6.827053, -22.99354, 90.00035]]
+Old readings: [[6.98912, -23.68466, 90.00035]]
+
+New Readings: [[6.827053, -22.99354, 90.00035]]
+
+Angular Change (degrees): [0.4211633895509744]
+
+Largest vectorial change: 0.4211633895509744
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:39:08 || Started 135.2 ago.
+
+New water level reading - 10 cm.
+Last water level reading - 9 cm.
+Error processing MQTT message: cannot access local variable 'elapsed' where it is not associated with a value
+
+Current time: 10:39:09 || Started 136.0 ago.
+
+[UPDATE - New INC Reading]
+[[6.683043, -22.4025, 90.00035]]
+Old readings: [[6.827053, -22.99354, 90.00035]]
+
+New Readings: [[6.683043, -22.4025, 90.00035]]
+
+Angular Change (degrees): [0.3622273090437151]
+
+Largest vectorial change: 0.3622273090437151
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:39:14 || Started 141.0 ago.
+
+[UPDATE - New INC Reading]
+[[6.584062, -21.75625, 90.00035]]
+Old readings: [[6.683043, -22.4025, 90.00035]]
+
+New Readings: [[6.584062, -21.75625, 90.00035]]
+
+Angular Change (degrees): [0.39083044886815665]
+
+Largest vectorial change: 0.39083044886815665
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:39:18 || Started 145.2 ago.
+
+New water level reading - 11 cm.
+Last water level reading - 9 cm.
+Error processing MQTT message: cannot access local variable 'elapsed' where it is not associated with a value
+
+Current time: 10:39:19 || Started 146.1 ago.
+
+[UPDATE - New INC Reading]
+[[6.440118, -21.05549, 90.00035]]
+Old readings: [[6.584062, -21.75625, 90.00035]]
+
+New Readings: [[6.440118, -21.05549, 90.00035]]
+
+Angular Change (degrees): [0.4290331907217278]
+
+Largest vectorial change: 0.4290331907217278
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:39:24 || Started 151.2 ago.
+
+[UPDATE - New INC Reading]
+[[6.314203, -20.50091, 90.00035]]
+Old readings: [[6.440118, -21.05549, 90.00035]]
+
+New Readings: [[6.314203, -20.50091, 90.00035]]
+
+Angular Change (degrees): [0.3421443501677856]
+
+Largest vectorial change: 0.3421443501677856
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:39:28 || Started 155.1 ago.
+
+New water level reading - 11 cm.
+Last water level reading - 9 cm.
+Error processing MQTT message: cannot access local variable 'elapsed' where it is not associated with a value
+
+Current time: 10:39:29 || Started 156.3 ago.
+
+[UPDATE - New INC Reading]
+[[6.278231, -19.83439, 90.00035]]
+Old readings: [[6.314203, -20.50091, 90.00035]]
+
+New Readings: [[6.278231, -19.83439, 90.00035]]
+
+Angular Change (degrees): [0.4034117982021393]
+
+Largest vectorial change: 0.4034117982021393
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:39:34 || Started 161.4 ago.
+
+[UPDATE - New INC Reading]
+[[6.107413, -19.13279, 90.00035]]
+Old readings: [[6.278231, -19.83439, 90.00035]]
+
+New Readings: [[6.107413, -19.13279, 90.00035]]
+
+Angular Change (degrees): [0.4371935227582675]
+
+Largest vectorial change: 0.4371935227582675
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:39:38 || Started 165.2 ago.
+
+New water level reading - 11 cm.
+Last water level reading - 9 cm.
+Error processing MQTT message: cannot access local variable 'elapsed' where it is not associated with a value
+
+Current time: 10:39:39 || Started 166.4 ago.
+
+[UPDATE - New INC Reading]
+[[5.981582, -18.5661, 90.00035]]
+Old readings: [[6.107413, -19.13279, 90.00035]]
+
+New Readings: [[5.981582, -18.5661, 90.00035]]
+
+Angular Change (degrees): [0.35256995545514486]
+
+Largest vectorial change: 0.35256995545514486
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:39:45 || Started 171.5 ago.
+
+[UPDATE - New INC Reading]
+[[5.900704, -17.96369, 90.00035]]
+Old readings: [[5.981582, -18.5661, 90.00035]]
+
+New Readings: [[5.900704, -17.96369, 90.00035]]
+
+Angular Change (degrees): [0.37036233885721226]
+
+Largest vectorial change: 0.37036233885721226
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:39:48 || Started 175.2 ago.
+
+New water level reading - 11 cm.
+Last water level reading - 9 cm.
+Error processing MQTT message: cannot access local variable 'elapsed' where it is not associated with a value
+
+Current time: 10:39:50 || Started 176.6 ago.
+
+[UPDATE - New INC Reading]
+[[5.810852, -17.32589, 90.00035]]
+Old readings: [[5.900704, -17.96369, 90.00035]]
+
+New Readings: [[5.810852, -17.32589, 90.00035]]
+
+Angular Change (degrees): [0.39353229854933053]
+
+Largest vectorial change: 0.39353229854933053
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:39:55 || Started 181.6 ago.
+
+[UPDATE - New INC Reading]
+[[5.667135, -16.74633, 90.00035]]
+Old readings: [[5.810852, -17.32589, 90.00035]]
+
+New Readings: [[5.667135, -16.74633, 90.00035]]
+
+Angular Change (degrees): [0.365596204845777]
+
+Largest vectorial change: 0.365596204845777
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:39:58 || Started 185.2 ago.
+
+New water level reading - 12 cm.
+Last water level reading - 9 cm.
+Error processing MQTT message: cannot access local variable 'elapsed' where it is not associated with a value
+
+Current time: 10:40:00 || Started 186.7 ago.
+
+[UPDATE - New INC Reading]
+[[5.595262, -16.18706, 90.00035]]
+Old readings: [[5.667135, -16.74633, 90.00035]]
+
+New Readings: [[5.595262, -16.18706, 90.00035]]
+
+Angular Change (degrees): [0.3462894340523892]
+
+Largest vectorial change: 0.3462894340523892
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:40:05 || Started 191.9 ago.
+
+[UPDATE - New INC Reading]
+[[5.514439, -15.6758, 90.00035]]
+Old readings: [[5.595262, -16.18706, 90.00035]]
+
+New Readings: [[5.514439, -15.6758, 90.00035]]
+
+Angular Change (degrees): [0.31850746623394777]
+
+Largest vectorial change: 0.31850746623394777
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:40:08 || Started 195.2 ago.
+
+New water level reading - 12 cm.
+Last water level reading - 9 cm.
+Error processing MQTT message: cannot access local variable 'elapsed' where it is not associated with a value
+
+Current time: 10:40:10 || Started 196.9 ago.
+
+[UPDATE - New INC Reading]
+[[5.379766, -15.16584, 90.00035]]
+Old readings: [[5.514439, -15.6758, 90.00035]]
+
+New Readings: [[5.379766, -15.16584, 90.00035]]
+
+Angular Change (degrees): [0.3250805748260095]
+
+Largest vectorial change: 0.3250805748260095
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:40:15 || Started 201.9 ago.
+
+[UPDATE - New INC Reading]
+[[5.28999, -14.65707, 90.00035]]
+Old readings: [[5.379766, -15.16584, 90.00035]]
+
+New Readings: [[5.28999, -14.65707, 90.00035]]
+
+Angular Change (degrees): [0.3191563246419481]
+
+Largest vectorial change: 0.3191563246419481
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:40:18 || Started 205.2 ago.
+
+New water level reading - 12 cm.
+Last water level reading - 9 cm.
+Error processing MQTT message: cannot access local variable 'elapsed' where it is not associated with a value
+
+Current time: 10:40:20 || Started 207.0 ago.
+
+[UPDATE - New INC Reading]
+[[5.146391, -14.27864, 90.00035]]
+Old readings: [[5.28999, -14.65707, 90.00035]]
+
+New Readings: [[5.146391, -14.27864, 90.00035]]
+
+Angular Change (degrees): [0.2503658031690172]
+
+Largest vectorial change: 0.2503658031690172
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:40:25 || Started 212.2 ago.
+
+[UPDATE - New INC Reading]
+[[5.038702, -13.9008, 90.00035]]
+Old readings: [[5.146391, -14.27864, 90.00035]]
+
+New Readings: [[5.038702, -13.9008, 90.00035]]
+
+Angular Change (degrees): [0.2433903119648827]
+
+Largest vectorial change: 0.2433903119648827
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:40:28 || Started 215.1 ago.
+
+New water level reading - 13 cm.
+Last water level reading - 9 cm.
+Error processing MQTT message: cannot access local variable 'elapsed' where it is not associated with a value
+
+Current time: 10:40:30 || Started 217.2 ago.
+
+[UPDATE - New INC Reading]
+[[4.97589, -13.41331, 90.00035]]
+Old readings: [[5.038702, -13.9008, 90.00035]]
+
+New Readings: [[4.97589, -13.41331, 90.00035]]
+
+Angular Change (degrees): [0.3051389587565237]
+
+Largest vectorial change: 0.3051389587565237
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:40:35 || Started 222.3 ago.
+
+[UPDATE - New INC Reading]
+[[4.8234, -12.83509, 90.00035]]
+Old readings: [[4.97589, -13.41331, 90.00035]]
+
+New Readings: [[4.8234, -12.83509, 90.00035]]
+
+Angular Change (degrees): [0.3717283831808041]
+
+Largest vectorial change: 0.3717283831808041
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:40:38 || Started 225.2 ago.
+
+New water level reading - 13 cm.
+Last water level reading - 9 cm.
+Error processing MQTT message: cannot access local variable 'elapsed' where it is not associated with a value
+
+Current time: 10:40:40 || Started 227.3 ago.
+
+[UPDATE - New INC Reading]
+[[4.74266, -12.34969, 90.00035]]
+Old readings: [[4.8234, -12.83509, 90.00035]]
+
+New Readings: [[4.74266, -12.34969, 90.00035]]
+
+Angular Change (degrees): [0.30652863862518837]
+
+Largest vectorial change: 0.30652863862518837
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:40:45 || Started 232.4 ago.
+
+[UPDATE - New INC Reading]
+[[4.670913, -11.78301, 90.00035]]
+Old readings: [[4.74266, -12.34969, 90.00035]]
+
+New Readings: [[4.670913, -11.78301, 90.00035]]
+
+Angular Change (degrees): [0.35647778233952776]
+
+Largest vectorial change: 0.35647778233952776
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:40:48 || Started 235.2 ago.
+
+New water level reading - 13 cm.
+Last water level reading - 9 cm.
+Error processing MQTT message: cannot access local variable 'elapsed' where it is not associated with a value
+
+Current time: 10:40:50 || Started 237.5 ago.
+
+[UPDATE - New INC Reading]
+[[4.500542, -11.19925, 90.00035]]
+Old readings: [[4.670913, -11.78301, 90.00035]]
+
+New Readings: [[4.500542, -11.19925, 90.00035]]
+
+Angular Change (degrees): [0.37998666374604406]
+
+Largest vectorial change: 0.37998666374604406
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:40:56 || Started 242.5 ago.
+
+[UPDATE - New INC Reading]
+[[4.446756, -10.78041, 90.00035]]
+Old readings: [[4.500542, -11.19925, 90.00035]]
+
+New Readings: [[4.446756, -10.78041, 90.00035]]
+
+Angular Change (degrees): [0.26438755391010055]
+
+Largest vectorial change: 0.26438755391010055
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:40:58 || Started 245.1 ago.
+
+New water level reading - 13 cm.
+Last water level reading - 9 cm.
+Error processing MQTT message: cannot access local variable 'elapsed' where it is not associated with a value
+
+Current time: 10:41:01 || Started 247.6 ago.
+
+[UPDATE - New INC Reading]
+[[4.312284, -10.23496, 90.00035]]
+Old readings: [[4.446756, -10.78041, 90.00035]]
+
+New Readings: [[4.312284, -10.23496, 90.00035]]
+
+Angular Change (degrees): [0.3520725772396903]
+
+Largest vectorial change: 0.3520725772396903
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:41:06 || Started 252.7 ago.
+
+[UPDATE - New INC Reading]
+[[4.195764, -9.708587, 90.00035]]
+Old readings: [[4.312284, -10.23496, 90.00035]]
+
+New Readings: [[4.195764, -9.708587, 90.00035]]
+
+Angular Change (degrees): [0.33838384129630605]
+
+Largest vectorial change: 0.33838384129630605
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:41:08 || Started 255.2 ago.
+
+New water level reading - 14 cm.
+Last water level reading - 9 cm.
+Error processing MQTT message: cannot access local variable 'elapsed' where it is not associated with a value
+
+Current time: 10:41:11 || Started 257.8 ago.
+
+[UPDATE - New INC Reading]
+[[4.097185, -9.183047, 90.00035]]
+Old readings: [[4.195764, -9.708587, 90.00035]]
+
+New Readings: [[4.097185, -9.183047, 90.00035]]
+
+Angular Change (degrees): [0.33610074315293725]
+
+Largest vectorial change: 0.33610074315293725
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:41:16 || Started 262.9 ago.
+
+[UPDATE - New INC Reading]
+[[3.962781, -8.712524, 90.00035]]
+Old readings: [[4.097185, -9.183047, 90.00035]]
+
+New Readings: [[3.962781, -8.712524, 90.00035]]
+
+Angular Change (degrees): [0.3079012520802773]
+
+Largest vectorial change: 0.3079012520802773
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:41:18 || Started 265.2 ago.
+
+New water level reading - 14 cm.
+Last water level reading - 9 cm.
+Error processing MQTT message: cannot access local variable 'elapsed' where it is not associated with a value
+
+Current time: 10:41:21 || Started 268.0 ago.
+
+[UPDATE - New INC Reading]
+[[3.944859, -8.296804, 90.00035]]
+Old readings: [[3.962781, -8.712524, 90.00035]]
+
+New Readings: [[3.944859, -8.296804, 90.00035]]
+
+Angular Change (degrees): [0.2622618396401516]
+
+Largest vectorial change: 0.2622618396401516
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:41:26 || Started 273.0 ago.
+
+[UPDATE - New INC Reading]
+[[3.783612, -7.737158, 90.00035]]
+Old readings: [[3.944859, -8.296804, 90.00035]]
+
+New Readings: [[3.783612, -7.737158, 90.00035]]
+
+Angular Change (degrees): [0.36723276077165723]
+
+Largest vectorial change: 0.36723276077165723
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:41:28 || Started 275.1 ago.
+
+New water level reading - 15 cm.
+Last water level reading - 9 cm.
+Error processing MQTT message: cannot access local variable 'elapsed' where it is not associated with a value
+
+Current time: 10:41:31 || Started 278.2 ago.
+
+[UPDATE - New INC Reading]
+[[3.70299, -7.259343, 90.00035]]
+Old readings: [[3.783612, -7.737158, 90.00035]]
+
+New Readings: [[3.70299, -7.259343, 90.00035]]
+
+Angular Change (degrees): [0.30594508359406436]
+
+Largest vectorial change: 0.30594508359406436
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:41:36 || Started 283.2 ago.
+
+[UPDATE - New INC Reading]
+[[3.640298, -6.755044, 90.00035]]
+Old readings: [[3.70299, -7.259343, 90.00035]]
+
+New Readings: [[3.640298, -6.755044, 90.00035]]
+
+Angular Change (degrees): [0.3211885604088988]
+
+Largest vectorial change: 0.3211885604088988
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:41:38 || Started 285.1 ago.
+
+New water level reading - 15 cm.
+Last water level reading - 9 cm.
+Error processing MQTT message: cannot access local variable 'elapsed' where it is not associated with a value
+
+Current time: 10:41:41 || Started 288.3 ago.
+
+[UPDATE - New INC Reading]
+[[3.541782, -6.314211, 90.00035]]
+Old readings: [[3.640298, -6.755044, 90.00035]]
+
+New Readings: [[3.541782, -6.314211, 90.00035]]
+
+Angular Change (degrees): [0.2856797543035216]
+
+Largest vectorial change: 0.2856797543035216
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:41:46 || Started 293.4 ago.
+
+[UPDATE - New INC Reading]
+[[3.416416, -5.819842, 90.00035]]
+Old readings: [[3.541782, -6.314211, 90.00035]]
+
+New Readings: [[3.416416, -5.819842, 90.00035]]
+
+Angular Change (degrees): [0.3228064128028394]
+
+Largest vectorial change: 0.3228064128028394
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:41:48 || Started 295.1 ago.
+
+New water level reading - 15 cm.
+Last water level reading - 9 cm.
+Error processing MQTT message: cannot access local variable 'elapsed' where it is not associated with a value
+
+Current time: 10:41:51 || Started 298.4 ago.
+
+[UPDATE - New INC Reading]
+[[3.32688, -5.289993, 90.00035]]
+Old readings: [[3.416416, -5.819842, 90.00035]]
+
+New Readings: [[3.32688, -5.289993, 90.00035]]
+
+Angular Change (degrees): [0.34043902014166005]
+
+Largest vectorial change: 0.34043902014166005
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:41:56 || Started 303.4 ago.
+
+[UPDATE - New INC Reading]
+[[3.246303, -4.841325, 90.00035]]
+Old readings: [[3.32688, -5.289993, 90.00035]]
+
+New Readings: [[3.246303, -4.841325, 90.00035]]
+
+Angular Change (degrees): [0.2889959759588852]
+
+Largest vectorial change: 0.2889959759588852
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:41:58 || Started 305.1 ago.
+
+New water level reading - 16 cm.
+Last water level reading - 9 cm.
+Time diff: 1747820518.6576383
+ > Distance change rate 6.674979806065502e-08 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 10:42:02 || Started 308.5 ago.
+
+[UPDATE - New INC Reading]
+[[3.156779, -4.40193, 90.00035]]
+Old readings: [[3.246303, -4.841325, 90.00035]]
+
+New Readings: [[3.156779, -4.40193, 90.00035]]
+
+Angular Change (degrees): [0.2844491550385974]
+
+Largest vectorial change: 0.2844491550385974
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:42:07 || Started 313.6 ago.
+
+[UPDATE - New INC Reading]
+[[3.103076, -3.962792, 90.00035]]
+Old readings: [[3.156779, -4.40193, 90.00035]]
+
+New Readings: [[3.103076, -3.962792, 90.00035]]
+
+Angular Change (degrees): [0.2808163682461523]
+
+Largest vectorial change: 0.2808163682461523
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:42:08 || Started 315.1 ago.
+
+New water level reading - 16 cm.
+Last water level reading - 16 cm.
+Time diff: 9.999844789505005
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 10:42:12 || Started 318.8 ago.
+
+[UPDATE - New INC Reading]
+[[3.013568, -3.461198, 90.00035]]
+Old readings: [[3.103076, -3.962792, 90.00035]]
+
+New Readings: [[3.013568, -3.461198, 90.00035]]
+
+Angular Change (degrees): [0.32355424739271543]
+
+Largest vectorial change: 0.32355424739271543
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:42:17 || Started 323.8 ago.
+
+[UPDATE - New INC Reading]
+[[2.897212, -3.022513, 90.00035]]
+Old readings: [[3.013568, -3.461198, 90.00035]]
+
+New Readings: [[2.897212, -3.022513, 90.00035]]
+
+Angular Change (degrees): [0.2883187357883335]
+
+Largest vectorial change: 0.2883187357883335
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:42:18 || Started 325.1 ago.
+
+New water level reading - 16 cm.
+Last water level reading - 16 cm.
+Time diff: 10.00048828125
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 10:42:22 || Started 328.9 ago.
+
+[UPDATE - New INC Reading]
+[[2.825616, -2.530335, 90.00035]]
+Old readings: [[2.897212, -3.022513, 90.00035]]
+
+New Readings: [[2.825616, -2.530335, 90.00035]]
+
+Angular Change (degrees): [0.3161212176754092]
+
+Largest vectorial change: 0.3161212176754092
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:42:27 || Started 333.9 ago.
+
+[UPDATE - New INC Reading]
+[[2.736131, -2.12778, 90.00035]]
+Old readings: [[2.825616, -2.530335, 90.00035]]
+
+New Readings: [[2.736131, -2.12778, 90.00035]]
+
+Angular Change (degrees): [0.26218161570398285]
+
+Largest vectorial change: 0.26218161570398285
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:42:28 || Started 335.1 ago.
+
+New water level reading - 15 cm.
+Last water level reading - 16 cm.
+Error processing MQTT message: cannot access local variable 'elapsed' where it is not associated with a value
+
+Current time: 10:42:32 || Started 339.0 ago.
+
+[UPDATE - New INC Reading]
+[[2.655595, -1.582264, 90.00035]]
+Old readings: [[2.736131, -2.12778, 90.00035]]
+
+New Readings: [[2.655595, -1.582264, 90.00035]]
+
+Angular Change (degrees): [0.35070875930250617]
+
+Largest vectorial change: 0.35070875930250617
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:42:37 || Started 344.1 ago.
+
+[UPDATE - New INC Reading]
+[[2.57507, -1.072648, 90.00035]]
+Old readings: [[2.655595, -1.582264, 90.00035]]
+
+New Readings: [[2.57507, -1.072648, 90.00035]]
+
+Angular Change (degrees): [0.32822048887298494]
+
+Largest vectorial change: 0.32822048887298494
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:42:38 || Started 345.1 ago.
+
+New water level reading - 16 cm.
+Last water level reading - 16 cm.
+Time diff: 19.99859881401062
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 10:42:42 || Started 349.2 ago.
+
+[UPDATE - New INC Reading]
+[[2.458762, -0.777651, 90.00035]]
+Old readings: [[2.57507, -1.072648, 90.00035]]
+
+New Readings: [[2.458762, -0.777651, 90.00035]]
+
+Angular Change (degrees): [0.2017403532511223]
+
+Largest vectorial change: 0.2017403532511223
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:42:47 || Started 354.2 ago.
+
+[UPDATE - New INC Reading]
+[[2.467708, -0.759771, 90.00035]]
+Old readings: [[2.458762, -0.777651, 90.00035]]
+
+New Readings: [[2.467708, -0.759771, 90.00035]]
+
+Angular Change (degrees): [0.012722610307471434]
+
+Largest vectorial change: 0.012722610307471434
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:42:48 || Started 355.1 ago.
+
+New water level reading - 16 cm.
+Last water level reading - 16 cm.
+Time diff: 10.003000497817993
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 10:42:52 || Started 359.3 ago.
+
+[UPDATE - New INC Reading]
+[[2.494546, -0.813405, 90.00035]]
+Old readings: [[2.467708, -0.759771, 90.00035]]
+
+New Readings: [[2.494546, -0.813405, 90.00035]]
+
+Angular Change (degrees): [0.038156802385323756]
+
+Largest vectorial change: 0.038156802385323756
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:42:57 || Started 364.3 ago.
+
+[UPDATE - New INC Reading]
+[[2.530332, -0.786587, 90.00035]]
+Old readings: [[2.494546, -0.813405, 90.00035]]
+
+New Readings: [[2.530332, -0.786587, 90.00035]]
+
+Angular Change (degrees): [0.028452949583697526]
+
+Largest vectorial change: 0.028452949583697526
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:42:58 || Started 365.1 ago.
+
+New water level reading - 16 cm.
+Last water level reading - 16 cm.
+Time diff: 10.001653671264648
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 10:43:02 || Started 369.5 ago.
+
+[UPDATE - New INC Reading]
+[[2.467708, -0.777648, 90.00035]]
+Old readings: [[2.530332, -0.786587, 90.00035]]
+
+New Readings: [[2.467708, -0.777648, 90.00035]]
+
+Angular Change (degrees): [0.04023799992355946]
+
+Largest vectorial change: 0.04023799992355946
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:43:08 || Started 374.6 ago.
+
+[UPDATE - New INC Reading]
+[[2.494546, -0.76871, 90.00035]]
+Old readings: [[2.467708, -0.777648, 90.00035]]
+
+New Readings: [[2.494546, -0.76871, 90.00035]]
+
+Angular Change (degrees): [0.01799568022285378]
+
+Largest vectorial change: 0.01799568022285378
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:43:08 || Started 375.1 ago.
+
+New water level reading - 16 cm.
+Last water level reading - 16 cm.
+Time diff: 9.995336294174194
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 10:43:13 || Started 379.6 ago.
+
+[UPDATE - New INC Reading]
+[[2.494548, -0.741892, 90.00035]]
+Old readings: [[2.494546, -0.76871, 90.00035]]
+
+New Readings: [[2.494548, -0.741892, 90.00035]]
+
+Angular Change (degrees): [0.017065047726655094]
+
+Largest vectorial change: 0.017065047726655094
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:43:18 || Started 384.7 ago.
+
+[UPDATE - New INC Reading]
+[[2.485602, -0.741894, 90.00035]]
+Old readings: [[2.494548, -0.741892, 90.00035]]
+
+New Readings: [[2.485602, -0.741894, 90.00035]]
+
+Angular Change (degrees): [0.005690629492697878]
+
+Largest vectorial change: 0.005690629492697878
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:43:18 || Started 385.1 ago.
+
+New water level reading - 16 cm.
+Last water level reading - 16 cm.
+Time diff: 9.998764991760254
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 10:43:23 || Started 389.7 ago.
+
+[UPDATE - New INC Reading]
+[[2.485599, -0.724015, 90.00035]]
+Old readings: [[2.485602, -0.741894, 90.00035]]
+
+New Readings: [[2.485599, -0.724015, 90.00035]]
+
+Angular Change (degrees): [0.011376988123983803]
+
+Largest vectorial change: 0.011376988123983803
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:43:28 || Started 394.8 ago.
+
+[UPDATE - New INC Reading]
+[[2.4856, -0.732952, 90.00035]]
+Old readings: [[2.485599, -0.724015, 90.00035]]
+
+New Readings: [[2.4856, -0.732952, 90.00035]]
+
+Angular Change (degrees): [0.005686907880466265]
+
+Largest vectorial change: 0.005686907880466265
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:43:28 || Started 395.1 ago.
+
+New water level reading - 16 cm.
+Last water level reading - 16 cm.
+Time diff: 10.00023627281189
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time: 10:43:33 || Started 399.9 ago.
+
+[UPDATE - New INC Reading]
+[[2.503494, -0.741895, 90.00035]]
+Old readings: [[2.4856, -0.732952, 90.00035]]
+
+New Readings: [[2.503494, -0.741895, 90.00035]]
+
+Angular Change (degrees): [0.012724624118713761]
+
+Largest vectorial change: 0.012724624118713761
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:43:38 || Started 405.0 ago.
+
+[UPDATE - New INC Reading]
+[[2.512439, -0.715075, 90.00035]]
+Old readings: [[2.503494, -0.741895, 90.00035]]
+
+New Readings: [[2.512439, -0.715075, 90.00035]]
+
+Angular Change (degrees): [0.017991078296909185]
+
+Largest vectorial change: 0.017991078296909185
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:43:38 || Started 405.1 ago.
+
+New water level reading - 15 cm.
+Last water level reading - 16 cm.
+Error processing MQTT message: cannot access local variable 'elapsed' where it is not associated with a value
+
+Current time: 10:43:43 || Started 410.1 ago.
+
+[UPDATE - New INC Reading]
+[[2.46771, -0.6972, 90.00035]]
+Old readings: [[2.512439, -0.715075, 90.00035]]
+
+New Readings: [[2.46771, -0.6972, 90.00035]]
+
+Angular Change (degrees): [0.030639660313469246]
+
+Largest vectorial change: 0.030639660313469246
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:43:48 || Started 415.1 ago.
+
+[UPDATE - New INC Reading]
+[[2.485608, -0.724022, 90.00035]]
+Old readings: [[2.46771, -0.6972, 90.00035]]
+
+New Readings: [[2.485608, -0.724022, 90.00035]]
+
+Angular Change (degrees): [0.02051460446709008]
+
+Largest vectorial change: 0.02051460446709008
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 10:43:48 || Started 415.2 ago.
+
+New water level reading - 15 cm.
+Last water level reading - 16 cm.
+Error processing MQTT message: cannot access local variable 'elapsed' where it is not associated with a value
+
+Current time: 10:43:53 || Started 420.2 ago.
+
+[UPDATE - New INC Reading]
+[[2.458765, -0.732958, 90.00035]]
+Old readings: [[2.485608, -0.724022, 90.00035]]
+
+New Readings: [[2.458765, -0.732958, 90.00035]]
+
+Angular Change (degrees): [0.01799839255020776]
+
+Largest vectorial change: 0.01799839255020776
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+->[BEHAVIORAL MODULE]: Shutting down...
+
+-> Frequency log saved to ipi_frequency_log.csv
+

@@ -1,0 +1,242 @@
+
+
+########## [BEHAVIORAL MODULE SETUP] ##########
+
+- Booting up the script...
+- Connected successfully to the MQTT broker running on 172.20.10.41883.
+- State Machine setup finished.
+- Script setup finished.
+
+- Subscribed to topic inc_dataI1
+- Subscribed to topic IPIlowpower
+
+- Subscribed to topic lidar_data
+- Subscribed to topic readingsaccel_data
+
+########## [BEHAVIORAL MODULE SETUP COMPLETE] ##########
+
+
+Current time 105813  Started 0.0s ago.
+
+Initial IPI reading received!
+
+#################################
+
+
+Current time 105813  Started 0.1s ago.
+
+New water level reading - -12 cm.
+Last water level reading - None cm.
+Initial water level received!
+
+  New IPI reading every 10.0 seconds.
+
+  New distance readings every 10.0 seconds. 
+
+#################################
+
+
+Current time 105822  Started 9.0s ago.
+
+[[3.35373, -1.17616, 90.00035], [1.564375, -4.92205, 90.00035], [-1.442452, -0.670379, 90.00035], [-2.011503, 3.577595, 60.42403]]
+Time since last reading 8.91 seconds  0.15 minutes.
+
+Biggest change rate was 1.60 degreesmin on node 4
+
+  Current state is LIVE_STORAGE.
+
+  New readings every 10.0 seconds.
+
+#################################
+
+
+Current time 105832  Started 19.0s ago.
+
+[[3.35373, -1.206745, 90.00035], [1.635505, -4.92205, 90.00035], [-1.340849, -0.670379, 90.00035], [-2.099001, 3.705548, 60.616]]
+Time since last reading 10.04 seconds  0.17 minutes.
+
+Biggest change rate was 1.15 degreesmin on node 4
+
+  Current state is LIVE_STORAGE.
+
+  New readings every 10.0 seconds.
+
+#################################
+
+
+Current time 105842  Started 28.9s ago.
+
+[[3.35373, -1.229096, 90.00035], [1.564375, -4.92205, 90.00035], [-1.46719, -0.571061, 90.00035], [-2.011503, 3.577595, 60.42403]]
+Time since last reading 9.93 seconds  0.17 minutes.
+
+Biggest change rate was 1.16 degreesmin on node 4
+
+  Current state is LIVE_STORAGE.
+
+  New readings every 10.0 seconds.
+
+#################################
+
+
+Current time 105852  Started 39.0s ago.
+
+[[3.35373, -1.214519, 90.00035], [1.564375, -4.92205, 90.00035], [-1.340849, -0.670379, 90.00035], [-2.011503, 3.577595, 60.6064]]
+Time since last reading 10.03 seconds  0.17 minutes.
+
+Biggest change rate was 1.09 degreesmin on node 4
+
+  Current state is LIVE_STORAGE.
+
+  New readings every 10.0 seconds.
+
+#################################
+
+
+Current time 105902  Started 49.0s ago.
+
+[[4.886729, -0.977672, 90.00035], [2.346978, -4.77698, 90.00035], [-1.364382, -0.670379, 90.00035], [-0.599849, 4.18746, 60.42403]]
+Exceeded safe rate!!
+Exceeded safe rate!!
+Exceeded safe rate!!
+Time since last reading 10.04 seconds  0.17 minutes.
+
+Biggest change rate was 8.44 degreesmin on node 1
+
+  Current state is STABILITY.
+
+  New readings every 4.0 seconds.
+
+#################################
+
+
+Current time 105906  Started 53.0s ago.
+
+[[3.367188, -1.291221, 90.00035], [1.614084, -4.948502, 90.00035], [-1.317327, -0.670379, 90.00035], [-1.552065, 3.114223, 60.61176]]
+Exceeded safe rate!!
+Exceeded safe rate!!
+Exceeded safe rate!!
+Time since last reading 3.99 seconds  0.07 minutes.
+
+Biggest change rate was 16.12 degreesmin on node 1
+
+  Current state is STABILITY.
+
+  New readings every 4.0 seconds.
+
+#################################
+
+
+Current time 105910  Started 57.0s ago.
+
+[[3.129919, -1.198618, 90.00035], [1.394069, -4.92205, 90.00035], [-1.441436, -0.670379, 90.00035], [-1.905037, 3.129918, 60.42403]]
+Exceeded safe rate!!
+Exceeded safe rate!!
+Exceeded safe rate!!
+Exceeded safe rate!!
+Time since last reading 3.99 seconds  0.07 minutes.
+
+Biggest change rate was 5.30 degreesmin on node 4
+
+  Current state is STABILITY.
+
+  New readings every 4.0 seconds.
+
+#################################
+
+
+Current time 105914  Started 61.0s ago.
+
+[[-0.173823, -2.309815, 90.00035], [-0.625704, -4.85635, 90.00035], [-1.646738, -0.81564, 90.00035], [-6.494895, 0.73444, 59.91688]]
+Exceeded safe rate!!
+Exceeded safe rate!!
+Exceeded safe rate!!
+Exceeded safe rate!!
+Time since last reading 3.99 seconds  0.07 minutes.
+
+Biggest change rate was 68.95 degreesmin on node 4
+
+  Current state is STABILITY.
+
+  New readings every 4.0 seconds.
+
+#################################
+
+
+Current time 105926  Started 73.0s ago.
+
+[[-0.117608, -2.458769, 90.00035], [-0.541005, -5.062249, 90.00035], [-1.564375, -0.670379, 90.00035], [-5.7129, 1.465038, 59.97442]]
+Exceeded safe rate!!
+Time since last reading 11.98 seconds  0.20 minutes.
+
+Biggest change rate was 3.92 degreesmin on node 4
+
+  Current state is STABILITY.
+
+  New readings every 4.0 seconds.
+
+#################################
+
+
+Current time 105930  Started 77.0s ago.
+
+[[-0.085126, -2.35351, 90.00035], [-0.547473, -5.146369, 90.00035], [-1.564375, -0.670379, 90.00035], [-5.700928, 1.508494, 59.77479]]
+Exceeded safe rate!!
+Time since last reading 4.00 seconds  0.07 minutes.
+
+Biggest change rate was 3.00 degreesmin on node 4
+
+  Current state is STABILITY.
+
+  New readings every 4.0 seconds.
+
+#################################
+
+
+Current time 105942  Started 89.0s ago.
+
+[[-0.095767, -2.371795, 90.00035], [-0.572617, -5.168828, 90.00035], [-1.468578, -0.670379, 90.00035], [-5.720053, 1.402966, 59.97442]]
+Time since last reading 12.08 seconds  0.20 minutes.
+
+Biggest change rate was 0.99 degreesmin on node 4
+
+  Current state is LIVE_STORAGE.
+
+  New readings every 10.0 seconds.
+
+#################################
+
+
+Current time 105952  Started 99.0s ago.
+
+[[-0.223455, -2.379821, 90.00035], [-0.532043, -5.146369, 90.00035], [-1.476908, -0.670379, 90.00035], [-5.819817, 1.42068, 59.97442]]
+Time since last reading 9.93 seconds  0.17 minutes.
+
+Biggest change rate was 0.60 degreesmin on node 1
+
+  Current state is LIVE_STORAGE.
+
+  New readings every 10.0 seconds.
+
+#################################
+
+
+Current time 110002  Started 109.0s ago.
+
+[[-0.223455, -2.458753, 90.00035], [-0.538929, -5.050233, 90.00035], [-1.564375, -0.670379, 90.00035], [-5.914409, 1.503413, 59.97442]]
+Time since last reading 10.04 seconds  0.17 minutes.
+
+Biggest change rate was 0.57 degreesmin on node 2
+
+  Current state is LIVE_STORAGE.
+
+  New readings every 10.0 seconds.
+
+#################################
+
+
+-[BEHAVIORAL MODULE] Shutting down...
+
+- Frequency log saved to ipi_frequency_log.csv
+
+- IPI measurements saved to ipi_readings_log.csv
+

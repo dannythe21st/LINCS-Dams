@@ -1,0 +1,25 @@
+How the tests run — step by step:
+- Run: pytest test_autoFrequencyChange.py> ./tests/test_results_DAY-VERSION.log
+
+- pytest scans the file for functions that start with test_.
+
+- For each of those, it looks at the function parameters. Each one requires a module. So it calls your @pytest.fixture:
+
+#####
+
+@pytest.fixture
+def module(mocker):
+The mocker parameter is auto-injected by the pytest-mock plugin (as long as you're using it)
+
+#####
+
+
+For each test:
+
+A fresh AdaptiveFrequencyModule is created.
+
+Its .client is mocked.
+
+The test function is called with this mock-injected module.
+
+All parameters/settings can be defined as an argument passed to the main module.

@@ -1,0 +1,1403 @@
+
+
+########## [BEHAVIORAL MODULE SETUP] ##########
+
+-> Booting up the script...
+-> Connected successfully to the MQTT broker running on 172.20.10.4:1883.
+-> State Machine setup finished.
+-> Script setup finished.
+
+-> Subscribed to topic: inc_data/I1
+-> Subscribed to topic: IPI/lowpower
+
+-> Subscribed to topic: lidar_data/
+-> Subscribed to topic: readings/accel_data
+
+########## [BEHAVIORAL MODULE SETUP COMPLETE] ##########
+
+
+Current time: 14:03:33 || Started 0.1s ago.
+
+Initial IPI reading received!
+
+#################################
+
+
+Current time: 14:03:33 || Started 0.2s ago.
+
+New water level reading - 8 cm.
+Last water level reading - None cm.
+Initial water level received!
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 30.0 seconds. 
+
+#################################
+
+
+Current time: 14:03:35 || Started 2.9s ago.
+
+[[1.010457, -24.51482, 90.00035]]
+Old readings: [[0.893854, -24.4187, 90.00035]]
+
+New Readings: [[1.010457, -24.51482, 90.00035]]
+
+Angular Change (degrees): [0.09139944465375102]
+
+Largest angular change: 0.09139944465375102
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 14:03:36 || Started 2.9s ago.
+
+New water level reading - 8 cm.
+Last water level reading - 8 cm.
+[+2.9s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.05 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 30.0 seconds. 
+
+#################################
+
+
+Current time: 14:03:41 || Started 8.0s ago.
+
+[[1.01491, -24.4187, 90.00035]]
+Old readings: [[1.010457, -24.51482, 90.00035]]
+
+New Readings: [[1.01491, -24.4187, 90.00035]]
+
+Angular Change (degrees): [0.057051159477533496]
+
+Largest angular change: 0.057051159477533496
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 14:03:46 || Started 12.9s ago.
+
+[[1.117343, -24.4187, 90.00035]]
+Old readings: [[1.01491, -24.4187, 90.00035]]
+
+New Readings: [[1.117343, -24.4187, 90.00035]]
+
+Angular Change (degrees): [0.06292707836115526]
+
+Largest angular change: 0.06292707836115526
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 14:03:51 || Started 18.1s ago.
+
+[[1.117343, -24.66434, 90.00035]]
+Old readings: [[1.117343, -24.4187, 90.00035]]
+
+New Readings: [[1.117343, -24.66434, 90.00035]]
+
+Angular Change (degrees): [0.14554604125216644]
+
+Largest angular change: 0.14554604125216644
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 14:03:56 || Started 23.2s ago.
+
+[[1.010457, -24.4187, 90.00035]]
+Old readings: [[1.117343, -24.66434, 90.00035]]
+
+New Readings: [[1.010457, -24.4187, 90.00035]]
+
+Angular Change (degrees): [0.15947758272273097]
+
+Largest angular change: 0.15947758272273097
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 14:04:01 || Started 28.1s ago.
+
+[[1.00074, -24.4187, 90.00035]]
+Old readings: [[1.010457, -24.4187, 90.00035]]
+
+New Readings: [[1.00074, -24.4187, 90.00035]]
+
+Angular Change (degrees): [0.00596947574505977]
+
+Largest angular change: 0.00596947574505977
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 14:04:06 || Started 33.1s ago.
+
+New water level reading - 8 cm.
+Last water level reading - 8 cm.
+[+33.1s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.55 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 30.0 seconds. 
+
+#################################
+
+
+Current time: 14:04:06 || Started 33.3s ago.
+
+[[1.00074, -24.66434, 90.00035]]
+Old readings: [[1.00074, -24.4187, 90.00035]]
+
+New Readings: [[1.00074, -24.66434, 90.00035]]
+
+Angular Change (degrees): [0.14554795278904234]
+
+Largest angular change: 0.14554795278904234
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 14:04:11 || Started 38.4s ago.
+
+[[1.020174, -24.4187, 90.00035]]
+Old readings: [[1.00074, -24.66434, 90.00035]]
+
+New Readings: [[1.020174, -24.4187, 90.00035]]
+
+Angular Change (degrees): [0.14607143034382955]
+
+Largest angular change: 0.14607143034382955
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 14:04:16 || Started 43.5s ago.
+
+[[1.010457, -24.4187, 90.00035]]
+Old readings: [[1.020174, -24.4187, 90.00035]]
+
+New Readings: [[1.010457, -24.4187, 90.00035]]
+
+Angular Change (degrees): [0.005969462129839815]
+
+Largest angular change: 0.005969462129839815
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 14:04:21 || Started 48.4s ago.
+
+[[0.893854, -24.51695, 90.00035]]
+Old readings: [[1.010457, -24.4187, 90.00035]]
+
+New Readings: [[0.893854, -24.51695, 90.00035]]
+
+Angular Change (degrees): [0.09243953718848923]
+
+Largest angular change: 0.09243953718848923
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 14:04:26 || Started 53.8s ago.
+
+[[1.117343, -24.17352, 90.00035]]
+Old readings: [[0.893854, -24.51695, 90.00035]]
+
+New Readings: [[1.117343, -24.17352, 90.00035]]
+
+Angular Change (degrees): [0.24601070479790738]
+
+Largest angular change: 0.24601070479790738
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 14:04:31 || Started 58.7s ago.
+
+[[1.117343, -23.59594, 90.00035]]
+Old readings: [[1.117343, -24.17352, 90.00035]]
+
+New Readings: [[1.117343, -23.59594, 90.00035]]
+
+Angular Change (degrees): [0.3434808871076545]
+
+Largest angular change: 0.3434808871076545
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 14:04:36 || Started 63.1s ago.
+
+New water level reading - 9 cm.
+Last water level reading - 8 cm.
+[+63.1s][WARNING] Water level is close to its maximum safe value.
+Time diff: 1.05 minutes
+ > Distance change rate 0.95 cm/min.
+
+TH exceeded!
+ > Current state is FLOOD
+
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 15.0 seconds. 
+
+#################################
+
+
+Current time: 14:04:36 || Started 63.7s ago.
+
+[[1.117343, -22.95459, 90.00035]]
+Old readings: [[1.117343, -23.59594, 90.00035]]
+
+New Readings: [[1.117343, -22.95459, 90.00035]]
+
+Angular Change (degrees): [0.3826723728722958]
+
+Largest angular change: 0.3826723728722958
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:04:37 || Started 64.7s ago.
+
+[[1.117343, -22.95459, 90.00035]]
+Old readings: [[1.117343, -22.95459, 90.00035]]
+
+New Readings: [[1.117343, -22.95459, 90.00035]]
+
+Angular Change (degrees): [0.0]
+
+Largest angular change: 0.0
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:04:38 || Started 65.7s ago.
+
+[[1.117343, -22.75492, 90.00035]]
+Old readings: [[1.117343, -22.95459, 90.00035]]
+
+New Readings: [[1.117343, -22.75492, 90.00035]]
+
+Angular Change (degrees): [0.11940480442364303]
+
+Largest angular change: 0.11940480442364303
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:04:39 || Started 66.9s ago.
+
+[[1.117343, -22.57534, 90.00035]]
+Old readings: [[1.117343, -22.75492, 90.00035]]
+
+New Readings: [[1.117343, -22.57534, 90.00035]]
+
+Angular Change (degrees): [0.10749837330755897]
+
+Largest angular change: 0.10749837330755897
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:04:40 || Started 67.9s ago.
+
+[[1.117343, -22.47011, 90.00035]]
+Old readings: [[1.117343, -22.57534, 90.00035]]
+
+New Readings: [[1.117343, -22.47011, 90.00035]]
+
+Angular Change (degrees): [0.06303882071282156]
+
+Largest angular change: 0.06303882071282156
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:04:42 || Started 69.0s ago.
+
+[[1.117343, -22.34356, 90.00035]]
+Old readings: [[1.117343, -22.47011, 90.00035]]
+
+New Readings: [[1.117343, -22.34356, 90.00035]]
+
+Angular Change (degrees): [0.07585660553010971]
+
+Largest angular change: 0.07585660553010971
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:04:43 || Started 70.0s ago.
+
+[[1.117343, -22.22851, 90.00035]]
+Old readings: [[1.117343, -22.34356, 90.00035]]
+
+New Readings: [[1.117343, -22.22851, 90.00035]]
+
+Angular Change (degrees): [0.06900658039330979]
+
+Largest angular change: 0.06900658039330979
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:04:44 || Started 71.2s ago.
+
+[[1.233955, -22.09218, 90.00035]]
+Old readings: [[1.117343, -22.22851, 90.00035]]
+
+New Readings: [[1.233955, -22.09218, 90.00035]]
+
+Angular Change (degrees): [0.10920744945735456]
+
+Largest angular change: 0.10920744945735456
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:04:45 || Started 72.2s ago.
+
+[[1.217921, -21.98732, 90.00035]]
+Old readings: [[1.233955, -22.09218, 90.00035]]
+
+New Readings: [[1.217921, -21.98732, 90.00035]]
+
+Angular Change (degrees): [0.06371743120507548]
+
+Largest angular change: 0.06371743120507548
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:04:46 || Started 73.3s ago.
+
+[[1.24028, -21.89861, 90.00035]]
+Old readings: [[1.217921, -21.98732, 90.00035]]
+
+New Readings: [[1.24028, -21.89861, 90.00035]]
+
+Angular Change (degrees): [0.0551086677007194]
+
+Largest angular change: 0.0551086677007194
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:04:47 || Started 74.3s ago.
+
+[[1.176944, -21.78466, 90.00035]]
+Old readings: [[1.24028, -21.89861, 90.00035]]
+
+New Readings: [[1.176944, -21.78466, 90.00035]]
+
+Angular Change (degrees): [0.07880595695997245]
+
+Largest angular change: 0.07880595695997245
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:04:48 || Started 75.5s ago.
+
+[[1.293795, -21.61133, 90.00035]]
+Old readings: [[1.176944, -21.78466, 90.00035]]
+
+New Readings: [[1.293795, -21.61133, 90.00035]]
+
+Angular Change (degrees): [0.1270813687544917]
+
+Largest angular change: 0.1270813687544917
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:04:49 || Started 76.5s ago.
+
+[[1.117343, -21.39139, 90.00035]]
+Old readings: [[1.293795, -21.61133, 90.00035]]
+
+New Readings: [[1.117343, -21.39139, 90.00035]]
+
+Angular Change (degrees): [0.1714214658436351]
+
+Largest angular change: 0.1714214658436351
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:04:50 || Started 77.6s ago.
+
+[[1.284972, -20.91269, 90.00035]]
+Old readings: [[1.117343, -21.39139, 90.00035]]
+
+New Readings: [[1.284972, -20.91269, 90.00035]]
+
+Angular Change (degrees): [0.30718332345486676]
+
+Largest angular change: 0.30718332345486676
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:04:51 || Started 78.1s ago.
+
+New water level reading - 10 cm.
+Last water level reading - 9 cm.
+[+78.1s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.25 minutes
+ > Distance change rate 4.00 cm/min.
+
+TH exceeded!
+ > Current state is FLOOD
+
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 15.0 seconds. 
+
+#################################
+
+
+Current time: 14:04:52 || Started 79.0s ago.
+
+[[1.217921, -20.88991, 90.00035]]
+Old readings: [[1.284972, -20.91269, 90.00035]]
+
+New Readings: [[1.217921, -20.88991, 90.00035]]
+
+Angular Change (degrees): [0.04374826294872747]
+
+Largest angular change: 0.04374826294872747
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:04:53 || Started 80.0s ago.
+
+[[1.239255, -20.91329, 90.00035]]
+Old readings: [[1.217921, -20.88991, 90.00035]]
+
+New Readings: [[1.239255, -20.91329, 90.00035]]
+
+Angular Change (degrees): [0.019318746665406512]
+
+Largest angular change: 0.019318746665406512
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:04:54 || Started 81.0s ago.
+
+[[1.117343, -21.12748, 90.00035]]
+Old readings: [[1.239255, -20.91329, 90.00035]]
+
+New Readings: [[1.117343, -21.12748, 90.00035]]
+
+Angular Change (degrees): [0.14995023770028373]
+
+Largest angular change: 0.14995023770028373
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:04:55 || Started 82.1s ago.
+
+[[1.187198, -21.09511, 90.00035]]
+Old readings: [[1.117343, -21.12748, 90.00035]]
+
+New Readings: [[1.187198, -21.09511, 90.00035]]
+
+Angular Change (degrees): [0.047543099797522546]
+
+Largest angular change: 0.047543099797522546
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:04:56 || Started 83.1s ago.
+
+[[1.176944, -21.00308, 90.00035]]
+Old readings: [[1.187198, -21.09511, 90.00035]]
+
+New Readings: [[1.176944, -21.00308, 90.00035]]
+
+Angular Change (degrees): [0.05588861022338254]
+
+Largest angular change: 0.05588861022338254
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:04:57 || Started 84.2s ago.
+
+[[1.246741, -20.89996, 90.00035]]
+Old readings: [[1.176944, -21.00308, 90.00035]]
+
+New Readings: [[1.246741, -20.89996, 90.00035]]
+
+Angular Change (degrees): [0.07593422790006575]
+
+Largest angular change: 0.07593422790006575
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:04:58 || Started 85.3s ago.
+
+[[1.229096, -20.88308, 90.00035]]
+Old readings: [[1.246741, -20.89996, 90.00035]]
+
+New Readings: [[1.229096, -20.88308, 90.00035]]
+
+Angular Change (degrees): [0.014931478870537663]
+
+Largest angular change: 0.014931478870537663
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:04:59 || Started 86.3s ago.
+
+[[1.255704, -20.68684, 90.00035]]
+Old readings: [[1.229096, -20.88308, 90.00035]]
+
+New Readings: [[1.255704, -20.68684, 90.00035]]
+
+Angular Change (degrees): [0.11978718473686042]
+
+Largest angular change: 0.11978718473686042
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:05:00 || Started 87.5s ago.
+
+[[1.234417, -20.54857, 90.00035]]
+Old readings: [[1.255704, -20.68684, 90.00035]]
+
+New Readings: [[1.234417, -20.54857, 90.00035]]
+
+Angular Change (degrees): [0.08462480139091606]
+
+Largest angular change: 0.08462480139091606
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:05:01 || Started 88.6s ago.
+
+[[1.340849, -20.54857, 90.00035]]
+Old readings: [[1.234417, -20.54857, 90.00035]]
+
+New Readings: [[1.340849, -20.54857, 90.00035]]
+
+Angular Change (degrees): [0.06604375293260789]
+
+Largest angular change: 0.06604375293260789
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:05:02 || Started 89.7s ago.
+
+[[1.117343, -20.31012, 90.00035]]
+Old readings: [[1.340849, -20.54857, 90.00035]]
+
+New Readings: [[1.117343, -20.31012, 90.00035]]
+
+Angular Change (degrees): [0.19990740743582067]
+
+Largest angular change: 0.19990740743582067
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:05:03 || Started 90.7s ago.
+
+[[1.340849, -20.07203, 90.00035]]
+Old readings: [[1.117343, -20.31012, 90.00035]]
+
+New Readings: [[1.340849, -20.07203, 90.00035]]
+
+Angular Change (degrees): [0.20052453324667308]
+
+Largest angular change: 0.20052453324667308
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:05:04 || Started 91.8s ago.
+
+[[1.340849, -20.07203, 90.00035]]
+Old readings: [[1.340849, -20.07203, 90.00035]]
+
+New Readings: [[1.340849, -20.07203, 90.00035]]
+
+Angular Change (degrees): [1.2074182697257333e-06]
+
+Largest angular change: 1.2074182697257333e-06
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:05:05 || Started 92.9s ago.
+
+[[1.340849, -19.95317, 90.00035]]
+Old readings: [[1.340849, -20.07203, 90.00035]]
+
+New Readings: [[1.340849, -19.95317, 90.00035]]
+
+Angular Change (degrees): [0.0720959640398153]
+
+Largest angular change: 0.0720959640398153
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:05:06 || Started 93.1s ago.
+
+New water level reading - 10 cm.
+Last water level reading - 10 cm.
+[+93.1s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.25 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 30.0 seconds. 
+
+#################################
+
+
+Current time: 14:05:11 || Started 98.0s ago.
+
+[[1.340849, -19.91355, 90.00035]]
+Old readings: [[1.340849, -19.95317, 90.00035]]
+
+New Readings: [[1.340849, -19.91355, 90.00035]]
+
+Angular Change (degrees): [0.024040940546806413]
+
+Largest angular change: 0.024040940546806413
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 14:05:16 || Started 103.1s ago.
+
+[[1.340849, -19.48358, 90.00035]]
+Old readings: [[1.340849, -19.91355, 90.00035]]
+
+New Readings: [[1.340849, -19.48358, 90.00035]]
+
+Angular Change (degrees): [0.26118621310271056]
+
+Largest angular change: 0.26118621310271056
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 14:05:21 || Started 108.1s ago.
+
+[[1.340849, -18.88691, 90.00035]]
+Old readings: [[1.340849, -19.48358, 90.00035]]
+
+New Readings: [[1.340849, -18.88691, 90.00035]]
+
+Angular Change (degrees): [0.36330210717093686]
+
+Largest angular change: 0.36330210717093686
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 14:05:26 || Started 113.3s ago.
+
+[[1.340849, -18.54485, 90.00035]]
+Old readings: [[1.340849, -18.88691, 90.00035]]
+
+New Readings: [[1.340849, -18.54485, 90.00035]]
+
+Angular Change (degrees): [0.208713218608602]
+
+Largest angular change: 0.208713218608602
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 14:05:31 || Started 118.2s ago.
+
+[[1.459186, -16.73747, 90.00035]]
+Old readings: [[1.340849, -18.54485, 90.00035]]
+
+New Readings: [[1.459186, -16.73747, 90.00035]]
+
+Angular Change (degrees): [1.1105660524025343]
+
+Largest angular change: 1.1105660524025343
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 14:05:36 || Started 123.2s ago.
+
+New water level reading - 11 cm.
+Last water level reading - 10 cm.
+[+123.2s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.75 minutes
+ > Distance change rate 1.33 cm/min.
+
+TH exceeded!
+ > Current state is FLOOD
+
+ > New IPI reading every 1.0 seconds.
+
+ > New distance readings every 15.0 seconds. 
+
+#################################
+
+
+Current time: 14:05:36 || Started 123.2s ago.
+
+[[1.564375, -16.1529, 90.00035]]
+Old readings: [[1.459186, -16.73747, 90.00035]]
+
+New Readings: [[1.564375, -16.1529, 90.00035]]
+
+Angular Change (degrees): [0.3662433794508456]
+
+Largest angular change: 0.3662433794508456
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:05:37 || Started 124.3s ago.
+
+[[1.564375, -15.61078, 90.00035]]
+Old readings: [[1.564375, -16.1529, 90.00035]]
+
+New Readings: [[1.564375, -15.61078, 90.00035]]
+
+Angular Change (degrees): [0.3346521633942237]
+
+Largest angular change: 0.3346521633942237
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:05:38 || Started 125.4s ago.
+
+[[1.564375, -15.4843, 90.00035]]
+Old readings: [[1.564375, -15.61078, 90.00035]]
+
+New Readings: [[1.564375, -15.4843, 90.00035]]
+
+Angular Change (degrees): [0.0781749532680757]
+
+Largest angular change: 0.0781749532680757
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:05:39 || Started 126.5s ago.
+
+[[1.564375, -15.37889, 90.00035]]
+Old readings: [[1.564375, -15.4843, 90.00035]]
+
+New Readings: [[1.564375, -15.37889, 90.00035]]
+
+Angular Change (degrees): [0.06518003552451691]
+
+Largest angular change: 0.06518003552451691
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:05:40 || Started 127.6s ago.
+
+[[1.564375, -15.3789, 90.00035]]
+Old readings: [[1.564375, -15.37889, 90.00035]]
+
+New Readings: [[1.564375, -15.3789, 90.00035]]
+
+Angular Change (degrees): [6.097163388881822e-06]
+
+Largest angular change: 6.097163388881822e-06
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:05:41 || Started 128.7s ago.
+
+[[1.564375, -15.00845, 90.00035]]
+Old readings: [[1.564375, -15.3789, 90.00035]]
+
+New Readings: [[1.564375, -15.00845, 90.00035]]
+
+Angular Change (degrees): [0.2292669511507027]
+
+Largest angular change: 0.2292669511507027
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:05:42 || Started 129.7s ago.
+
+[[1.564375, -14.9159, 90.00035]]
+Old readings: [[1.564375, -15.00845, 90.00035]]
+
+New Readings: [[1.564375, -14.9159, 90.00035]]
+
+Angular Change (degrees): [0.057326146473693024]
+
+Largest angular change: 0.057326146473693024
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:05:43 || Started 130.8s ago.
+
+[[1.564375, -14.9159, 90.00035]]
+Old readings: [[1.564375, -14.9159, 90.00035]]
+
+New Readings: [[1.564375, -14.9159, 90.00035]]
+
+Angular Change (degrees): [1.2074182697257333e-06]
+
+Largest angular change: 1.2074182697257333e-06
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:05:44 || Started 131.9s ago.
+
+[[1.564375, -14.81541, 90.00035]]
+Old readings: [[1.564375, -14.9159, 90.00035]]
+
+New Readings: [[1.564375, -14.81541, 90.00035]]
+
+Angular Change (degrees): [0.062265769070825996]
+
+Largest angular change: 0.062265769070825996
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:05:46 || Started 132.9s ago.
+
+[[1.564375, -14.68478, 90.00035]]
+Old readings: [[1.564375, -14.81541, 90.00035]]
+
+New Readings: [[1.564375, -14.68478, 90.00035]]
+
+Angular Change (degrees): [0.08097445187089283]
+
+Largest angular change: 0.08097445187089283
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:05:47 || Started 134.1s ago.
+
+[[1.655828, -14.68478, 90.00035]]
+Old readings: [[1.564375, -14.68478, 90.00035]]
+
+New Readings: [[1.655828, -14.68478, 90.00035]]
+
+Angular Change (degrees): [0.0574428031684796]
+
+Largest angular change: 0.0574428031684796
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:05:48 || Started 135.1s ago.
+
+[[1.564375, -14.4539, 90.00035]]
+Old readings: [[1.655828, -14.68478, 90.00035]]
+
+New Readings: [[1.564375, -14.4539, 90.00035]]
+
+Angular Change (degrees): [0.1541499964164975]
+
+Largest angular change: 0.1541499964164975
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:05:49 || Started 136.2s ago.
+
+[[1.69073, -14.4539, 90.00035]]
+Old readings: [[1.564375, -14.4539, 90.00035]]
+
+New Readings: [[1.69073, -14.4539, 90.00035]]
+
+Angular Change (degrees): [0.07939675490966669]
+
+Largest angular change: 0.07939675490966669
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:05:50 || Started 137.2s ago.
+
+[[1.564375, -14.4539, 90.00035]]
+Old readings: [[1.69073, -14.4539, 90.00035]]
+
+New Readings: [[1.564375, -14.4539, 90.00035]]
+
+Angular Change (degrees): [0.07939675490966669]
+
+Largest angular change: 0.07939675490966669
+
+
+ > Current state is FLOOD.
+
+ > New readings every 1.0 seconds.
+
+#################################
+
+
+Current time: 14:05:51 || Started 138.1s ago.
+
+New water level reading - 11 cm.
+Last water level reading - 11 cm.
+[+138.1s][WARNING] Water level is close to its maximum safe value.
+Time diff: 0.25 minutes
+ > Distance change rate 0.00 cm/min.
+
+ > Current state is FULL
+
+ > New IPI reading every 5.0 seconds.
+
+ > New distance readings every 30.0 seconds. 
+
+#################################
+
+
+Current time: 14:05:51 || Started 138.3s ago.
+
+[[1.671291, -14.22326, 90.00035]]
+Old readings: [[1.564375, -14.4539, 90.00035]]
+
+New Readings: [[1.671291, -14.22326, 90.00035]]
+
+Angular Change (degrees): [0.1583291266840166]
+
+Largest angular change: 0.1583291266840166
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 14:05:56 || Started 143.5s ago.
+
+[[1.685465, -14.22326, 90.00035]]
+Old readings: [[1.671291, -14.22326, 90.00035]]
+
+New Readings: [[1.685465, -14.22326, 90.00035]]
+
+Angular Change (degrees): [0.008909777130118257]
+
+Largest angular change: 0.008909777130118257
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 14:06:01 || Started 148.7s ago.
+
+[[1.787926, -13.76268, 90.00035]]
+Old readings: [[1.685465, -14.22326, 90.00035]]
+
+New Readings: [[1.787926, -13.76268, 90.00035]]
+
+Angular Change (degrees): [0.29358931322164683]
+
+Largest angular change: 0.29358931322164683
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 14:06:06 || Started 153.6s ago.
+
+[[1.670267, -13.24563, 90.00035]]
+Old readings: [[1.787926, -13.76268, 90.00035]]
+
+New Readings: [[1.670267, -13.24563, 90.00035]]
+
+Angular Change (degrees): [0.3300601107553417]
+
+Largest angular change: 0.3300601107553417
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 14:06:11 || Started 158.6s ago.
+
+[[1.688578, -12.34371, 90.00035]]
+Old readings: [[1.670267, -13.24563, 90.00035]]
+
+New Readings: [[1.688578, -12.34371, 90.00035]]
+
+Angular Change (degrees): [0.562853736913225]
+
+Largest angular change: 0.562853736913225
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+Current time: 14:06:16 || Started 163.8s ago.
+
+[[1.787926, -13.23053, 90.00035]]
+Old readings: [[1.688578, -12.34371, 90.00035]]
+
+New Readings: [[1.787926, -13.23053, 90.00035]]
+
+Angular Change (degrees): [0.5566512408766117]
+
+Largest angular change: 0.5566512408766117
+
+
+ > Current state is FULL.
+
+ > New readings every 5.0 seconds.
+
+#################################
+
+
+->[BEHAVIORAL MODULE]: Shutting down...
+
+-> Frequency log saved to ipi_frequency_log.csv
+
+-> Water level measurements saved to water_level_log.csv
+
+-> IPI measurements saved to ipi_readings_log.csv
+

@@ -1,0 +1,442 @@
+
+
+########## [BEHAVIORAL MODULE SETUP] ##########
+
+-> Booting up the script...
+-> Connected successfully to the MQTT broker running on 172.20.10.4:1883.
+-> State Machine setup finished.
+-> Script setup finished.
+
+-> Subscribed to topic: inc_data/I1
+-> Subscribed to topic: IPI/lowpower
+
+-> Subscribed to topic: lidar_data/
+-> Subscribed to topic: readings/accel_data
+
+########## [BEHAVIORAL MODULE SETUP COMPLETE] ##########
+
+
+[UPDATE - New INC Reading]
+Initial IPI reading received!
+
+New distance reading - 8 cm.
+Last distance reading - None cm.
+Initial distance reading received!
+
+New distance reading - 9 cm.
+Last distance reading - 8 cm.
+ > Distance change rate 0.0016666666666666668 cm/min.
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+[UPDATE - New INC Reading]
+[[2.959889, -4.321311, 90.00035]]
+Old readings: [[3.219445, -4.491582, 90.00035]]
+
+New Readings: [[2.959889, -4.321311, 90.00035]]
+
+Largest vectorial change: 0.31042153690908775
+
+
+ > Current state is BASE_FREQUENCY.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+[UPDATE - New INC Reading]
+[[2.959896, -3.882237, 90.00035]]
+Old readings: [[2.959889, -4.321311, 90.00035]]
+
+New Readings: [[2.959896, -3.882237, 90.00035]]
+
+Largest vectorial change: 0.439074000055799
+
+
+ > Current state is BASE_FREQUENCY.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+New distance reading - 9 cm.
+Last distance reading - 9 cm.
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+[UPDATE - New INC Reading]
+[[2.548256, -3.649312, 90.00035]]
+Old readings: [[2.959896, -3.882237, 90.00035]]
+
+New Readings: [[2.548256, -3.649312, 90.00035]]
+
+Largest vectorial change: 0.4729709771487043
+
+
+ > Current state is BASE_FREQUENCY.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+New distance reading - 9 cm.
+Last distance reading - 9 cm.
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+[UPDATE - New INC Reading]
+[[2.306693, -3.201563, 90.00035]]
+Old readings: [[2.548256, -3.649312, 90.00035]]
+
+New Readings: [[2.306693, -3.201563, 90.00035]]
+
+Largest vectorial change: 0.5087551965041732
+
+
+ > Current state is BASE_FREQUENCY.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+New distance reading - 9 cm.
+Last distance reading - 9 cm.
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+[UPDATE - New INC Reading]
+[[1.9042, -2.71825, 90.00035]]
+Old readings: [[2.306693, -3.201563, 90.00035]]
+
+New Readings: [[1.9042, -2.71825, 90.00035]]
+
+Largest vectorial change: 0.6289611045350901
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 6.0 seconds.
+
+#################################
+
+
+[UPDATE - New INC Reading]
+[[1.555444, -2.261981, 90.00035]]
+Old readings: [[1.9042, -2.71825, 90.00035]]
+
+New Readings: [[1.555444, -2.261981, 90.00035]]
+
+Largest vectorial change: 0.5742927371097425
+
+
+ > Current state is MAX_FREQUENCY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+New distance reading - 9 cm.
+Last distance reading - 9 cm.
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 4.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+[UPDATE - New INC Reading]
+[[1.376627, -1.895271, 90.00035]]
+Old readings: [[1.555444, -2.261981, 90.00035]]
+
+New Readings: [[1.376627, -1.895271, 90.00035]]
+
+Largest vectorial change: 0.4079849796119951
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 6.0 seconds.
+
+#################################
+
+
+New distance reading - 10 cm.
+Last distance reading - 9 cm.
+ > Distance change rate 0.0016666666666666668 cm/min.
+
+ > New IPI reading every 6.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+[UPDATE - New INC Reading]
+[[1.126291, -1.671693, 90.00035]]
+Old readings: [[1.376627, -1.895271, 90.00035]]
+
+New Readings: [[1.126291, -1.671693, 90.00035]]
+
+Largest vectorial change: 0.3356415274962262
+
+
+ > Current state is LOW_FREQUENCY.
+
+ > New readings every 8.0 seconds.
+
+#################################
+
+
+[UPDATE - New INC Reading]
+[[0.688262, -0.938562, 90.00035]]
+Old readings: [[1.126291, -1.671693, 90.00035]]
+
+New Readings: [[0.688262, -0.938562, 90.00035]]
+
+Largest vectorial change: 0.8540201800906112
+
+
+ > Current state is MAX_FREQUENCY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+New distance reading - 10 cm.
+Last distance reading - 10 cm.
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 4.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+[UPDATE - New INC Reading]
+[[0.491609, -0.598873, 90.00035]]
+Old readings: [[0.688262, -0.938562, 90.00035]]
+
+New Readings: [[0.491609, -0.598873, 90.00035]]
+
+Largest vectorial change: 0.392506075277823
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 6.0 seconds.
+
+#################################
+
+
+[UPDATE - New INC Reading]
+[[0.277085, -0.357534, 90.00035]]
+Old readings: [[0.491609, -0.598873, 90.00035]]
+
+New Readings: [[0.277085, -0.357534, 90.00035]]
+
+Largest vectorial change: 0.3229010057231163
+
+
+ > Current state is LOW_FREQUENCY.
+
+ > New readings every 8.0 seconds.
+
+#################################
+
+
+New distance reading - 10 cm.
+Last distance reading - 10 cm.
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 8.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+[UPDATE - New INC Reading]
+[[0.089382, 0.017876, 90.00035]]
+Old readings: [[0.277085, -0.357534, 90.00035]]
+
+New Readings: [[0.089382, 0.017876, 90.00035]]
+
+Largest vectorial change: 0.4197202452932191
+
+
+ > Current state is BASE_FREQUENCY.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+New distance reading - 10 cm.
+Last distance reading - 10 cm.
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+[UPDATE - New INC Reading]
+[[-0.178765, 0.420101, 90.00035]]
+Old readings: [[0.089382, 0.017876, 90.00035]]
+
+New Readings: [[-0.178765, 0.420101, 90.00035]]
+
+Largest vectorial change: 0.48341262316369027
+
+
+ > Current state is BASE_FREQUENCY.
+
+ > New readings every 10.0 seconds.
+
+#################################
+
+
+New distance reading - 10 cm.
+Last distance reading - 10 cm.
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 10.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+[UPDATE - New INC Reading]
+[[-0.527363, 0.86704, 90.00035]]
+Old readings: [[-0.178765, 0.420101, 90.00035]]
+
+New Readings: [[-0.527363, 0.86704, 90.00035]]
+
+Largest vectorial change: 0.5668112872244165
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 6.0 seconds.
+
+#################################
+
+
+New distance reading - 11 cm.
+Last distance reading - 10 cm.
+ > Distance change rate 0.0016666666666666668 cm/min.
+
+ > New IPI reading every 6.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+[UPDATE - New INC Reading]
+[[-0.849164, 1.179927, 90.00035]]
+Old readings: [[-0.527363, 0.86704, 90.00035]]
+
+New Readings: [[-0.849164, 1.179927, 90.00035]]
+
+Largest vectorial change: 0.4488364494668408
+
+
+ > Current state is LOW_FREQUENCY.
+
+ > New readings every 8.0 seconds.
+
+#################################
+
+
+New distance reading - 11 cm.
+Last distance reading - 11 cm.
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 8.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+
+[UPDATE - New INC Reading]
+[[-1.170987, 1.671682, 90.00035]]
+Old readings: [[-0.849164, 1.179927, 90.00035]]
+
+New Readings: [[-1.170987, 1.671682, 90.00035]]
+
+Largest vectorial change: 0.5877014746910202
+
+
+ > Current state is MAX_FREQUENCY.
+
+ > New readings every 4.0 seconds.
+
+#################################
+
+
+[UPDATE - New INC Reading]
+[[-1.403442, 1.841588, 90.00035]]
+Old readings: [[-1.170987, 1.671682, 90.00035]]
+
+New Readings: [[-1.403442, 1.841588, 90.00035]]
+
+Largest vectorial change: 0.287929463343021
+
+
+ > Current state is HIGH_FREQUENCY.
+
+ > New readings every 6.0 seconds.
+
+#################################
+
+
+->[BEHAVIORAL MODULE]: Shutting down...
+
+New distance reading - 11 cm.
+Last distance reading - 11 cm.
+ > Distance change rate 0.0 cm/min.
+
+ > New IPI reading every 6.0 seconds.
+
+ > New distance readings every 10.0 seconds. 
+
+#################################
+
+

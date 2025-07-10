@@ -1,0 +1,13 @@
+authtoken: xxxx # CHANGE ME IF USING NGROK
+region: eu
+version: 2
+tunnels:
+  influxdb:
+    proto: http
+    addr: host.docker.internal:8086
+    #domain: vetorial.xyz #needs a paid account
+    domain: positive-presumably-bluegill.ngrok-free.app
+  grafana:
+    proto: http
+    addr: host.docker.internal:3000
+    #domain: vetorial.xyz #needs a paid account

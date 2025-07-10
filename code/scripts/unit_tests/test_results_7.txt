@@ -1,0 +1,24 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.3, pytest-8.4.0, pluggy-1.6.0 -- C:\Python312\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.12.3', 'Platform': 'Windows-10-10.0.19045-SP0', 'Packages': {'pytest': '8.4.0', 'pluggy': '1.6.0'}, 'Plugins': {'html': '4.1.1', 'metadata': '3.1.1', 'mock': '3.14.1'}, 'JAVA_HOME': 'D:\\jdk-21.0.2'}
+rootdir: C:\Users\dany5\Desktop\FCT\10ºSemestre (Tese)\thesis_code\Scripts
+plugins: html-4.1.1, metadata-3.1.1, mock-3.14.1
+collecting ... collected 14 items
+
+tester.py::test_initial_state PASSED                                     [  7%]
+tester.py::test_tilt_reading_transition_to_stability PASSED              [ 14%]
+tester.py::test_tilt_reading_transition_to_stability_multi_node PASSED   [ 21%]
+tester.py::test_tilt_reading_transition_to_stability_by_rate PASSED      [ 28%]
+tester.py::test_distance_transition_to_full PASSED                       [ 35%]
+tester.py::test_distance_transition_to_flood PASSED                      [ 42%]
+tester.py::test_distance_transition_to_flood_by_rate PASSED              [ 50%]
+tester.py::test_distance_flood_to_full PASSED                            [ 57%]
+tester.py::test_distance_full_to_ls PASSED                               [ 64%]
+tester.py::test_tilt_stability_to_ls PASSED                              [ 71%]
+tester.py::test_distance_stability_to_ls PASSED                          [ 78%]
+tester.py::test_distance_transition_to_full_first_reading PASSED         [ 85%]
+tester.py::test_tilt_ls_stability_ls PASSED                              [ 92%]
+tester.py::test_distance_ls_full_flood PASSED                            [100%]
+
+============================= 14 passed in 0.15s ==============================

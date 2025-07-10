@@ -1,0 +1,2 @@
+# Use the official InfluxDB image as the base image
+FROM influxdb:2.7.3
