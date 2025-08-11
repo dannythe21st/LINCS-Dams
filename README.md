@@ -109,7 +109,7 @@ Other optional items include:
 
 Once you have gathered the necessary materials, you have to complete the following tasks to prepare the RPi: (i) Install an operating system, (ii) configure the device, and (iii) install and register the Mosquitto Broker.
 
-The following [guide](https://randomnerdtutorials.com/installing-raspbian-lite-enabling-and-connecting-with-ssh/) goes over the first two tasks. 
+This [guide](https://randomnerdtutorials.com/installing-raspbian-lite-enabling-and-connecting-with-ssh/) goes over the first two tasks. 
 
 In this project, Raspberry Pi OS (recommended option in Raspberry Pi Imager) was used. It is possible to install other OS, namely popular Linux distributions or other versions of the recommended RPi OS. If you intend to use the RPi graphical interface, it is recommended to install the RPi OS recommended by the application. There are other lighter versions, however these may not support the use of displays. 
 When customizing the OS settings, consider whether the RPi will be connected to networks where there are no other devices with the default hostname. If the RPi is used in spaces such as colleges, laboratories, etc., changing the hostname in the Imager application is recommended, as there may be another device with the same hostname connected to the network. It is possible to change this name later, but the task is simpler using the graphical interface of this application.
