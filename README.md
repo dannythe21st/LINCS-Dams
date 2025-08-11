@@ -74,7 +74,7 @@ Finally, using a Docker volume, at least for the InfluxDB container, is recommen
 2. Copy the backup from the container the host (i.e. your computer) with `docker cp influxdb:/backup ./influx_backup`. Now you've extracted the data from the container's environment to your computer's file system.
 3. Zip the ./influx_backup folder and send it to the receiver(s)
 
-To mount existing data on a new instance (i.e. you are mounting existing data on a new InfluxDB container or another machine), do as follows:
+The data gathered during and between the tests for the LINCS Dams system is available on this repository on *documents/InfluxDB_data_mount.zip*. To mount this or any other existing data on a new InfluxDB instance (i.e. you are mounting existing data on a new InfluxDB container or another machine), do as follows:
 
 1. Make sure this second InfluxDB instance is running on the same or a newer version and the user has an admin token (if you shared everything) or a scoped token (if you shared specific buckets)
 2. Mount the folder on a container with `docker cp .\influx_backup <new_influx_container>:/backup`. This simply transfers the folder from your computer's file system to the container's. For the container to "see" the changes you must restore it. See which of the next points matches your scenario and proceed accordingly:
