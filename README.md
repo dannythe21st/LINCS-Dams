@@ -74,7 +74,7 @@ Finally, using a Docker volume, at least for the InfluxDB container, is recommen
 2. Copy the backup from the container the host (i.e. your computer) with `docker cp influxdb:/backup ./influx_backup`. Now you've extracted the data from the container's environment to your computer's file system.
 3. Zip the ./influx_backup folder and send it to the receiver(s)
 
-To mount existing data on a new instance (i.e. you are mounting existing data on a new InfluxDB container or another machine), do as follows:
+The data gathered during and between the tests for the LINCS Dams system is available on this repository on *documents/InfluxDB_data_mount.zip*. To mount this or any other existing data on a new InfluxDB instance (i.e. you are mounting existing data on a new InfluxDB container or another machine), do as follows:
 
 1. Make sure this second InfluxDB instance is running on the same or a newer version and the user has an admin token (if you shared everything) or a scoped token (if you shared specific buckets)
 2. Mount the folder on a container with `docker cp .\influx_backup <new_influx_container>:/backup`. This simply transfers the folder from your computer's file system to the container's. For the container to "see" the changes you must restore it. See which of the next points matches your scenario and proceed accordingly:
@@ -109,7 +109,7 @@ Other optional items include:
 
 Once you have gathered the necessary materials, you have to complete the following tasks to prepare the RPi: (i) Install an operating system, (ii) configure the device, and (iii) install and register the Mosquitto Broker.
 
-The following [guide](https://randomnerdtutorials.com/installing-raspbian-lite-enabling-and-connecting-with-ssh/) goes over the first two tasks. 
+This [guide](https://randomnerdtutorials.com/installing-raspbian-lite-enabling-and-connecting-with-ssh/) goes over the first two tasks. 
 
 In this project, Raspberry Pi OS (recommended option in Raspberry Pi Imager) was used. It is possible to install other OS, namely popular Linux distributions or other versions of the recommended RPi OS. If you intend to use the RPi graphical interface, it is recommended to install the RPi OS recommended by the application. There are other lighter versions, however these may not support the use of displays. 
 When customizing the OS settings, consider whether the RPi will be connected to networks where there are no other devices with the default hostname. If the RPi is used in spaces such as colleges, laboratories, etc., changing the hostname in the Imager application is recommended, as there may be another device with the same hostname connected to the network. It is possible to change this name later, but the task is simpler using the graphical interface of this application.
