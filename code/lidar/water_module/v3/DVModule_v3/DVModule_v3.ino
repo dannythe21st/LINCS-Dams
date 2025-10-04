@@ -11,6 +11,9 @@ extern "C" {
   #include "esp_wifi.h"
 }
 
+#define NUM_READINGS 5
+#define MOVING_AVG_WINDOW 3
+
 
 /**** TFMini Plus object *****/
 TFMPlus tfmP;     // learn about it here -> https://github.com/budryerson/TFMini-Plus
@@ -40,8 +43,7 @@ char msg[MSG_BUFFER_SIZE];
 
 /**** Data Collection Variables *****/
 
-//  sensor toggle switches
-bool lidar_toggle = true;
+bool lidar_toggle = true;  //  turn the sensor on or off
 bool accel_toggle = false;
 
 int16_t tfDist, tfFlux, tfTemp = 0; // Distance (cm), Signal Strenght, Lidar chip temp
@@ -51,13 +53,11 @@ float ax,ay,az;  // acceleration values
 unsigned long lastLidarRead = 0;
 unsigned long lastAccelRead = 0;
 
-// reading frequencies (CHANGE ME)
 unsigned long lidarInterval = 30000;
 unsigned long accelInterval = 5000;
 
-// Low-pass filter settings
-#define NUM_READINGS 5
-#define MOVING_AVG_WINDOW 3
+unsigned int num_lidar_readings = 5;
+bool filterData = true;
 
 uint16_t movingAvgBuffer[MOVING_AVG_WINDOW] = {0};
 int movingAvgIndex = 0;
@@ -70,7 +70,7 @@ const int capacity = JSON_OBJECT_SIZE(5) * 1.5;
 /**** NTP server config *****/
 const char* ntpServer = "pool.ntp.org";
 const long gmtOffset_sec = 0;      // UTC offset in seconds
-const int daylightOffset_sec = 3600; // 3600 for summer time
+const int daylightOffset_sec = 3600; // e.g., 3600 for summer time
 
 /************* Connect to WiFi ***********/
 void setup_wifi() {
@@ -94,7 +94,7 @@ void setup_wifi() {
 void reconnect() {
   int attempt = 0;
 
-  // Check if WiFi is not connected
+  // Step 1: Wait for WiFi if not connected
   if (WiFi.status() != WL_CONNECTED || client.state() == -2) {
 
     WiFi.disconnect(true);
@@ -116,14 +116,17 @@ void reconnect() {
     }
   }
 
-  // Connect to MQTT after WiFi is confirmed
+  // Step 2: Connect to MQTT after WiFi is confirmed
   while (!client.connected()) {
+    //Serial.print("Attempting MQTT connection...");
     String clientId = "DVClient-" + String(random(0xffff), HEX);
 
     if (client.connect(clientId.c_str(), mqtt_username, mqtt_password)) {
       Serial.println("MQTT Connected!\n");
       client.subscribe("dvm/accel_freq");
       client.subscribe("dvm/lidar_freq");
+      client.subscribe("dvm/toggle_accel");
+      client.subscribe("dvm/toggle_lidar"); 
       return;
     } else {
       int reason_code = client.state();
@@ -141,9 +144,7 @@ void reconnect() {
   }
 }
 
-
-
-/***** Call back Method for Receiving MQTT messages ****/
+/***** Call back Method for Receiving MQTT messages and Switching LED ****/
 void callback(char* topic, byte* payload, unsigned int length) {
   String incommingMessage = "";
   for (int i = 0; i < length; i++) incommingMessage += (char)payload[i];
@@ -154,6 +155,15 @@ void callback(char* topic, byte* payload, unsigned int length) {
     int intValue = incommingMessage.toInt();
     (strcmp(topic, "dvm/accel_freq") == 0) ? (accelInterval = intValue) : (lidarInterval = intValue);
   }
+  if (strcmp(topic, "dvm/toggle_lidar") == 0){
+    int toggleValue = incommingMessage.toInt();
+    lidar_toggle = (toggleValue == 1);
+  }
+  if (strcmp(topic, "dvm/toggle_accel") == 0){
+    int toggleValue = incommingMessage.toInt();
+    accel_toggle = (toggleValue == 1);
+  }
+
 }
 
 /**** Method for Publishing MQTT Messages **********/
@@ -192,7 +202,7 @@ void setup() {
   client.setCallback(callback);
   client.setKeepAlive(30);
 
-  Serial2.begin(115200, SERIAL_8N1, 16, 17); // Initialize TFMPLus device serial port
+  Serial2.begin(115200, SERIAL_8N1, 16, 17); // Initialize TFMPLus device serial port.
   delay(20);
   tfmP.begin( &Serial2);
 
@@ -205,7 +215,7 @@ void setup() {
   // Init and get time
   configTime(gmtOffset_sec, daylightOffset_sec, ntpServer);
   Serial.println("Waiting for time sync...");
-  delay(2000); // Give time to sync
+  delay(2000); // Give time for sync
   
 }
 
@@ -216,7 +226,7 @@ void loop() {
 int counter = 0;
 
 void get_distance_accel_readings_with_filter() {
-  // reconnect after sleeping
+  
   if (!client.connected()) 
     reconnect();
   else 
@@ -229,6 +239,7 @@ void get_distance_accel_readings_with_filter() {
     uint16_t readings[NUM_READINGS];
     int validReadings = 0;
 
+    // Get readings
     for (int i = 0; i < NUM_READINGS; ++i) {
       if (tfmP.getData(tfDist, tfFlux, tfTemp)) {
         readings[validReadings++] = tfDist;
@@ -240,67 +251,72 @@ void get_distance_accel_readings_with_filter() {
     }
 
     if (validReadings >= 3) {
+      
       // Step 1: Calculate mean
       float sum = 0;
+      int finalValue = 0;
       for (int i = 0; i < validReadings; i++) {
         sum += readings[i];
       }
       float mean = sum / validReadings;
 
-      // Step 2: Calculate standard deviation
-      float varianceSum = 0;
-      for (int i = 0; i < validReadings; i++) {
-        varianceSum += pow(readings[i] - mean, 2);
-      }
-      float stddev = sqrt(varianceSum / validReadings);
-
-      // Step 3: Filter values within +-1 stddev
-      int filteredCount = 0;
-      float filteredSum = 0;
-      for (int i = 0; i < validReadings; i++) {
-        if (abs(readings[i] - mean) <= stddev) {
-          filteredSum += readings[i];
-          filteredCount++;
+      // Step 2: Calculate standard deviation if filter is active
+      if (filterData){
+        float varianceSum = 0;
+        for (int i = 0; i < validReadings; i++) {
+          varianceSum += pow(readings[i] - mean, 2);
         }
-      }
+        float stddev = sqrt(varianceSum / validReadings);
 
-      if (filteredCount == 0) {
-        Serial.println("All readings were outliers, skipping...");
-      } else {
-        int filteredAvg = filteredSum / filteredCount;
-
-        int finalValue = filteredAvg;
-
-        // You can use this here if you want
-        // or get less raw data and process it later
-        if (useMovingAverage) {
-          movingAvgBuffer[movingAvgIndex] = filteredAvg;
-          movingAvgIndex = (movingAvgIndex + 1) % MOVING_AVG_WINDOW;
-
-          int count = 0;
-          int sumAvg = 0;
-          for (int i = 0; i < MOVING_AVG_WINDOW; i++) {
-            if (movingAvgBuffer[i] > 0) {
-              sumAvg += movingAvgBuffer[i];
-              count++;
-            }
+        // Step 3: Filter values within +-1 stddev
+        int filteredCount = 0;
+        float filteredSum = 0;
+        for (int i = 0; i < validReadings; i++) {
+          if (abs(readings[i] - mean) <= stddev) {
+            filteredSum += readings[i];
+            filteredCount++;
           }
-          if (count > 0)
-            finalValue = sumAvg / count;
         }
 
-        time_t timestamp = time(nullptr);
-        uint64_t timestamp_ns = (uint64_t)timestamp * 1000000000ULL;
+        if (filteredCount == 0)
+          Serial.println("All readings were outliers, skipping...");
+        else {
+            int filteredAvg = filteredSum / filteredCount;
 
-        Serial.println("Counter: " + String(counter++));
-        Serial.println("Final Dist: " + String(finalValue));
-        Serial.println("Current freq: " + String(lidarInterval));
+            finalValue = filteredAvg;
 
-        ship_lidar_data(finalValue, tfFlux, tfTemp, timestamp_ns);
+            // Mobile Average
+            if (useMovingAverage) {
+              movingAvgBuffer[movingAvgIndex] = filteredAvg;
+              movingAvgIndex = (movingAvgIndex + 1) % MOVING_AVG_WINDOW;
 
-        lastLidarRead = now;
+              int count = 0;
+              int sumAvg = 0;
+              for (int i = 0; i < MOVING_AVG_WINDOW; i++) {
+                if (movingAvgBuffer[i] > 0) {
+                  sumAvg += movingAvgBuffer[i];
+                  count++;
+                }
+              }
+              if (count > 0)
+                finalValue = sumAvg / count;
+            }
+        }         
       }
+      else{ // Didn't filter the data
+        finalValue = mean;
+      }
+        
+      time_t timestamp = time(nullptr);
+      uint64_t timestamp_ns = (uint64_t)timestamp * 1000000000ULL;
 
+      Serial.println("Counter: " + String(counter++));
+      Serial.println("Final Dist: " + String(finalValue));
+      Serial.println("Current freq: " + String(lidarInterval));
+
+      ship_lidar_data(finalValue, tfFlux, tfTemp, timestamp_ns);
+
+      lastLidarRead = now;  
     } else {
       Serial.println("Not enough valid LiDAR readings.");
     }
@@ -323,30 +339,20 @@ void get_distance_accel_readings_with_filter() {
   // Sleep logic
   bool sleep = false;
   if (sleep){
-
+    // Calculate sleep duration
     now = millis();
-
-    // when working with both sensors, their frequencies may not match
-    // this calculates the next reading time in that case
-    // so the esp wakes up in time
-
     unsigned long nextLidarDue = lidar_toggle ? lidarInterval - (now - lastLidarRead) : ULONG_MAX;
     unsigned long nextAccelDue = accel_toggle ? accelInterval - (now - lastAccelRead) : ULONG_MAX;
     unsigned long sleepTime = min(nextLidarDue, nextAccelDue);
 
-    if (sleepTime > 100) {
-
-      // must break connections before sleeping or 
-      // cores may be dumped after sleep
-      WiFi.disconnect(true);
-      client.disconnect();
-      delay(100);
-      esp_sleep_enable_timer_wakeup((uint64_t) sleepTime * 1000ULL);
-      esp_light_sleep_start();
-      delay(250);
-    }
+    WiFi.disconnect(true);
+    client.disconnect();
+    delay(100);
+    esp_sleep_enable_timer_wakeup((uint64_t) sleepTime * 1000ULL);
+    esp_light_sleep_start();
+    delay(250);
+    
   }
-  
 }
 
 void ship_lidar_data(int tfDist, int tfFlux, int tfTemp, uint64_t timestamp) {
@@ -370,6 +376,7 @@ void ship_lidar_data(int tfDist, int tfFlux, int tfTemp, uint64_t timestamp) {
   Serial.println(mqtt_message);
 
   if (WiFi.status() != WL_CONNECTED) {
+    //setup_wifi();
     WiFi.disconnect();
     delay(100);
     WiFi.reconnect();
@@ -387,6 +394,7 @@ void ship_lidar_data(int tfDist, int tfFlux, int tfTemp, uint64_t timestamp) {
   publishMessage(topic_pub, mqtt_message, true);  // publish the msg to topic
 }
 
+// boilerplate for future developments
 void ship_accel_data(float ax, float ay, float az) {
   char mqtt_message[capacity];
   DynamicJsonDocument jsonAccel(capacity);
@@ -400,6 +408,7 @@ void ship_accel_data(float ax, float ay, float az) {
   const char topic_pub[] = "accel_data/";
 
   if (WiFi.status() != WL_CONNECTED) {
+    //setup_wifi();
     WiFi.disconnect();
     delay(100);
     WiFi.reconnect();

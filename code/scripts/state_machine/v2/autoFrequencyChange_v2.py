@@ -46,11 +46,11 @@ ACCEL_FREQUENCY_UPDATE_TOPIC = "dvm/accel_freq"
 WATER_LEVEL_WARNINGS_TOPIC = "warnings/waterlevel"
 VIBRATION_WARNINGS_TOPIC = "warnings/vibration"
 
-# IPI frequency "levels"
-LIVE_STORAGE_FREQUENCY = 10000  # every 10 seconds
-FULL_FREQUENCY = 5000           # every 5 second
-STABILITY_FREQUENCY = 4000      # every 4 second
-FLOOD_FREQUENCY = 1000          # every second
+# IPI frequency "levels" (ms)
+LIVE_STORAGE_FREQUENCY = 10000
+FULL_FREQUENCY = 5000
+STABILITY_FREQUENCY = 4000
+FLOOD_FREQUENCY = 1000
 
 # Distance/water level values
 DISTANCE_DEFAULT_FREQUENCY = 10000   # every 10 seconds
@@ -61,8 +61,9 @@ DISTANCE_ALARM_FREQUENCY = 2000     # every 3 seconds
 MIN_WATER_DISTANCE = 5      # Maximum water level
 MAX_WATER_DISTANCE = 22     # Minimum water levelSS
 
-# IPI settings
-NUMBER_IPI_NODES = 4    # number of active sensor nodes in the inclinometer
+# Sensor settings
+NUMBER_IPI_NODES = 1    # number of active sensor nodes in the inclinometer
+
 
 sys.stdout = DualLogger("output_log.txt")
 
@@ -75,10 +76,9 @@ class AdaptiveFrequencyModule:
     start_time = time.time()
 
     # Readings timestamps
-    last_lidar_reading_time = 0
+    last_reading_time = 0    # lidar
     last_tilt_reading_time = 0
 
-    # flag to avoid iterating over structure multiple times
     first_tilt_read = True
 
     # Trigger flags
@@ -86,16 +86,14 @@ class AdaptiveFrequencyModule:
     within_tilt_limits = True
     isMoving = False
 
-    # Set state machine thresholds here
+    # using the parameters to help with the test module
     def __init__(self,min_level=6,
                  intermediate_level=10,
-                 max_level=12,
-                 offset=3,
-                 distance_rate_threshold = 100,
-                 tilt_x_min_threshold = -9,
-                 tilt_x_max_threshold = 10,
-                 tilt_y_min_threshold = -1,
-                 tilt_y_max_threshold = 6,
+                 max_level=16,
+                 offset=4,
+                 distance_rate_threshold = 50,
+                 tilt_x_max_threshold = 0.50, # this now is the max variation in X component of the angle in comparison with initial IPI position
+                 tilt_y_max_threshold = 18, # this now is the max variation in Y component of the angle in comparison with initial IPI position
                  max_tilt_change = 5,
                  tilt_rate_threshold = 1500,
                  mqtt_client=None):
@@ -103,7 +101,6 @@ class AdaptiveFrequencyModule:
         print("\n\n########## [BEHAVIORAL MODULE SETUP] ##########\n")
         print("-> Booting up the script...")
 
-        
         # Water level thresholds
         self.MIN_LEVEL = min_level
         self.INTERMEDIATE_LEVEL = intermediate_level
@@ -116,9 +113,7 @@ class AdaptiveFrequencyModule:
         self.DISTANCE_RATE_THRESHOLD = distance_rate_threshold
         
         # Angle limits for each axis
-        self.TILT_X_MIN_THRESHOLD = tilt_x_min_threshold
         self.TILT_X_MAX_THRESHOLD = tilt_x_max_threshold
-        self.TILT_Y_MIN_THRESHOLD = tilt_y_min_threshold
         self.TILT_Y_MAX_THRESHOLD = tilt_y_max_threshold
         self.MAX_TILT_CHANGE = max_tilt_change
 
@@ -128,7 +123,7 @@ class AdaptiveFrequencyModule:
 
         print(f"-> Script Settings\n")
         print(f"[Water Level Thresholds]: Min = {min_level} | Mid = {intermediate_level} | Max = {max_level} | Max_rate = {distance_rate_threshold} | Offset = {offset} \n")
-        print(f"[IPI Thresholds]: Min_x = {tilt_x_min_threshold} | Max_x = {tilt_x_max_threshold} | Min_y = {tilt_y_min_threshold} | Max_y = {tilt_y_max_threshold} | \
+        print(f"[IPI Thresholds]: Max_x = {tilt_x_max_threshold} | Max_y = {tilt_y_max_threshold} \
               Max_change = {max_tilt_change} | Max_rate = {tilt_rate_threshold} \n\n")
 
         # MQTT Client start
@@ -201,12 +196,12 @@ class AdaptiveFrequencyModule:
         self.reading_frequency = newFreq
 
     def update_lidar_frequency(self, newFreq):
-        self.client.publish(topic=LIDAR_FREQUENCY_UPDATE_TOPIC, payload=str(newFreq), qos=2, retain=True)
+        update = self.client.publish(topic=LIDAR_FREQUENCY_UPDATE_TOPIC, payload=str(newFreq), qos=2, retain=True)
         self.dist_frequency = newFreq
 
+    # boilerplate for accelerometer inclusion
     def update_accel_frequency(self, newFreq):
-        self.client.publish(topic=ACCEL_FREQUENCY_UPDATE_TOPIC, payload=str(newFreq), qos=2, retain=True)
-
+        update = self.client.publish(topic=ACCEL_FREQUENCY_UPDATE_TOPIC, payload=str(newFreq), qos=2, retain=True)
 
     def publish_warning(self, tpc, message):
         payload_data = {"message": message}
@@ -258,6 +253,7 @@ class AdaptiveFrequencyModule:
             new_tilt_readings_mat[node_number-1][1] = node_ay if node_ay is not None else print("Node " + node_number + " has an invalid aY value (None)")
             new_tilt_readings_mat[node_number-1][2] = node_az if node_az is not None else print("Node " + node_number + " has an invalid aZ value (None)")
 
+            # initial reading array for this node
             base_reading = self.base_tilt_reading_mat[node_number-1]
             if not self.first_tilt_read:
                 if (abs(node_ax-base_reading[0]) >= self.TILT_X_MAX_THRESHOLD) or \
@@ -280,7 +276,7 @@ class AdaptiveFrequencyModule:
             last_reading = last_tilt_reading_mat[pos]
             new_reading = new_tilt_readings_mat[pos]
 
-            # a1 and a2 are vectors like [angle_x, angle_y, angle_z]
+            # a1 and a2 are vectors in format: [angle_x, angle_y, angle_z]
             abs_diff_to_last = [abs(new_reading[i] - last_reading[i]) for i in range(3)]
             angle_diffs[pos] = max(abs_diff_to_last)
 
@@ -298,9 +294,9 @@ class AdaptiveFrequencyModule:
         maxVal = max(angle_diffs)
         if abs(maxVal)==0.0:
             print(f"No change happened since last reading.\n")
-        
+
         print(f"Biggest change was {maxVal:.2f} degrees on node {angle_diffs.index(maxVal)+1}")
-        print(f"Biggest change rate was {angle_change_rate_per_minute:.2f} degrees/min on node {angle_diffs.index(maxVal)+1}\n")
+        print(f"Biggest change rate was {angle_change_rate_per_minute:.2f} degrees/min on node {angle_diffs.index(maxVal)+4}\n")
 
     
     def handle_tilt_readings(self, data):
@@ -377,7 +373,7 @@ class AdaptiveFrequencyModule:
 
             elif new_water_level >= self.MAX_LEVEL:
                 self.trigger(TO_FLOOD)
-            self.last_lidar_reading_time = current_reading_time
+            self.last_reading_time = current_reading_time
             print(f"Initial water level received!\n")
             print(f" > New IPI reading every {self.reading_frequency/1000} seconds.\n")
             print(f" > New distance readings every {self.dist_frequency/1000} seconds. \n")
@@ -406,7 +402,7 @@ class AdaptiveFrequencyModule:
             print(message)
 
         else: # water level below minimum value
-            message = f"[+{elapsed:.1f}s][INFO] Water level is below to its minimum value -> Dead Storage reached."
+            message = f"[+{elapsed:.1f}s][INFO] Water level is below to its minimum value."
             self.publish_warning(WATER_LEVEL_WARNINGS_TOPIC, message)
 
 
@@ -415,14 +411,14 @@ class AdaptiveFrequencyModule:
             self.machine.get_state(self.state).name == STABILITY:
 
             # change-rate measured in cm/min
-            time_diff = current_reading_time - self.last_lidar_reading_time
+            time_diff = current_reading_time - self.last_reading_time
             time_diff_minutes = (time_diff/60)
             print(f"Time diff: {time_diff_minutes:.2f} minutes")
             distance_change_rate = (new_water_level-self.last_water_level)/time_diff_minutes
             print(f" > Distance change rate {distance_change_rate:.2f} cm/min.\n")
 
             if distance_change_rate != 0:
-                self.last_lidar_reading_time = current_reading_time
+                self.last_reading_time = current_reading_time
 
             if abs(distance_change_rate) <= self.DISTANCE_RATE_THRESHOLD and not self.isMoving and self.within_tilt_limits:
                 if self.machine.get_state(self.state).name == STABILITY:
@@ -449,6 +445,7 @@ class AdaptiveFrequencyModule:
         print("#################################\n\n")
         return
 
+    # boilerplate for future inclinometer inclusion
     def handle_vibration_readings(self, data):
         # Reading come as 
         # DVM1,host=51f801b5d916,topic=accel_data/ aX=-0.857143,aY=-0.095238,aZ=0,mod_code="DVM1" 1742816476743282844
@@ -496,9 +493,9 @@ def graceful_exit(signum, frame):
     adaptive_frequency_module.client.loop_stop()
     adaptive_frequency_module.client.disconnect()
 
-     # Write frequency log
+    # Write frequency log
     try:
-        with open("../Docs/Test_data/Teste9/ipi_frequency_log.csv", mode="w", newline="") as file:
+        with open("../Docs/Test_data/Teste10-Todos_triggers/ipi_frequency_log.csv", mode="w", newline="") as file:
             writer = csv.writer(file)
             writer.writerow(["Timestamp", "IPI Frequency (ms)"])
             writer.writerows(adaptive_frequency_module.frequency_log)
@@ -508,7 +505,7 @@ def graceful_exit(signum, frame):
 
     # Write water level log
     try:
-        with open("../Docs/Test_data/Teste9/water_level_log.csv", mode="w", newline="") as file:
+        with open("../Docs/Test_data/Teste10-Todos_triggers/water_level_log.csv", mode="w", newline="") as file:
             writer = csv.writer(file)
             writer.writerow(["Timestamp", "Distance", "Water Level"])
             writer.writerows(adaptive_frequency_module.water_level_log)
@@ -518,7 +515,7 @@ def graceful_exit(signum, frame):
 
     # Write IPI readings log
     try:
-        with open("../Docs/Test_data/Teste9/ipi_readings_log.csv", mode="w", newline="") as file:
+        with open("../Docs/Test_data/Teste10-Todos_triggers/ipi_readings_log.csv", mode="w", newline="") as file:
             writer = csv.writer(file)
             writer.writerow(["Timestamp", "Node number", "aX", "aY", "aZ"])
             writer.writerows(adaptive_frequency_module.ipi_log)

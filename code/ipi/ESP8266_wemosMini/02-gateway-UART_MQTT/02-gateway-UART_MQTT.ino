@@ -4,6 +4,12 @@
   UART -> MQTT
 */
 
+/*
+  D Eugenio 2025
+    ACK Mechanism + Bi-directional communication
+    UART <-> MQTT
+*/
+
 #ifdef ESP8266
 #include <ESP8266WiFi.h>
 #else
@@ -12,23 +18,23 @@
 
 //MQTT
 #include <PubSubClient.h>      // mqtt client
+//#include <WiFiClientSecure.h>  // certificate for hiveMQ mqtt server
 
 // (de)serielize Json objects
 #include <ArduinoJson.h>
 
 /****** WiFi Connection Details *******/
-const char* ssid = "networkname";   // CHANGE ME
-const char* password = "password";  // CHANGE ME
+const char* ssid = "ssid";
+const char* password = "password";
 
 /******* MQTT Broker Connection Details *******/
-const char* mqtt_server = "172.XX.XX.X";  // CHANGE ME
-const char* mqtt_username = "username";     // CHANGE ME
-const char* mqtt_password = "password";  // CHANGE ME
-const int mqtt_port = 1883;   // Default port
+const char* mqtt_server = "172.XX.XX.X"; // CHANGEME
+const char* mqtt_username = "username";  // CHANGEME
+const char* mqtt_password = "password";  // CHANGEME
+const int mqtt_port = 1883;
 
 /**** Secure WiFi Connectivity Initialisation *****/
 WiFiClient espClient;
-
 
 /**** MQTT Client Initialisation Using WiFi Connection *****/
 PubSubClient client(espClient);
@@ -42,11 +48,15 @@ const uint inc_number = 1;      //inclinometer number
 const char inc_code[] = "I1";   //inclinometer designator
 const char inc_description[] =  //inclinometer description
   "Test inclinometer n. 1";
-const int sensors_totalNumber = 1;               // number of sensors in the inclinometer 
+const int sensors_totalNumber = 1;   // number of sensors in the inclinometer 
 
 const int capacity = JSON_OBJECT_SIZE(1) + JSON_OBJECT_SIZE(sensors_totalNumber) * 4 * 2 + JSON_OBJECT_SIZE(12) * 1.5;  // some buffer safety is considered!
 
 const int led = LED_BUILTIN;
+
+// ESP2 <-> ESP1 reliability feature
+const int maxRetries = 3;
+const unsigned long ackTimeout = 500; // ms
 
 /************* Connect to WiFi ***********/
 void setup_wifi() {
@@ -71,7 +81,7 @@ void setup_wifi() {
 void reconnect() {
   int attempt = 0;
 
-  // Check if WiFi is connected
+  // Step 1: Wait for WiFi if not connected
   if (WiFi.status() != WL_CONNECTED || client.state() == -2) {
 
     WiFi.disconnect(true);
@@ -93,13 +103,14 @@ void reconnect() {
     }
   }
 
-  // Connect to MQTT after WiFi is confirmed
+  // Step 2: Connect to MQTT after WiFi is confirmed
   while (!client.connected()) {
     String clientId = "DVClient-" + String(random(0xffff), HEX);
 
     if (client.connect(clientId.c_str(), mqtt_username, mqtt_password)) {
       Serial.println("MQTT Connected!\n");
       client.subscribe("commands/IPI/frequency");
+      client.subscribe("commands/IPI/filterMode");
       return;
     } else {
       int reason_code = client.state();
@@ -133,28 +144,95 @@ void callback(char* topic, byte* payload, unsigned int length) {
     }
   }
   else if (strcmp(topic, "commands/IPI/frequency") == 0) {
-    // int intValue = atoi(incommingMessage);
     update_reading_frequency(incommingMessage);
   }
-  else if (strcmp(topic, "commands/IPI/getreading") == 0){
-    //TODO
-  }
-  else if (strcmp(topic, "commands/IPI/toggle") == 0){
-    //TODO
+  else if (strcmp(topic, "commands/IPI/filterMode") == 0){
+    update_filter_mode(incommingMessage);
   }
   else if (strcmp(topic, "status")){
-    //TODO
+    //TODO - coming soon
   }
   else{
     Serial.println("Unknown topic.");
   }
-
 }
 
 void update_reading_frequency(String frequency) {
   String prefix = "[COMMAND] [FREQ] ";
   prefix += frequency;
-  Serial.println(prefix); // example message: "[COMMAND] [FREQ] 10000"
+  
+  int retries = 0;
+  bool ackReceived = false;
+
+  while (retries < maxRetries && !ackReceived) {
+    // example message: "[COMMAND] [FREQ] 10000"
+    Serial.println(prefix);   //send message to ESP1
+    unsigned long start = millis();
+    String ack = "";
+
+    while (millis() - start < ackTimeout) {
+      if (Serial.available()) {
+        ack = Serial.readStringUntil('\n');
+        ack.trim();
+        if (ack == "[ACK] FREQ_OK") {
+          ackReceived = true;
+          break;
+        }
+      }
+      yield(); // avoid WDT reset
+    }
+
+    if (!ackReceived) {
+      retries++;
+      Serial.println("ESP2: FREQ ACK not received, retrying...");
+    }
+  }
+
+  if (!ackReceived) {
+    Serial.println("ESP2: Failed to get ACK from ESP1 after retries");
+  } else {
+    Serial.println("ESP2: ACK received from ESP1");
+  }
+
+}
+
+void update_filter_mode(String filterValue) {
+  String prefix = "[COMMAND] [FILTER] ";
+  prefix += filterValue;
+  
+  int retries = 0;
+  bool ackReceived = false;
+
+  while (retries < maxRetries && !ackReceived) {
+    // example message: "[COMMAND] [FILTER] 1"
+    Serial.println(prefix);   //send message to ESP1
+    unsigned long start = millis();
+    String ack = "";
+
+    while (millis() - start < ackTimeout) {
+      if (Serial.available()) {
+        ack = Serial.readStringUntil('\n');
+        ack.trim();
+        if (ack == "[ACK] OK") {
+          ackReceived = true;
+          break;
+        }
+      }
+      yield(); // avoid WDT reset
+    }
+
+    if (!ackReceived) {
+      retries++;
+      Serial.println("ESP2: FILTER ACK not received, retrying...");
+    }
+  }
+
+  if (!ackReceived) {
+    Serial.println("ESP2: Failed to get ACK from ESP1 after retries");
+  } else {
+    Serial.println("ESP2: ACK received from ESP1");
+  }
+
 }
 
 
@@ -168,10 +246,12 @@ void publishMessage(const char* topic, String payload, boolean retained) {
 
   client.loop();
   bool aux = client.publish(topic, payload.c_str(), true);
-  if (aux)
+  if (aux){
     Serial.println("Message published [" + String(topic) + "]: " + payload);
-  else
+  }else{
     Serial.println("ERROR: Message failed to publish!");
+  }
+    
 }
 
 
@@ -197,7 +277,6 @@ void merge(JsonObject dest, JsonObjectConst src) {
   }
 }
 
-
 /**** Method to deal with msg received from Serial port **********/
 void receiveJSONData() {
   if (!client.connected()) reconnect();
@@ -220,6 +299,9 @@ void receiveJSONData() {
     Serial.println(error.c_str());
     return;
   }
+
+  // sucessfully received data readings - ACK to ESP1
+  Serial.println("[ACK] OK");
 
   DynamicJsonDocument jsonIncSets(capacity);
   jsonIncSets["inc_number"] = inc_number;
